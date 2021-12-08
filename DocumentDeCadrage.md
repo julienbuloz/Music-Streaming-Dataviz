@@ -33,11 +33,16 @@ https://public.tableau.com/app/profile/scott.teal/viz/SpotifyWebinar/Dashboard1
 https://stateezticsapp.com/
 - A lire de manière plus approfondie
 https://www.academia.edu/21823524/Using_Music_Streaming_Services_Practices_Experiences_and_the_Lifeworld_of_Musicking
+
 https://www.academia.edu/40603195/Infinite_content_and_interrupted_listening_The_impact_of_smartphones_streaming_and_music_superabundance_on_everyday_personal_music_listening_behaviour
+
 https://www.academia.edu/40119182/The_Daily_Use_of_Music_Streaming_Platforms_by_the_Dutch_Millennial_Age_Group
+
 - ?
 https://www.presse-citron.net/sur-spotify-comment-voir-quel-est-votre-titre-le-plus-ecoute/
+
 https://stateezticsapp.com/
+
 https://music.apple.com/replay
 
 ## Organisation 
