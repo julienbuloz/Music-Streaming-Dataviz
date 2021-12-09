@@ -40,6 +40,10 @@ https://www.academia.edu/40119182/The_Daily_Use_of_Music_Streaming_Platforms_by_
 
 - ?
 
+https://musicmap.info/
+
+https://github.com/regorxxx/Music-Graph
+
 https://www.presse-citron.net/sur-spotify-comment-voir-quel-est-votre-titre-le-plus-ecoute/
 
 https://stateezticsapp.com/
