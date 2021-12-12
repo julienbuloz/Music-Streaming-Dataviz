@@ -1,0 +1,12 @@
+
+
+    Application ID 517382
+    Application Name projet_data_visualisation
+    Secret Key 14abf7bc38c97bad63fda5a4b0cf028c
+
+    Application domain 127.0.0.1
+    Contact email
+    Site url
+    
+    
+    url de redirection : http://127.0.0.1:8080/redirection.php
