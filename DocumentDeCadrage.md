@@ -51,11 +51,10 @@ https://stateezticsapp.com/
 https://music.apple.com/replay
 
 ## Organisation 
-Tout a mettre en place :
-- Quels moyens de communications avez vous mis en place (email, tracking github, slack…)
-- Quelles sessions de travail avez vous prévu hors du cours d’ici à la soutenance de janvier ?
-- Quels rôles avez vous identifiés au sein du groupe (design, développement D3, pré-traitement des données, suivi, etc.) ? Ces rôles ne sont pas exclusifs, et il est attendu que tout le monde contribue à la conception et au code des visualisations. Nous utilisons les fonctions de suivi de projet de github pour évaluer en partie la contribution de chacun au projet. 
+- Communication : Nous utilisons l'outill de gestion de projet Trello
+- Sessions de travail : Travail personnel sur tâches spécifiques + revue de groupe hebdomadaire 
+- Rôles au sein du groupe (design, développement D3, pré-traitement des données, suivi, etc.). Au cas par cas. 
 
 ## Scan des esquisses finales 
-TBD
+
 
