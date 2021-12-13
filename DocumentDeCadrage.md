@@ -56,7 +56,10 @@ https://music.apple.com/replay
 - Rôles au sein du groupe (design, développement D3, pré-traitement des données, suivi, etc.). Au cas par cas. 
 
 ## Scan des esquisses finales 
-![Pipeau](Capture01.JPG)
+![Pipeau1](Capture01.JPG)
+![Pipeau2](Capture02.JPG)
+![Pipeau3](Capture03.JPG)
+![Pipeau4](Capture04.JPG)
 
 
 
