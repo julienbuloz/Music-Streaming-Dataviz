@@ -2,27 +2,31 @@
 
 ## Quel est le problème abordé / à quel besoin répondez vous ? 
 
-A partir de données d’un membre du groupe :
+La visualisation s’adresse avant tout à l’utilisateur, qui n’a sans doute qu’une conscience approximative de son comportement d’écoute en ligne.
+Selon la richesse des données qui seront exploitées, il s’agira, à partir des données d'un membre du groupe (pour plusieurs membres éventuellement) de mettre en évidence :
+
 - A quels moments écoute-t-il de la musique en ligne (jours de la semaine, horaires (matin, soir...), période de l’année (été, hiver, vacances…) ?
 - Quelle musique écoute-t-il (genres, artistes, albums les plus écoutés…) et mise en évidence des éventuelles corrélations avec le moment de l’écoute
-- Evaluation de la popularité de la musique écouté (comparaison avec les statistiques globales de musique en ligne)
-À qui s’adresse la visualisation, quelles tâches seront effectuées au travers de votre projet ? 
-La visualisation s’adresse avant tout à l’utilisateur, qui n’a sans doute qu’une conscience approximative de son comportement d’écoute en ligne.
-Mais elle pourrait aussi permettre de chercher des profils utilisateurs différents sur un même compte partagé de musique en ligne (ceci étant une hypothèse incertaine).
-Selon la richesse des données qui seront exploitées, il s’agira de :
 - Visualiser les temps d’écoute (période/jour/horaire et temps/nombre de titres/albums écoutés), et les relier aux jours de la semaine/périodes de l’année
 - Classifier les styles musicaux pour permettre une visualisation cohérente (regroupement en styles assez génériques mais significatifs)
 
+On hold:
+- Evaluation de la popularité de la musique écouté (comparaison avec les statistiques globales de musique en ligne)
+- Chercher des profils utilisateurs différents sur un même compte partagé de musique en ligne (ceci étant une hypothèse très incertaine).
+
+
 ## Sources de données choisies 
 
-Sources à confirmer :
-- Données Spotify/Deezer/Qobuz/Base de données personnelles d’un ou plusieurs membres du groupe
-La richesses et l’exploitabilité de chacune de ces sources est à valider :
-- Spotify (données accessibles sur demande mais quelles données) ?
-- Deezer (comment et quelles données accessibles?)
-- Qobuz (a priori données non accessibles, manque de contact chez Qobuz)
-Ces 3 premières sources ont l’intérêt d’être des sources réelles. Elles pourraient éventuellement être fusionnées selon le degré de compatibilité/de modification nécessaires pour permettre cette fusion.
-La Base de données personnelle disponible est un Fichier Excel avec une liste de quelques 500 albums qui demanderait d’être complétée « artificiellement » en définissant les profils que l’on cherche à visualiser pour les fabriquer (avec une part d’aléatoire, mais si l’on ne fait que de l’aléatoire les données pourraient ne laisser aucune possibilité d’interprétation de ce qui est visualisé). C’est une solution de secours crédible qui a la défaut de demander un travail de génération de la base, mais assurer sa compréhension et sa disponibilité. Des essais seront fait.
+Sources confirmées:
+- Deezer (json) + Base de données personnelle (csv)
+Sources à confirmer: 
+- Spotify (?) / iTunes (XML)
+Sources a priori non utilisées:
+- Qobuz (données non accessibles, manque de contact chez Qobuz)
+
+Les sources Deezer, Spotify et iTunes ont l’intérêt d’être des sources réelles. Elles pourraient éventuellement être fusionnées selon le degré de compatibilité/de modification nécessaires pour permettre cette fusion.
+
+La Base de données personnelle disponible est un Fichier Excel avec une liste de quelques 500 albums à partir de laquelle est générée aléatoirement (mais selon des poids dépendant d'un profil utilisateur qui définis des  probabilités par jour/heure/genres...).
 
 ## Travaux important liés au projet 
 
@@ -51,15 +55,29 @@ https://stateezticsapp.com/
 https://music.apple.com/replay
 
 ## Organisation 
-- Communication : Nous utilisons l'outill de gestion de projet Trello
-- Sessions de travail : Travail personnel sur tâches spécifiques + revue de groupe hebdomadaire 
+- Communication : Nous utilisons l'outil de gestion de projet Trello
+- Sessions de travail : Travail personnel sur tâches spécifiques + revues de groupe hebdomadaires 
 - Rôles au sein du groupe (design, développement D3, pré-traitement des données, suivi, etc.). Au cas par cas. 
 
 ## Scan des esquisses finales 
-![Pipeau1](Capture01.JPG)
+![Pipeau1](Capture01.1.JPG)
+
+Souris sur une barre(un disque) :
+- Le disque pivote selon l’axe vertical pour être vue de face : camembert représentant la répartition par genre
+- Idéalement : les barres latérales s’écartent pour laisser la vue pleine du disque de face. Sinon : Disque plein en superposition.
+
+Transitions d'une vue (jour/heure/période...) à l'autre :
+- Idéal : les disques éclatent en morceaux qui se déplacent pour reformer les nouvelles barres (toujours sous forme de disques vus de côté)
+- Sinon : Déplacement et reshape des disques
+
+Sélection de "Show genre" : Les disques pivotent selon l’axe horizontal pour former une pile de disque dont la tranche est colorée (couleur correspondant à un genre)
+(ce « pivotement » est à évaluer...)
+
 ![Pipeau2](Capture02.JPG)
 ![Pipeau3](Capture03.JPG)
 ![Pipeau4](Capture04.JPG)
+
+
 
 
 
