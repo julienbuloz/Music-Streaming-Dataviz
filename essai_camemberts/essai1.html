@@ -11,8 +11,8 @@
 </head>
 <body>
 <!-- Ajout de deux boutons -->
-<button onclick="MaJ(data1)">Collection 1</button>
-<button onclick="MaJ(data2)">Collection 2</button>
+<button onclick="MaJ(data_compo, 1)">Collection 1</button>
+<button onclick="MaJ(data_compo, 2)">Collection 2</button>
 
 <!-- Div où la visu se trouvera. -->
 <div id="visu"></div>
@@ -31,14 +31,26 @@ var radius = Math.min(largeur, hauteur) / 2 - marge
 // Ajout d’un svg au div «visu»
 var svg = d3.select("#visu")
   .append("svg")
-    .attr("width", largeur)
-    .attr("height", hauteur)
-  .append("g")
-    .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ")");
+    .attr("width", 2*largeur)
+    .attr("height", hauteur);
+  //.append("g");
+//    .attr("transform", "translate(" + largeur / 2 + "," + hauteur / 2 + ")");
 
-// création de deux collections pipeau
-var data1 = {a: 9, b: 20, c:30, d:8, e:12}
-var data2 = {a: 6, b: 16, c:20, d:14, e:19, f:12}
+// Collection
+
+var data_compo = [
+    {genre: "a", valeur: 9, source:1},
+    {genre: "b", valeur: 20, source:1},
+    {genre: "c", valeur: 30, source:1},
+    {genre: "d", valeur: 8,  source:1},
+    {genre: "e", valeur: 12, source:1},
+    {genre: "a", valeur: 6, source:2},
+    {genre: "b", valeur: 16, source:2},
+    {genre: "c", valeur: 20, source:2},
+    {genre: "d", valeur: 14, source:2},
+    {genre: "e", valeur: 19, source:2},
+    {genre: "f", valeur: 12, source:2}
+];
 
 // mise en place de l’échelle de couleurs.
 var couleurs = d3.scaleOrdinal()
@@ -46,15 +58,19 @@ var couleurs = d3.scaleOrdinal()
   .range(d3.schemeDark2);
 
 // Une fonction qui crée / met à jour le diagramme pour une variable donnée.
-function MaJ(data) {
-
+function MaJ(data, source) {
+  var decalX;
+  if(source == 2)
+    decalX = largeur;
+  else
+    decalX = 0;
   // Calcul de la position de chaque groupe sur le diagramme
   var clacos = d3.pie()
-              .value(function(d) {return d.value; })
-              .sort(function(a, b) { /*console.log(a)*/ ; return d3.ascending(a.key, b.key);} ) // Afin que l’ordre reste constant dans le diagramme.
+              .value((d) => d.valeur)
+              .sort((a, b) => d3.ascending(a.genre, b.genre) ) // Afin que l’ordre reste constant dans le diagramme.
   //console.log(data);
   //console.log(d3.entries(data));
-  var data_ready = clacos(d3.entries(data));
+  var data_ready = clacos(data.filter((d) => (d.source == source)));
   console.log(data_ready);
 
   // joindre aux données
@@ -72,7 +88,8 @@ function MaJ(data) {
                       console.log(pathdata);
                       return pathdata;}
     )
-   .attr('fill', function(d){ return(couleurs(d.data.key)) })
+   .attr('fill', function(d){ return(couleurs(d.data.genre)) })
+   .attr("transform", "translate(" + (decalX + largeur / 2).toString() + "," + hauteur / 2 + ")")
    .attr("stroke", "white")
    .style("stroke-width", "2px")
    .style("opacity", 1);
@@ -84,7 +101,7 @@ function MaJ(data) {
 }
 
 // Initialisation du diagramme avec le premier dataset.
-MaJ(data1)
+MaJ(data_compo, 1)
 
 </script>
 </body>
