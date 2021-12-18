@@ -11,8 +11,8 @@
 </head>
 <body>
 <!-- Ajout de deux boutons -->
-<button onclick="MaJ(data_compo, 1)">Collection 1</button>
-<button onclick="MaJ(data_compo, 2)">Collection 2</button>
+<button onclick="MaJ(data_compo, 0)">Deux camemberts</button>
+<button onclick="MaJ(data_compo, 3)">Un camembert</button>
 
 <!-- Div où la visu se trouvera. -->
 <div id="visu"></div>
@@ -64,6 +64,8 @@ function MaJ(data, source) {
     decalX = largeur;
   else
     decalX = 0;
+  var X1 = 0;
+  var X2 = largeur;
   // Calcul de la position de chaque groupe sur le diagramme
   var clacos = d3.pie()
               .value((d) => d.valeur)
@@ -71,12 +73,28 @@ function MaJ(data, source) {
   //console.log(data);
   //console.log(d3.entries(data));
   var data_ready = clacos(data.filter((d) => (d.source == source)));
-  console.log(data_ready);
+  var data_r2;
+  if(source != 3)
+  {
+      data_r2 = clacos(data.filter((d) => (d.source == 1)));
+      data_r2 = data_r2.concat(clacos(data.filter((d) => (d.source == 2))));
+  }
+  else
+    data_r2 = clacos(data);
+  console.log(data_r2);
 
   // joindre aux données
   var u = svg.selectAll("path")
-             .data(data_ready)
-
+             .data(data_r2);  
+  let calculCentre = function(d,s)
+    {
+        if(s==3)
+            return ((X1 + X2 + largeur)/2).toString();
+        if(d.data.source == 1)
+            return (X1+largeur/2).toString();
+        else
+            return (X2+largeur/2).toString();
+  }
   // Construction du diagramme : Chaque part du diagramme en secteurs est un chemin «path» construit grâce à la fonction "arc".
   u.enter()
    .append('path')
@@ -89,9 +107,10 @@ function MaJ(data, source) {
                       return pathdata;}
     )
    .attr('fill', function(d){ return(couleurs(d.data.genre)) })
-   .attr("transform", "translate(" + (decalX + largeur / 2).toString() + "," + hauteur / 2 + ")")
-   .attr("stroke", "white")
-   .style("stroke-width", "2px")
+   //.attr("transform", "translate(" + (decalX + largeur / 2).toString() + "," + hauteur / 2 + ")")
+   .attr("transform", (d) => ("translate(" + calculCentre(d,source) + "," + (hauteur/2).toString() + ")")) 
+   //.attr("stroke", "white")
+   //.style("stroke-width", "0px")
    .style("opacity", 1);
 
   // Suppression des éventuels groupes de données qui ne sont plus présents.
@@ -101,7 +120,7 @@ function MaJ(data, source) {
 }
 
 // Initialisation du diagramme avec le premier dataset.
-MaJ(data_compo, 1)
+MaJ(data_compo, 0)
 
 </script>
 </body>
