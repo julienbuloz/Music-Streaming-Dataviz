@@ -1,0 +1,391 @@
+,index,User,Date,Jour,Week_day,Heure,Artiste,Titre,Song,Genre
+0,0,M,2021-09-01 13:44:00,2021-09-01,Mercredi,13,Richard De Palmas,Marche dans le sable,undefined,Français
+1,1,M,2021-09-01 15:01:00,2021-09-01,Mercredi,15,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+2,2,M,2021-09-01 17:40:00,2021-09-01,Mercredi,17,Syd Barrett,The Madcap Laughs,undefined,Rock/Folk
+3,3,M,2021-09-01 22:44:00,2021-09-01,Mercredi,22, Mogwai,Come on die young,undefined,Electro/Rap/Techno
+4,4,M,2021-09-02 08:26:00,2021-09-02,Jeudi,8, Lunatic Calm,undefined,undefined,Electro/Rap/Techno
+5,5,M,2021-09-02 21:48:00,2021-09-02,Jeudi,21,Thomas Fersen,Pièce montée des grands jours,undefined,Français
+6,6,M,2021-09-03 19:14:00,2021-09-03,Vendredi,19,PJ Harvey,Uh Huh Her,undefined,Rock/Folk
+7,7,M,2021-09-03 20:39:00,2021-09-03,Vendredi,20, US3,Broadway & 52nd,undefined,Electro/Rap/Techno
+8,8,M,2021-09-03 21:49:00,2021-09-03,Vendredi,21,The Shangri Las,Best of,undefined,Rock/Folk
+9,9,M,2021-09-03 22:58:00,2021-09-03,Vendredi,22,Leyanis Lopez,Corazon presumido,undefined,World
+10,10,M,2021-09-04 12:22:00,2021-09-04,Samedi,12,The Fields of the Nephilim,The Nephilim,undefined,Rock/Folk
+11,11,M,2021-09-04 16:16:00,2021-09-04,Samedi,16,Théodor Gouvy,Requiem,undefined,Classique/Contemporain
+12,12,M,2021-09-04 17:53:00,2021-09-04,Samedi,17,John Coltrane,Meditations,undefined,Jazz/Blues
+13,13,M,2021-09-04 20:43:00,2021-09-04,Samedi,20,Thelonious Monk,With John Coltrane at Carnegie Hall,undefined,Jazz/Blues
+14,14,M,2021-09-05 12:53:00,2021-09-05,Dimanche,12,Jacques Dutronc,Complètement Dutronc,undefined,Français
+15,15,M,2021-09-05 15:00:00,2021-09-05,Dimanche,15,Georges Bizet,Carmen,undefined,Classique/Contemporain
+16,16,M,2021-09-05 19:47:00,2021-09-05,Dimanche,19, No Man's Land,No Man's Land,undefined,Français
+17,17,M,2021-09-05 20:13:00,2021-09-05,Dimanche,20,John Coltrane,Duke Ellington and John Coltrane,undefined,Jazz/Blues
+18,18,M,2021-09-06 07:23:00,2021-09-06,Lundi,7,Frédéric Chopin,Vol 2 : Sonata n°3 - Mazurkas,undefined,Classique/Contemporain
+19,19,M,2021-09-06 22:15:00,2021-09-06,Lundi,22, Mickey 3D,Tu vas pas mourir de rire,undefined,Français
+20,20,M,2021-09-08 09:55:00,2021-09-08,Mercredi,9, Lunatic Calm,undefined,undefined,Electro/Rap/Techno
+21,21,M,2021-09-08 22:19:00,2021-09-08,Mercredi,22, Arvo Part,De Profundis,undefined,Classique/Contemporain
+22,22,M,2021-09-09 20:18:00,2021-09-09,Jeudi,20,Steve Reich,Three Movement,undefined,Classique/Contemporain
+23,23,M,2021-09-10 21:24:00,2021-09-10,Vendredi,21,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+24,24,M,2021-09-10 22:10:00,2021-09-10,Vendredi,22, Niagara,Religion,undefined,Français
+25,25,M,2021-09-11 12:52:00,2021-09-11,Samedi,12,Bob Marley,Songs of Freedom,undefined,World
+26,26,M,2021-09-11 21:45:00,2021-09-11,Samedi,21, Ludwig Von 88,Prophètes et nains de jardin,undefined,Français
+27,27,M,2021-09-12 14:38:00,2021-09-12,Dimanche,14, Romano Sclavis Texier,Suite Africaine,undefined,Jazz/Blues
+28,28,M,2021-09-12 18:37:00,2021-09-12,Dimanche,18,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
+29,29,M,2021-09-12 20:59:00,2021-09-12,Dimanche,20, Akosh S. Unit,Omeko Live,undefined,Jazz/Blues
+30,30,M,2021-09-13 21:37:00,2021-09-13,Lundi,21, EMF,Schubert Dip,undefined,Français
+31,31,M,2021-09-14 22:53:00,2021-09-14,Mardi,22,Tom Mc Rae,Black Session 2005,undefined,Rock/Folk
+32,32,M,2021-09-15 12:49:00,2021-09-15,Mercredi,12,The Velvet Underground,The Velvet Underground & Nico,undefined,Rock/Folk
+33,33,M,2021-09-15 16:26:00,2021-09-15,Mercredi,16,Stan Getz,Getz/Gilberto,undefined,Jazz/Blues
+34,34,M,2021-09-15 18:12:00,2021-09-15,Mercredi,18,Les Wampas,Trop Précieux,undefined,Français
+35,35,M,2021-09-15 20:02:00,2021-09-15,Mercredi,20, King Size,Disfit for a King,undefined,Rock/Folk
+36,36,M,2021-09-15 22:38:00,2021-09-15,Mercredi,22,Ben Harper,Live at the Hollywood Bowl,undefined,Rock/Folk
+37,37,M,2021-09-16 12:15:00,2021-09-16,Jeudi,12,Julien Loureau,The Rise,undefined,Jazz/Blues
+38,38,M,2021-09-17 19:48:00,2021-09-17,Vendredi,19,Roger Water,"Music from ""the body""",undefined,Jazz/Blues
+39,39,M,2021-09-18 19:16:00,2021-09-18,Samedi,19,John Surman,The amazing adventures of Simon Simon,undefined,Jazz/Blues
+40,40,M,2021-09-18 20:05:00,2021-09-18,Samedi,20,Thelonious Monk,Criss-Cross,undefined,Jazz/Blues
+41,41,M,2021-09-19 13:26:00,2021-09-19,Dimanche,13,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+42,42,M,2021-09-19 14:16:00,2021-09-19,Dimanche,14,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+43,43,M,2021-09-19 15:32:00,2021-09-19,Dimanche,15,Jimi Hendrix,Jimi plays Monterey,undefined,Rock/Folk
+44,44,M,2021-09-19 17:56:00,2021-09-19,Dimanche,17, Stravinsky,L'oiseau de feu - Pulcinella Suite,undefined,Classique/Contemporain
+45,45,M,2021-09-19 19:12:00,2021-09-19,Dimanche,19,Eric Clapton,Unplugged,undefined,Jazz/Blues
+46,46,M,2021-09-19 20:40:00,2021-09-19,Dimanche,20,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+47,47,M,2021-09-20 20:48:00,2021-09-20,Lundi,20,Julien Loureau,The Rise,undefined,Jazz/Blues
+48,48,M,2021-09-21 21:21:00,2021-09-21,Mardi,21,Syd Barrett,The Madcap Laughs,undefined,Rock/Folk
+49,49,M,2021-09-22 17:53:00,2021-09-22,Mercredi,17,Herbie Hancock,Maiden Voyage,undefined,Jazz/Blues
+50,50,M,2021-09-22 19:53:00,2021-09-22,Mercredi,19,Thelonious Monk,Thelonious Monk with John Coltrane,undefined,Jazz/Blues
+51,51,M,2021-09-23 21:34:00,2021-09-23,Jeudi,21,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+52,52,M,2021-09-25 10:40:00,2021-09-25,Samedi,10, Dionysos,Whatever the weather (electrique),undefined,Français
+53,53,M,2021-09-25 12:37:00,2021-09-25,Samedi,12, Urban Species,Listen,undefined,Electro/Rap/Techno
+54,54,M,2021-09-25 13:34:00,2021-09-25,Samedi,13, Arte Mixo,Deseos,undefined,World
+55,55,M,2021-09-25 14:40:00,2021-09-25,Samedi,14,The Rolling Stones,Flashpoint,undefined,Rock/Folk
+56,56,M,2021-09-25 15:37:00,2021-09-25,Samedi,15,John Coltrane,John Coltrane and Johnny Hartman,undefined,Jazz/Blues
+57,57,M,2021-09-25 18:10:00,2021-09-25,Samedi,18, Judas Priest,Unleashed in the East,undefined,Rock/Folk
+58,58,M,2021-09-25 19:35:00,2021-09-25,Samedi,19,Talvin Singh,Presents the soundz of the Asian underground,undefined,Electro/Rap/Techno
+59,59,M,2021-09-25 21:31:00,2021-09-25,Samedi,21,Tracy Chapman,Tracy Chapman,undefined,Rock/Folk
+60,60,M,2021-09-26 11:16:00,2021-09-26,Dimanche,11, Ketama,Konfusion,undefined,World
+61,61,M,2021-09-26 14:13:00,2021-09-26,Dimanche,14,Eric Clapton,From the Cradle,undefined,Jazz/Blues
+62,62,M,2021-09-26 16:16:00,2021-09-26,Dimanche,16,Duke Ellington,Money Jungle,undefined,Jazz/Blues
+63,63,M,2021-09-26 17:05:00,2021-09-26,Dimanche,17, Mano Solo,Les animals,undefined,Français
+64,64,M,2021-09-26 19:47:00,2021-09-26,Dimanche,19, Arcade Fire,Neon Bible,undefined,Rock/Folk
+65,65,M,2021-09-27 19:19:00,2021-09-27,Lundi,19,Ismaël Lo,Jammu Africa,undefined,World
+66,66,M,2021-09-27 20:23:00,2021-09-27,Lundi,20, Marilyn Manson,Antichrist Superstar,undefined,Rock/Folk
+67,67,M,2021-09-27 21:06:00,2021-09-27,Lundi,21,Georges Russell,Ezz-thetics,undefined,Jazz/Blues
+68,68,M,2021-09-29 12:05:00,2021-09-29,Mercredi,12, Stravinsky,Petrouchka - Sacre du Printemps,undefined,Classique/Contemporain
+69,69,M,2021-09-29 18:32:00,2021-09-29,Mercredi,18,The Auteur,?,undefined,Rock/Folk
+70,70,M,2021-10-01 18:05:00,2021-10-01,Vendredi,18,Tom Mc Rae,Black Session 2005,undefined,Rock/Folk
+71,71,M,2021-10-01 19:29:00,2021-10-01,Vendredi,19,Kenny Garret,Triology,undefined,Jazz/Blues
+72,72,M,2021-10-01 20:57:00,2021-10-01,Vendredi,20, Divers,Les plus belles comptines italiennes,undefined,World
+73,73,M,2021-10-02 13:14:00,2021-10-02,Samedi,13,Keziah Jones,Blufunk is a fact,undefined,Rock/Folk
+74,74,M,2021-10-02 17:09:00,2021-10-02,Samedi,17,Christian Vander,Wurdah Itah,undefined,Rock/Folk
+75,75,M,2021-10-02 19:56:00,2021-10-02,Samedi,19,Janis Joplin,In Concert,undefined,Rock/Folk
+76,76,M,2021-10-02 22:27:00,2021-10-02,Samedi,22, Deee Lite,World Clique,undefined,Rock/Folk
+77,77,M,2021-10-03 00:19:00,2021-10-03,Dimanche,0,Les Tetes Raides,Gratte Poil,undefined,Français
+78,78,M,2021-10-03 14:07:00,2021-10-03,Dimanche,14, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+79,79,M,2021-10-03 17:28:00,2021-10-03,Dimanche,17,Vanessa Paradis,Vanessa Paradis,undefined,Français
+80,80,M,2021-10-03 20:58:00,2021-10-03,Dimanche,20,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+81,81,M,2021-10-03 21:38:00,2021-10-03,Dimanche,21,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+82,82,M,2021-10-06 08:22:00,2021-10-06,Mercredi,8,Steve Reich,Six Marimbas - Different Trains - Kronos Quartet,undefined,Classique/Contemporain
+83,83,M,2021-10-06 19:26:00,2021-10-06,Mercredi,19, Lunel,Un instant,undefined,Français
+84,84,M,2021-10-09 00:16:00,2021-10-09,Samedi,0, Cheer,Lovehearts,undefined,Rock/Folk
+85,85,M,2021-10-09 01:12:00,2021-10-09,Samedi,1,John Coltrane,The John Coltrane Quartet plays,undefined,Jazz/Blues
+86,86,M,2021-10-09 09:22:00,2021-10-09,Samedi,9,George Michael,Patience,undefined,Rock/Folk
+87,87,M,2021-10-09 12:37:00,2021-10-09,Samedi,12,Barry White,The Ultimate Collection,undefined,Rock/Folk
+88,88,M,2021-10-09 17:49:00,2021-10-09,Samedi,17, Magma,Kohntarkosz,undefined,Rock/Folk
+89,89,M,2021-10-09 20:04:00,2021-10-09,Samedi,20, Divers,Guitarra Flamenca,undefined,World
+90,90,M,2021-10-09 21:33:00,2021-10-09,Samedi,21, DJ Hype & DJ Zinc,DJ Hype & DJ Zinc,undefined,Electro/Rap/Techno
+91,91,M,2021-10-09 22:41:00,2021-10-09,Samedi,22, Divers,Sine : Vive le jazz,undefined,Jazz/Blues
+92,92,M,2021-10-10 00:31:00,2021-10-10,Dimanche,0, Arcade Fire,Funeral,undefined,Rock/Folk
+93,93,M,2021-10-10 09:01:00,2021-10-10,Dimanche,9, Divers,Schweiz Rock,undefined,Rock/Folk
+94,94,M,2021-10-10 10:16:00,2021-10-10,Dimanche,10, Dominique A ,Remué,undefined,Français
+95,95,M,2021-10-10 14:50:00,2021-10-10,Dimanche,14, Noir Desir,Des visages des Figures,undefined,Français
+96,96,M,2021-10-10 15:43:00,2021-10-10,Dimanche,15,Gloria Gaynor,First be a Woman,undefined,Rock/Folk
+97,97,M,2021-10-10 22:54:00,2021-10-10,Dimanche,22,Aretha Franklin,The very best of,undefined,Jazz/Blues
+98,98,M,2021-10-11 21:35:00,2021-10-11,Lundi,21, CocoRosie,The adventures of ghosthorse and stillborn,undefined,Electro/Rap/Techno
+99,99,M,2021-10-13 10:28:00,2021-10-13,Mercredi,10, Pet Shop Boys,Behaviour,undefined,Electro/Rap/Techno
+100,100,M,2021-10-13 11:04:00,2021-10-13,Mercredi,11,Geoffrey Oryema,Exile,undefined,World
+101,101,M,2021-10-13 13:08:00,2021-10-13,Mercredi,13,Peter Hammil,The noise,undefined,Rock/Folk
+102,102,M,2021-10-13 18:49:00,2021-10-13,Mercredi,18, Sonic Youth,Dirty,undefined,Rock/Folk
+103,103,M,2021-10-13 19:13:00,2021-10-13,Mercredi,19, Arcade Fire,Neon Bible,undefined,Rock/Folk
+104,104,M,2021-10-15 21:41:00,2021-10-15,Vendredi,21, Simple Minds,Street Fighting Years,undefined,Rock/Folk
+105,105,M,2021-10-16 10:15:00,2021-10-16,Samedi,10, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+106,106,M,2021-10-16 12:47:00,2021-10-16,Samedi,12, Tryo,Mamagubida,undefined,Français
+107,107,M,2021-10-16 16:35:00,2021-10-16,Samedi,16,Max Roach,It's Time,undefined,Jazz/Blues
+108,108,M,2021-10-16 18:55:00,2021-10-16,Samedi,18,Finlay Quaye,Maverick a Strike,undefined,Rock/Folk
+109,109,M,2021-10-16 19:41:00,2021-10-16,Samedi,19, Carmel,Collected,undefined,Rock/Folk
+110,110,M,2021-10-16 22:36:00,2021-10-16,Samedi,22, Dominique A,Si je connais Harry,undefined,Français
+111,111,M,2021-10-17 11:39:00,2021-10-17,Dimanche,11, Paganini,24 Caprices,undefined,Classique/Contemporain
+112,112,M,2021-10-17 14:43:00,2021-10-17,Dimanche,14,Steve Coleman,Resistance is futile,undefined,Jazz/Blues
+113,113,M,2021-10-17 17:41:00,2021-10-17,Dimanche,17, Radiohead,The Bends,undefined,Rock/Folk
+114,114,M,2021-10-17 19:51:00,2021-10-17,Dimanche,19,Glenn Miller,The Glenn Miller Story,undefined,Jazz/Blues
+115,115,M,2021-10-18 18:03:00,2021-10-18,Lundi,18, Magic Malik,69-96,undefined,Jazz/Blues
+116,116,M,2021-10-18 19:35:00,2021-10-18,Lundi,19,Sonny Rollins,Our Man in Jazz,undefined,Jazz/Blues
+117,117,M,2021-10-18 20:11:00,2021-10-18,Lundi,20,David Murray,The Tip,undefined,Jazz/Blues
+118,118,M,2021-10-19 19:30:00,2021-10-19,Mardi,19,Steve Coleman,Weaving Symbolics,undefined,Jazz/Blues
+119,119,M,2021-10-20 16:22:00,2021-10-20,Mercredi,16, Divers,New York New York,undefined,Jazz/Blues
+120,120,M,2021-10-20 18:53:00,2021-10-20,Mercredi,18,David Murray,Fo Deuk Revue,undefined,Jazz/Blues
+121,121,M,2021-10-20 20:01:00,2021-10-20,Mercredi,20, Beastie Boys,Live 98,undefined,Electro/Rap/Techno
+122,122,M,2021-10-21 22:12:00,2021-10-21,Jeudi,22,Aretha Franklin,The very best of,undefined,Jazz/Blues
+123,123,M,2021-10-22 19:21:00,2021-10-22,Vendredi,19,John Coltrane,Crescent,undefined,Jazz/Blues
+124,124,M,2021-10-22 20:48:00,2021-10-22,Vendredi,20,Marcus Miller,Live : The Complete bootleg Collection,undefined,Jazz/Blues
+125,125,M,2021-10-23 09:16:00,2021-10-23,Samedi,9,John Coltrane,The Complete 1961 Village Vanguard Recordings,undefined,Jazz/Blues
+126,126,M,2021-10-23 11:14:00,2021-10-23,Samedi,11, Deftones,Around the Fur,undefined,Rock/Folk
+127,127,M,2021-10-23 13:38:00,2021-10-23,Samedi,13,Wayne Shorter,Speak No Evil,undefined,Jazz/Blues
+128,128,M,2021-10-23 17:15:00,2021-10-23,Samedi,17,The Kills,Black Session 14 mars 2005,undefined,Rock/Folk
+129,129,M,2021-10-23 19:47:00,2021-10-23,Samedi,19,The Clash,From here to eternity,undefined,Rock/Folk
+130,130,M,2021-10-23 20:27:00,2021-10-23,Samedi,20, Red Hot Chili Peppers,Red Blood Sugar Sex Magic,undefined,Rock/Folk
+131,131,M,2021-10-24 12:20:00,2021-10-24,Dimanche,12,Steve Reich,Six Marimbas - Different Trains - Kronos Quartet,undefined,Classique/Contemporain
+132,132,M,2021-10-24 15:33:00,2021-10-24,Dimanche,15,John Coltrane,Duke Ellington and John Coltrane,undefined,Jazz/Blues
+133,133,M,2021-10-24 18:19:00,2021-10-24,Dimanche,18,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
+134,134,M,2021-10-24 19:20:00,2021-10-24,Dimanche,19,Johnny Cash,At Folsom prison,undefined,Rock/Folk
+135,135,M,2021-10-25 19:33:00,2021-10-25,Lundi,19,Wes Montgomery,Bumpin',undefined,Jazz/Blues
+136,136,M,2021-10-26 22:49:00,2021-10-26,Mardi,22,PJ Harvey,To bring you my love,undefined,Rock/Folk
+137,137,M,2021-10-27 18:05:00,2021-10-27,Mercredi,18,Bob Dylan,The Freewheelin' Bob Dylan,undefined,Rock/Folk
+138,138,M,2021-10-27 19:46:00,2021-10-27,Mercredi,19, Saï Saï,L'esprit du sound,undefined,Français
+139,139,M,2021-10-27 20:36:00,2021-10-27,Mercredi,20,Jean-Sébastien Bach,Passions,undefined,Classique/Contemporain
+140,140,M,2021-10-28 20:32:00,2021-10-28,Jeudi,20, Divers,Victoires de la musique classique - Révélations 2005 ,undefined,Classique/Contemporain
+141,141,M,2021-10-28 22:41:00,2021-10-28,Jeudi,22,Robert Miles,Dreamland,undefined,Electro/Rap/Techno
+142,142,M,2021-10-29 19:29:00,2021-10-29,Vendredi,19, AC/DC,Blow up Your Video,undefined,Rock/Folk
+143,143,M,2021-10-30 01:21:00,2021-10-30,Samedi,1, Magma,Kobaia,undefined,Rock/Folk
+144,144,M,2021-10-30 13:42:00,2021-10-30,Samedi,13, Mano Negra,King of Bongo,undefined,Français
+145,145,M,2021-10-30 14:52:00,2021-10-30,Samedi,14, Radiohead,Pablo Honey,undefined,Rock/Folk
+146,146,M,2021-10-30 18:16:00,2021-10-30,Samedi,18, Muse,Bliss,undefined,Rock/Folk
+147,147,M,2021-10-30 19:43:00,2021-10-30,Samedi,19,Nina Simone,My Way,undefined,Jazz/Blues
+148,148,M,2021-10-30 20:00:00,2021-10-30,Samedi,20, Jefferson Airplane,After bathing at Baxter's,undefined,Rock/Folk
+149,149,M,2021-10-31 11:28:00,2021-10-31,Dimanche,11, Katerine,Imbécile,undefined,Français
+150,150,M,2021-10-31 12:19:00,2021-10-31,Dimanche,12, Zen Zila,Mais ou on va comme ca,undefined,Français
+151,151,M,2021-10-31 14:04:00,2021-10-31,Dimanche,14, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+152,152,M,2021-10-31 16:15:00,2021-10-31,Dimanche,16,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
+153,153,M,2021-11-03 17:00:00,2021-11-03,Mercredi,17,Oliver Nelson,The Blue & the Abstract Truth,undefined,Jazz/Blues
+154,154,M,2021-11-03 18:35:00,2021-11-03,Mercredi,18,James Carter,Jurassic Classics,undefined,Jazz/Blues
+155,155,M,2021-11-03 20:49:00,2021-11-03,Mercredi,20,Jean-Sébastien Bach,Cello Suites,undefined,Classique/Contemporain
+156,156,M,2021-11-03 22:34:00,2021-11-03,Mercredi,22, Compulsion,Hi Fi,undefined,Rock/Folk
+157,157,M,2021-11-04 09:39:00,2021-11-04,Jeudi,9, Mickey 3D,Tu vas pas mourir de rire,undefined,Français
+158,158,M,2021-11-06 12:05:00,2021-11-06,Samedi,12,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
+159,159,M,2021-11-06 19:53:00,2021-11-06,Samedi,19, Sonic Youth,Goo (demo),undefined,Rock/Folk
+160,160,M,2021-11-07 16:20:00,2021-11-07,Dimanche,16, Red Hot Chili Peppers,Californication,undefined,Rock/Folk
+161,161,M,2021-11-07 17:50:00,2021-11-07,Dimanche,17, Divers,Jazz,undefined,Jazz/Blues
+162,162,M,2021-11-07 19:47:00,2021-11-07,Dimanche,19,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+163,163,M,2021-11-08 08:31:00,2021-11-08,Lundi,8,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
+164,164,M,2021-11-09 21:09:00,2021-11-09,Mardi,21, Niagara,Religion,undefined,Français
+165,165,M,2021-11-12 19:28:00,2021-11-12,Vendredi,19, Kickback,Forever War,undefined,Rock/Folk
+166,166,M,2021-11-12 22:31:00,2021-11-12,Vendredi,22, Madness,Divine Madness,undefined,Rock/Folk
+167,167,M,2021-11-13 10:58:00,2021-11-13,Samedi,10, Ravel,Boléro - La Valse - Concertos pour piano,undefined,Classique/Contemporain
+168,168,M,2021-11-13 17:10:00,2021-11-13,Samedi,17,James Carter,Live at Baker's Keyboard Lounge,undefined,Jazz/Blues
+169,169,M,2021-11-13 22:01:00,2021-11-13,Samedi,22, Dominique A,Si je connais Harry,undefined,Français
+170,170,M,2021-11-14 12:23:00,2021-11-14,Dimanche,12, Dominique A ,Remué,undefined,Français
+171,171,M,2021-11-14 15:53:00,2021-11-14,Dimanche,15,The Kills,Keep on your mean Side,undefined,Rock/Folk
+172,172,M,2021-11-14 17:30:00,2021-11-14,Dimanche,17,Buddy Guy,Damn Right I've got the Blues,undefined,Jazz/Blues
+173,173,M,2021-11-14 20:28:00,2021-11-14,Dimanche,20,Art Blackey and the Jazz Messengers,Moanin',undefined,Jazz/Blues
+174,174,M,2021-11-15 13:37:00,2021-11-15,Lundi,13, Funambule,Silently with You,undefined,Français
+175,175,M,2021-11-15 19:38:00,2021-11-15,Lundi,19, U2,War,undefined,Rock/Folk
+176,176,M,2021-11-15 21:01:00,2021-11-15,Lundi,21, Pink Floyd,Ummagumma,undefined,Rock/Folk
+177,177,M,2021-11-16 18:03:00,2021-11-16,Mardi,18, Scorpions,World Wide Live,undefined,Rock/Folk
+178,178,M,2021-11-17 12:26:00,2021-11-17,Mercredi,12,Raul Paz,Mulata,undefined,World
+179,179,M,2021-11-17 21:09:00,2021-11-17,Mercredi,21, Sepultura,Chaos A.D.,undefined,Rock/Folk
+180,180,M,2021-11-18 21:14:00,2021-11-18,Jeudi,21,Ella Fitzgerald,Compact Jazz,undefined,Jazz/Blues
+181,181,M,2021-11-19 19:10:00,2021-11-19,Vendredi,19,Miles Davis,On the corner,undefined,Jazz/Blues
+182,182,M,2021-11-20 00:19:00,2021-11-20,Samedi,0, Divers,Chat Noir Chat Blanc,undefined,World
+183,183,M,2021-11-20 19:11:00,2021-11-20,Samedi,19,Les Tambourinaires du Burundi,Les tambourinaires du Burundi,undefined,World
+184,184,M,2021-11-20 21:37:00,2021-11-20,Samedi,21,The Blue Aeroplanes,Beatsongs,undefined,Rock/Folk
+185,185,M,2021-11-21 10:58:00,2021-11-21,Dimanche,10, Romano Sclavis Texier,Carnet de Routes,undefined,Jazz/Blues
+186,186,M,2021-11-21 13:33:00,2021-11-21,Dimanche,13, Magma,Kobaia,undefined,Rock/Folk
+187,187,M,2021-11-21 15:44:00,2021-11-21,Dimanche,15,Thelonious Monk,Monk's dream,undefined,Jazz/Blues
+188,188,M,2021-11-21 17:31:00,2021-11-21,Dimanche,17,Les Tambourinaires du Burundi,Les tambourinaires du Burundi,undefined,World
+189,189,M,2021-11-21 18:23:00,2021-11-21,Dimanche,18,Wolfgang Amadeus Mozart,Requiem,undefined,Classique/Contemporain
+190,190,M,2021-11-22 07:48:00,2021-11-22,Lundi,7, Spicy Box,Spicy Box,undefined,Electro/Rap/Techno
+191,191,M,2021-11-22 21:37:00,2021-11-22,Lundi,21, Urban Species,Listen,undefined,Electro/Rap/Techno
+192,192,M,2021-11-23 21:36:00,2021-11-23,Mardi,21, Pili Pili,Nomansland,undefined,Français
+193,193,M,2021-11-23 22:26:00,2021-11-23,Mardi,22,Jarable de Palo,La Flaca,undefined,World
+194,194,M,2021-11-24 15:49:00,2021-11-24,Mercredi,15,Sonny Rollins,Sonny meets Hawk,undefined,Jazz/Blues
+195,195,M,2021-11-24 20:46:00,2021-11-24,Mercredi,20,John Coltrane,Ballads,undefined,Jazz/Blues
+196,196,M,2021-11-26 17:16:00,2021-11-26,Vendredi,17, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+197,197,M,2021-11-26 18:56:00,2021-11-26,Vendredi,18,James Carter,Live,undefined,Jazz/Blues
+198,198,M,2021-11-26 19:01:00,2021-11-26,Vendredi,19,Robert Cray,Shame + A Sin,undefined,Jazz/Blues
+199,199,M,2021-11-27 00:20:00,2021-11-27,Samedi,0,Jean-Sébastien Bach,Goldberg Variations BW988 1981,undefined,Classique/Contemporain
+200,200,M,2021-11-27 13:37:00,2021-11-27,Samedi,13, Cali,Menteur,undefined,Français
+201,201,M,2021-11-27 16:34:00,2021-11-27,Samedi,16,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
+202,202,M,2021-11-28 11:18:00,2021-11-28,Dimanche,11,Miles Davis,Steckes of Spain,undefined,Jazz/Blues
+203,203,M,2021-11-28 14:20:00,2021-11-28,Dimanche,14,Patti Smith,Horses,undefined,Rock/Folk
+204,204,M,2021-11-28 17:58:00,2021-11-28,Dimanche,17,Tracy Chapman,Tracy Chapman,undefined,Rock/Folk
+205,205,M,2021-11-28 18:53:00,2021-11-28,Dimanche,18, Divers,Gipsy Jazz School,undefined,Jazz/Blues
+206,206,M,2021-11-29 13:14:00,2021-11-29,Lundi,13,Zakir Hussein,Zakir Hussein,undefined,World
+207,207,M,2021-11-30 21:38:00,2021-11-30,Mardi,21,Lorena Mc Kenitt,Lorena Mc Kenitt,undefined,World
+208,0,Deez,2021-11-28 15:34:58,2021-11-28,Dimanche,15,Serge Gainsbourg,Comme un boomerang,L'ami Caouette,undefined
+209,1,Deez,2021-11-28 15:35:50,2021-11-28,Dimanche,15,Les Innocents,Fous à lier,L'autre Finistère,undefined
+210,2,Deez,2021-12-04 09:19:43,2021-12-04,Samedi,9,Adele,Easy On Me,Easy On Me,undefined
+211,3,Deez,2021-12-04 09:26:02,2021-12-04,Samedi,9,Leto,100 visages,Macaroni (feat. Ninho),undefined
+212,4,Deez,2021-12-04 09:26:43,2021-12-04,Samedi,9,Amel Bent,Sorøre,Ne retiens pas tes larmes,undefined
+213,5,Deez,2021-12-04 09:28:56,2021-12-04,Samedi,9,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+214,6,Deez,2021-12-04 09:29:59,2021-12-04,Samedi,9,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+215,7,Deez,2021-12-04 09:33:20,2021-12-04,Samedi,9,Fréro Delavega,Fréro Delavega,Sweet Darling,undefined
+216,8,Deez,2021-12-04 09:36:40,2021-12-04,Samedi,9,Pierre Lapointe,Sentiments humains,Au bar des suicidés,undefined
+217,9,Deez,2021-12-04 10:32:08,2021-12-04,Samedi,10,Clara Luciani,Cœur,Le reste,undefined
+218,10,Deez,2021-12-04 10:35:46,2021-12-04,Samedi,10,Christophe Maé,Y'a du soleil,Y'a du soleil,undefined
+219,11,Deez,2021-12-04 10:39:00,2021-12-04,Samedi,10,Amel Bent,Sorøre,Ne retiens pas tes larmes,undefined
+220,12,Deez,2021-12-04 10:42:03,2021-12-04,Samedi,10,Thierry Hazard,Le jerk,Le jerk,undefined
+221,13,Deez,2021-12-04 10:45:58,2021-12-04,Samedi,10,Clara Luciani,Cœur,Amour toujours,undefined
+222,14,Deez,2021-12-04 10:49:25,2021-12-04,Samedi,10,Clara Luciani,Cœur,Respire encore,undefined
+223,15,Deez,2021-12-04 10:53:12,2021-12-04,Samedi,10,Claudio Capéo,Tant que rien ne m'arrête (Version deluxe),C'est une chanson,undefined
+224,16,Deez,2021-12-04 10:56:08,2021-12-04,Samedi,10,Claudio Capéo,Claudio Capéo (Version deluxe),Enfants sauvages,undefined
+225,17,Deez,2021-12-04 10:57:48,2021-12-04,Samedi,10,Clara Luciani,Cœur,Le reste,undefined
+226,18,Deez,2021-12-04 10:59:10,2021-12-04,Samedi,10,Amel Bent,Sorøre,Marine,undefined
+227,19,Deez,2021-12-04 16:17:23,2021-12-04,Samedi,16,Joseph Shabason,"Anne, EP",Broken Hearted Kota,undefined
+228,20,Deez,2021-12-04 16:18:26,2021-12-04,Samedi,16,Amel Bent,Sorøre,Marine,undefined
+229,21,Deez,2021-12-04 16:22:09,2021-12-04,Samedi,16,Louane,Toutes les femmes de ta vie - Souvenirs d'enfance,Toutes les femmes de ta vie - Souvenirs d'enfance,undefined
+230,22,Deez,2021-12-04 16:24:45,2021-12-04,Samedi,16,Lorie,Je Serai (Ta Meilleure Amie),Je serai (ta meilleure amie),undefined
+231,23,Deez,2021-12-04 16:28:32,2021-12-04,Samedi,16,Ornella Tempesta,Ta meilleure amie,Ta meilleure amie,undefined
+232,24,Deez,2021-12-04 16:29:09,2021-12-04,Samedi,16,Kids United Nouvelle Génération,L'hymne de la vie,Ta meilleure amie,undefined
+233,25,Deez,2021-12-04 16:32:18,2021-12-04,Samedi,16,Louane,Jour 1 (Gostan Remix),Jour 1 (Gostan Remix),undefined
+234,26,Deez,2021-12-04 16:35:51,2021-12-04,Samedi,16,Kids United Nouvelle Génération,L'hymne de la vie,Ta meilleure amie,undefined
+235,27,Deez,2021-12-04 16:36:24,2021-12-04,Samedi,16,Ornella Tempesta,Ta meilleure amie,Ta meilleure amie,undefined
+236,28,Deez,2021-12-04 16:45:02,2021-12-04,Samedi,16,Ornella Tempesta,Ta meilleure amie,Dans ma tête,undefined
+237,29,Deez,2021-12-04 16:45:58,2021-12-04,Samedi,16,Ornella Tempesta,Cache cache,Cache cache,undefined
+238,30,Deez,2021-12-04 16:54:48,2021-12-04,Samedi,16,Johnny Hallyday,Ce que je sais,Allumer le feu,undefined
+239,31,Deez,2021-12-04 16:58:28,2021-12-04,Samedi,16,Bruno Mars,Doo-Wops & Hooligans,Marry You,undefined
+240,32,Deez,2021-12-04 17:02:18,2021-12-04,Samedi,17,MIKA,Life In Cartoon Motion (UK eDeluxe Album),"Relax, Take It Easy",undefined
+241,33,Deez,2021-12-04 17:06:20,2021-12-04,Samedi,17,Sylvester,Step II,You Make Me Feel (Mighty Real),undefined
+242,34,Deez,2021-12-04 17:12:56,2021-12-04,Samedi,17,George Michael,Ladies & Gentlemen,Freedom! '90 (Remastered),undefined
+243,35,Deez,2021-12-04 17:19:25,2021-12-04,Samedi,17,Nea,Some Say (Felix Jaehn Remix),Some Say (Felix Jaehn Remix),undefined
+244,36,Deez,2021-12-04 17:22:31,2021-12-04,Samedi,17,Céline Dion,On ne change pas,S'il suffisait d'aimer,undefined
+245,37,Deez,2021-12-04 17:26:28,2021-12-04,Samedi,17,Michel Sardou,Les Lacs Du Connemara,Les lacs du Connemara,undefined
+246,38,Deez,2021-12-09 11:38:52,2021-12-09,Jeudi,11,Ed Sheeran,Merry Christmas,Merry Christmas,undefined
+247,39,Deez,2021-12-09 11:42:22,2021-12-09,Jeudi,11,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+248,40,Deez,2021-12-09 11:46:24,2021-12-09,Jeudi,11,Ariana Grande,Santa Tell Me,Santa Tell Me,undefined
+249,41,Deez,2021-12-09 11:49:50,2021-12-09,Jeudi,11,Justin Bieber,Under The Mistletoe (Deluxe Edition),Mistletoe,undefined
+250,42,Deez,2021-12-09 11:52:54,2021-12-09,Jeudi,11,BTS,Butter (Holiday Remix),Butter (Holiday Remix),undefined
+251,43,Deez,2021-12-09 11:55:38,2021-12-09,Jeudi,11,Britney Spears,My Only Wish (This Year),My Only Wish (This Year),undefined
+252,44,Deez,2021-12-09 11:59:29,2021-12-09,Jeudi,11,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+253,45,Deez,2021-12-09 12:03:32,2021-12-09,Jeudi,12,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
+254,46,Deez,2021-12-09 12:05:31,2021-12-09,Jeudi,12,Michael Bublé,Christmas (Deluxe Special Edition),It's Beginning to Look a Lot like Christmas,undefined
+255,47,Deez,2021-12-09 12:45:17,2021-12-09,Jeudi,12,Marie-Louise Valentin,Pour ce temps partagé,"La croix, l'étoile et le croissant",undefined
+256,48,Deez,2021-12-09 12:45:51,2021-12-09,Jeudi,12,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+257,49,Deez,2021-12-09 12:49:37,2021-12-09,Jeudi,12,Davine,Je Vole,"La Croix, L' étoile Et Le Croissant",undefined
+258,50,Deez,2021-12-09 12:50:27,2021-12-09,Jeudi,12,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+259,51,Deez,2021-12-09 19:53:30,2021-12-09,Jeudi,19,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+260,52,Deez,2021-12-09 19:57:33,2021-12-09,Jeudi,19,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+261,53,Deez,2021-12-09 20:01:38,2021-12-09,Jeudi,20,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+262,54,Deez,2021-12-11 10:40:28,2021-12-11,Samedi,10,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+263,55,Deez,2021-12-11 10:46:23,2021-12-11,Samedi,10,Bruno Mars,Doo-Wops & Hooligans,Marry You,undefined
+264,56,Deez,2021-12-11 10:50:16,2021-12-11,Samedi,10,Pierre Lapointe,Chansons hivernales,Chaque année on y revient,undefined
+265,57,Deez,2021-12-11 10:53:21,2021-12-11,Samedi,10,Pierre Lapointe,Chansons hivernales,C'est qu'on sait déjà,undefined
+266,58,Deez,2021-12-11 10:55:43,2021-12-11,Samedi,10,Pierre Lapointe,Chansons hivernales,Le premier Noël de Jules,undefined
+267,59,Deez,2021-12-11 11:00:00,2021-12-11,Samedi,11,Pierre Lapointe,Chansons hivernales,Chez Clara,undefined
+268,60,Deez,2021-12-11 11:01:37,2021-12-11,Samedi,11,Pierre Lapointe,Chansons hivernales,"Maman, Papa",undefined
+269,61,Deez,2021-12-11 11:05:20,2021-12-11,Samedi,11,Les Innocents,Fous à lier,L'autre Finistère,undefined
+270,62,Deez,2021-12-11 11:10:06,2021-12-11,Samedi,11,The Beatles,1 (Remastered),Hey Jude (Remastered 2015),undefined
+271,63,Deez,2021-12-11 11:16:49,2021-12-11,Samedi,11,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+272,64,Deez,2021-12-11 11:20:43,2021-12-11,Samedi,11,Pierre Lapointe,Les vertiges d'en haut - EP,Les perles de nos yeux,undefined
+273,65,Deez,2021-12-11 11:23:33,2021-12-11,Samedi,11,Pierre Lapointe,Pierre Lapointe Seul Au Piano,Deux par deux rassemblés,undefined
+274,66,Deez,2021-12-11 11:27:34,2021-12-11,Samedi,11,Clara Luciani,Sainte-Victoire (Super-édition),La grenade,undefined
+275,67,Deez,2021-12-11 11:30:51,2021-12-11,Samedi,11,Coldplay,Parachutes,Trouble,undefined
+276,68,Deez,2021-12-11 11:35:27,2021-12-11,Samedi,11,Angèle,Brol,Balance ton quoi,undefined
+277,69,Deez,2021-12-11 11:38:39,2021-12-11,Samedi,11,Fréro Delavega,Soirée en famille,Sweet Darling,undefined
+278,70,Deez,2021-12-11 11:40:39,2021-12-11,Samedi,11,Ben L'oncle Soul,Ben L'Oncle Soul,Soulman,undefined
+279,71,Deez,2021-12-11 11:44:38,2021-12-11,Samedi,11,Clara Luciani,Cœur,Respire encore,undefined
+280,72,Deez,2021-12-11 11:48:27,2021-12-11,Samedi,11,Clara Luciani,Cœur,Amour toujours,undefined
+281,73,Deez,2021-12-11 11:51:56,2021-12-11,Samedi,11,Thierry Hazard,Le jerk,Le jerk,undefined
+282,74,Deez,2021-12-11 13:49:58,2021-12-11,Samedi,13,Alicia Keys,KEYS,Plentiful (Originals) (feat. Pusha T),undefined
+283,75,Deez,2021-12-11 13:53:07,2021-12-11,Samedi,13,Alicia Keys,KEYS,Skydive (Originals),undefined
+284,76,Deez,2021-12-11 13:56:12,2021-12-11,Samedi,13,Alicia Keys,KEYS,Best Of Me (Originals),undefined
+285,77,Deez,2021-12-11 14:00:12,2021-12-11,Samedi,14,Alicia Keys,KEYS,Dead End Road (Originals),undefined
+286,78,Deez,2021-12-11 14:03:46,2021-12-11,Samedi,14,Alicia Keys,KEYS,Is It Insane (Originals),undefined
+287,79,Deez,2021-12-11 14:10:09,2021-12-11,Samedi,14,Alicia Keys,KEYS,Billions (Originals),undefined
+288,80,Deez,2021-12-11 14:13:30,2021-12-11,Samedi,14,Alicia Keys,KEYS,Love When You Call My Name (Originals),undefined
+289,81,Deez,2021-12-11 14:17:09,2021-12-11,Samedi,14,Alicia Keys,KEYS,Only You (Originals),undefined
+290,82,Deez,2021-12-11 14:20:28,2021-12-11,Samedi,14,Alicia Keys,KEYS,Daffodils (Originals),undefined
+291,83,Deez,2021-12-11 14:25:02,2021-12-11,Samedi,14,Alicia Keys,KEYS,Old Memories (Originals),undefined
+292,84,Deez,2021-12-11 14:28:03,2021-12-11,Samedi,14,Alicia Keys,KEYS,Nat King Cole (Originals),undefined
+293,85,Deez,2021-12-11 14:31:45,2021-12-11,Samedi,14,Alicia Keys,KEYS,Paper Flowers (Originals) (feat. Brandi Carlile),undefined
+294,86,Deez,2021-12-11 14:35:10,2021-12-11,Samedi,14,Alicia Keys,KEYS,Like Water (Originals),undefined
+295,87,Deez,2021-12-11 14:39:09,2021-12-11,Samedi,14,Alicia Keys,KEYS,KEYS,undefined
+296,88,Deez,2021-12-11 14:40:36,2021-12-11,Samedi,14,Alicia Keys,KEYS,Only You (Unlocked),undefined
+297,89,Deez,2021-12-11 14:43:49,2021-12-11,Samedi,14,Alicia Keys,KEYS,Skydive (Unlocked),undefined
+298,90,Deez,2021-12-11 14:46:54,2021-12-11,Samedi,14,Alicia Keys,KEYS,Best Of Me (Unlocked),undefined
+299,91,Deez,2021-12-11 14:50:39,2021-12-11,Samedi,14,Alicia Keys,KEYS,LALA (Unlocked) (feat. Swae Lee),undefined
+300,92,Deez,2021-12-11 14:55:12,2021-12-11,Samedi,14,Alicia Keys,KEYS,Nat King Cole (Unlocked) (feat. Lil Wayne),undefined
+301,93,Deez,2021-12-11 14:59:19,2021-12-11,Samedi,14,Alicia Keys,KEYS,Is It Insane (Unlocked),undefined
+302,94,Deez,2021-12-11 15:03:48,2021-12-11,Samedi,15,Alicia Keys,KEYS,Come For Me (Unlocked) (feat. Khalid & Lucky Daye),undefined
+303,95,Deez,2021-12-11 15:07:19,2021-12-11,Samedi,15,Alicia Keys,KEYS,Old Memories (Unlocked),undefined
+304,96,Deez,2021-12-11 15:11:14,2021-12-11,Samedi,15,Alicia Keys,KEYS,Dead End Road (Unlocked),undefined
+305,97,Deez,2021-12-11 15:14:48,2021-12-11,Samedi,15,Alicia Keys,KEYS,Love When You Call My Name (Unlocked),undefined
+306,98,Deez,2021-12-11 15:18:05,2021-12-11,Samedi,15,Alicia Keys,KEYS,Daffodils (Unlocked),undefined
+307,99,Deez,2021-12-11 15:21:11,2021-12-11,Samedi,15,Alicia Keys,KEYS,Billions (Unlocked),undefined
+308,100,Deez,2021-12-12 11:56:39,2021-12-12,Dimanche,11,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+309,101,Deez,2021-12-12 12:00:30,2021-12-12,Dimanche,12,Lorie,Je Serai (Ta Meilleure Amie),Je serai (ta meilleure amie),undefined
+310,102,Deez,2021-12-12 12:00:31,2021-12-12,Dimanche,12,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+311,103,Deez,2021-12-12 12:01:18,2021-12-12,Dimanche,12,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+312,104,Deez,2021-12-12 12:01:19,2021-12-12,Dimanche,12,Lorie,Je Serai (Ta Meilleure Amie),Je serai (ta meilleure amie),undefined
+313,105,Deez,2021-12-12 12:05:10,2021-12-12,Dimanche,12,Pierre Lapointe,Les vertiges d'en haut - EP,Les vertiges d'en haut,undefined
+314,106,Deez,2021-12-12 12:05:11,2021-12-12,Dimanche,12,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+315,107,Deez,2021-12-12 12:07:33,2021-12-12,Dimanche,12,Pierre Lapointe,Pierre Lapointe En Concert Dans La Forêt Des Mal-Aimés Avec L'orchestre Métropolitain Du Grand Montréal Dirigé Par Yannick Nézet-S,Tic Tac,undefined
+316,108,Deez,2021-12-12 12:07:34,2021-12-12,Dimanche,12,Pierre Lapointe,Les vertiges d'en haut - EP,Les vertiges d'en haut,undefined
+317,109,Deez,2021-12-12 12:10:09,2021-12-12,Dimanche,12,Pierre Lapointe,Paris Tristesse,C'est extra,undefined
+318,110,Deez,2021-12-12 12:10:10,2021-12-12,Dimanche,12,Pierre Lapointe,Pierre Lapointe En Concert Dans La Forêt Des Mal-Aimés Avec L'orchestre Métropolitain Du Grand Montréal Dirigé Par Yannick Nézet-S,Tic Tac,undefined
+319,111,Deez,2021-12-12 12:14:00,2021-12-12,Dimanche,12,Pierre Lapointe,Pierre Lapointe En Concert Dans La Forêt Des Mal-Aimés Avec L'orchestre Métropolitain Du Grand Montréal Dirigé Par Yannick Nézet-S,Tel Un Seul Homme,undefined
+320,112,Deez,2021-12-12 12:14:01,2021-12-12,Dimanche,12,Pierre Lapointe,Paris Tristesse,C'est extra,undefined
+321,113,Deez,2021-12-12 12:17:50,2021-12-12,Dimanche,12,Pierre Lapointe,Sentiments humains,Au bar des suicidés,undefined
+322,114,Deez,2021-12-12 12:17:51,2021-12-12,Dimanche,12,Pierre Lapointe,Pierre Lapointe En Concert Dans La Forêt Des Mal-Aimés Avec L'orchestre Métropolitain Du Grand Montréal Dirigé Par Yannick Nézet-S,Tel Un Seul Homme,undefined
+323,115,Deez,2021-12-12 12:21:13,2021-12-12,Dimanche,12,Pierre Lapointe,La forêt des mal-aimés,Au pays des fleurs de la transe,undefined
+324,116,Deez,2021-12-12 12:21:14,2021-12-12,Dimanche,12,Pierre Lapointe,Sentiments humains,Au bar des suicidés,undefined
+325,117,Deez,2021-12-12 12:26:54,2021-12-12,Dimanche,12,Pierre Lapointe,La forêt des mal-aimés,Au pays des fleurs de la transe,undefined
+326,118,Deez,2021-12-12 12:29:59,2021-12-12,Dimanche,12,Pierre Lapointe,2x2,Le Maquis,undefined
+327,119,Deez,2021-12-12 12:30:14,2021-12-12,Dimanche,12,Pierre Lapointe,2x2,Le Maquis,undefined
+328,120,Deez,2021-12-12 12:33:26,2021-12-12,Dimanche,12,Pierre Lapointe,Paris Tristesse,Quelques gouttes de sang,undefined
+329,121,Deez,2021-12-12 12:33:27,2021-12-12,Dimanche,12,Pierre Lapointe,2x2,Le Maquis,undefined
+330,122,Deez,2021-12-12 13:02:57,2021-12-12,Dimanche,13,Pierre Lapointe,Paris Tristesse,Quelques gouttes de sang,undefined
+331,123,Deez,2021-12-12 13:05:54,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+332,124,Deez,2021-12-12 13:09:42,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+333,125,Deez,2021-12-12 13:09:45,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+334,126,Deez,2021-12-12 13:13:47,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+335,127,Deez,2021-12-12 13:13:48,2021-12-12,Dimanche,13,Gene Autry,Rudolph The Red Nosed Reindeer And Other Christmas Classics,Rudolph the Red-Nosed Reindeer,undefined
+336,128,Deez,2021-12-12 13:16:56,2021-12-12,Dimanche,13,Gene Autry,Rudolph The Red Nosed Reindeer And Other Christmas Classics,Rudolph the Red-Nosed Reindeer,undefined
+337,129,Deez,2021-12-12 13:19:58,2021-12-12,Dimanche,13,The Ronettes,A Christmas Gift For You From Phil Spector,Sleigh Ride,undefined
+338,130,Deez,2021-12-12 13:19:59,2021-12-12,Dimanche,13,The Temptations,The Temptations' Christmas Card,Silent Night,undefined
+339,131,Deez,2021-12-12 13:22:25,2021-12-12,Dimanche,13,The Temptations,The Temptations' Christmas Card,Silent Night,undefined
+340,132,Deez,2021-12-12 13:25:54,2021-12-12,Dimanche,13,Robbie Williams,The Christmas Present (Deluxe),Santa Baby (feat. Helene Fischer),undefined
+341,133,Deez,2021-12-12 13:28:08,2021-12-12,Dimanche,13,Bobby Helms,Frosty the Snowman,Jingle Bell Rock,undefined
+342,134,Deez,2021-12-12 13:28:09,2021-12-12,Dimanche,13,Coldplay,Christmas Lights,Christmas Lights,undefined
+343,135,Deez,2021-12-12 13:32:12,2021-12-12,Dimanche,13,Coldplay,Christmas Lights,Christmas Lights,undefined
+344,136,Deez,2021-12-12 13:32:13,2021-12-12,Dimanche,13,Pink Martini,Joy to the World,Santa Baby,undefined
+345,137,Deez,2021-12-12 13:34:53,2021-12-12,Dimanche,13,Pink Martini,Joy to the World,Santa Baby,undefined
+346,138,Deez,2021-12-12 13:34:54,2021-12-12,Dimanche,13,Elvis Presley,Elvis' Christmas Album,Here Comes Santa Claus,undefined
+347,139,Deez,2021-12-12 13:36:51,2021-12-12,Dimanche,13,Elvis Presley,Elvis' Christmas Album,Here Comes Santa Claus,undefined
+348,140,Deez,2021-12-12 13:38:06,2021-12-12,Dimanche,13,Frank Sinatra,It's Christmas,Winter Wonderland,undefined
+349,141,Deez,2021-12-12 13:38:07,2021-12-12,Dimanche,13,Taylor Swift,Christmas Tree Farm,Christmas Tree Farm,undefined
+350,142,Deez,2021-12-12 13:41:56,2021-12-12,Dimanche,13,Taylor Swift,Christmas Tree Farm,Christmas Tree Farm,undefined
+351,143,Deez,2021-12-12 13:41:57,2021-12-12,Dimanche,13,The Drifters,"Merry Christmas with Bing Crosby, Elvis Presley, Frank Sinatra and Doris Day",White Christmas,undefined
+352,144,Deez,2021-12-12 13:44:37,2021-12-12,Dimanche,13,The Drifters,"Merry Christmas with Bing Crosby, Elvis Presley, Frank Sinatra and Doris Day",White Christmas,undefined
+353,145,Deez,2021-12-12 13:44:38,2021-12-12,Dimanche,13,Michael Bublé,Christmas (Deluxe Special Edition),Have Yourself a Merry Little Christmas,undefined
+354,146,Deez,2021-12-12 13:48:29,2021-12-12,Dimanche,13,Michael Bublé,Christmas (Deluxe Special Edition),Have Yourself a Merry Little Christmas,undefined
+355,147,Deez,2021-12-12 13:48:30,2021-12-12,Dimanche,13,M,Noël ! Noël !! Noël !!!,Douce nuit,undefined
+356,148,Deez,2021-12-12 13:52:13,2021-12-12,Dimanche,13,M,Noël ! Noël !! Noël !!!,Douce nuit,undefined
+357,149,Deez,2021-12-12 13:52:14,2021-12-12,Dimanche,13,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+358,150,Deez,2021-12-12 13:54:19,2021-12-12,Dimanche,13,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+359,151,Deez,2021-12-12 13:56:57,2021-12-12,Dimanche,13,Frank Sinatra,Christmas,White Christmas,undefined
+360,152,Deez,2021-12-12 14:00:40,2021-12-12,Dimanche,14,Beyoncé,I AM...SASHA FIERCE,Ave Maria,undefined
+361,153,Deez,2021-12-12 14:00:41,2021-12-12,Dimanche,14,Sia,Snowman,Snowman,undefined
+362,154,Deez,2021-12-12 14:03:28,2021-12-12,Dimanche,14,Sia,Snowman,Snowman,undefined
+363,155,Deez,2021-12-12 14:03:29,2021-12-12,Dimanche,14,Nat King Cole,The Christmas Song,The Christmas Song (Merry Christmas To You) (Remastered 1999),undefined
+364,156,Deez,2021-12-12 14:06:41,2021-12-12,Dimanche,14,Nat King Cole,The Christmas Song,The Christmas Song (Merry Christmas To You) (Remastered 1999),undefined
+365,157,Deez,2021-12-12 14:06:42,2021-12-12,Dimanche,14,Stevie Wonder,For Once In My Life,For Once In My Life,undefined
+366,158,Deez,2021-12-12 14:09:34,2021-12-12,Dimanche,14,Stevie Wonder,For Once In My Life,For Once In My Life,undefined
+367,159,Deez,2021-12-12 14:09:35,2021-12-12,Dimanche,14,Dalida,Vive Le Vent,Vive le vent,undefined
+368,160,Deez,2021-12-12 14:12:12,2021-12-12,Dimanche,14,Dalida,Vive Le Vent,Vive le vent,undefined
+369,161,Deez,2021-12-12 14:12:13,2021-12-12,Dimanche,14,Josh Groban,Have Yourself a Merry Little Christmas,Have Yourself a Merry Little Christmas,undefined
+370,162,Deez,2021-12-12 14:16:19,2021-12-12,Dimanche,14,Mariah Carey,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),Oh Santa! (feat. Ariana Grande & Jennifer Hudson),undefined
+371,163,Deez,2021-12-12 14:19:42,2021-12-12,Dimanche,14,Michael Bublé,Christmas (Deluxe Special Edition),Holly Jolly Christmas,undefined
+372,164,Deez,2021-12-12 14:21:43,2021-12-12,Dimanche,14,Dean Martin,The Dean Martin Christmas Album,Silver Bells,undefined
+373,165,Deez,2021-12-12 14:24:08,2021-12-12,Dimanche,14,Céline Dion,These are Special Times,Christmas Eve,undefined
+374,166,Deez,2021-12-12 14:28:26,2021-12-12,Dimanche,14,The Beach Boys,Christmas With The Beach Boys,Little Saint Nick (1991 Remix),undefined
+375,167,Deez,2021-12-12 14:30:30,2021-12-12,Dimanche,14,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
+376,168,Deez,2021-12-12 14:32:29,2021-12-12,Dimanche,14,Jackson 5,Christmas Album,Someday At Christmas,undefined
+377,169,Deez,2021-12-12 14:35:14,2021-12-12,Dimanche,14,Redbone,Come and Get Your Love (Single Edit),Come and Get Your Love (Single Version),undefined
+378,170,Deez,2021-12-12 14:38:42,2021-12-12,Dimanche,14,Louane,Louane (Deluxe),Santa Claus Is Coming To Town,undefined
+379,171,Deez,2021-12-12 14:41:28,2021-12-12,Dimanche,14,Ariana Grande,Santa Tell Me,Santa Tell Me,undefined
+380,172,Deez,2021-12-12 14:44:54,2021-12-12,Dimanche,14,John Lennon,Signature Box,Happy Xmas (War Is Over) (Remastered 2010),undefined
+381,173,Deez,2021-12-12 14:48:30,2021-12-12,Dimanche,14,Otis Redding,The King of Soul,White Christmas,undefined
+382,174,Deez,2021-12-12 14:51:34,2021-12-12,Dimanche,14,Sia,Santa's Coming for Us,Santa's Coming for Us,undefined
+383,175,Deez,2021-12-12 14:55:03,2021-12-12,Dimanche,14,Stevie Wonder,The Complete Stevie Wonder,What Christmas Means To Me,undefined
+384,176,Deez,2021-12-12 14:57:32,2021-12-12,Dimanche,14,Diana Krall,Christmas Songs,Jingle Bells,undefined
+385,177,Deez,2021-12-12 15:00:59,2021-12-12,Dimanche,15,Justin Bieber,Under The Mistletoe (Deluxe Edition),Mistletoe,undefined
+386,178,Deez,2021-12-12 16:07:50,2021-12-12,Dimanche,16,Stromae,Santé,Santé,undefined
+387,179,Deez,2021-12-12 16:11:02,2021-12-12,Dimanche,16,Stromae,Santé,Santé,undefined
+388,180,Deez,2021-12-13 16:45:32,2021-12-13,Lundi,16,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+389,181,Deez,2021-12-13 16:49:34,2021-12-13,Lundi,16,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
