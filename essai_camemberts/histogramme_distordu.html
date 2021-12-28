@@ -3,6 +3,11 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <title>Distorsion</title>
+<style>
+text{
+    font-size: 10px;
+}
+</style>
 </head>
 <body>
 <h1 id="titre">Distorsion</h1>
@@ -98,17 +103,32 @@ data = data.map((d,i) => ({
     // Ajout de l'axe X au SVG
     // Déplacement de l'axe horizontal et du futur texte (via la fonction translate) au bas du SVG
     // Selection des noeuds text, positionnement puis rotation
-    groupe.append("g")
+    /*axeHorizontal = groupe.append("g")
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(Ech_x).tickSize(0))
         .selectAll("text")	
             .style("text-anchor", "end")
             .attr("dx", "-.8em")
             .attr("dy", ".15em")
-            .attr("transform", "rotate(-65)");
+            .attr("transform", "rotate(-65)");*/
+
+    axeHorizontal = groupe.append("g").attr("transform", "translate(0," + height + ")")
+    axeHorizontal.selectAll("g")
+                 .data(data)
+                 .enter()
+                 .append("g")
+                 .attr("class", "legende")
+                 .attr("transform", d => "translate(" + Ech_x(d.pays) + ",15)")
+                 .append("text")
+                 .style("text-anchor", "end")
+                 .attr("dx", Ech_x.bandwidth())
+                 .attr("dy", 10)
+                 .text(d => d.pays)
+                 .attr("transform", "rotate(-65)")
+                 
     
     // Ajout de l'axe Y au SVG avec 6 éléments de légende en utilisant la fonction ticks (sinon D3JS en place autant qu'il peut).
-    groupe.append("g")
+    axeVertical = groupe.append("g")
         .call(d3.axisLeft(Ech_y).ticks(6));
 
     // Ajout des bars en utilisant les données de notre fichier data.tsv
@@ -125,6 +145,7 @@ data = data.map((d,i) => ({
         .attr("height", d => height - Ech_y(d.population));
 
     let barres = groupe.selectAll("rect.bar");
+    let legendes = axeHorizontal.selectAll(".legende");
     
     svg.on("mousemove", function(event, d){
 		let truc = d3.pointer(event);
@@ -133,12 +154,17 @@ data = data.map((d,i) => ({
 		let y = height - truc[1];
 		let r = 50 * (y/height);
 		if (r<0)
+		{
 			barres.attr("x", d => Ech_x(d.pays))
 			      .attr("width", Ech_x.bandwidth());
+            legendes.attr("transform", d => "translate(" + Ech_x(d.pays) + ",15)");
+		}
 		else
+        {
 			barres.attr("x", d => distorsion(Ech_x(d.pays), c, r, 5))
 			      .attr("width", d => Ech_x.bandwidth() * deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5));
-		
+            legendes.attr("transform", d => "translate(" + distorsion(Ech_x(d.pays), c, r, 5) + ",15)");
+        }		
 		
 	});				
 
