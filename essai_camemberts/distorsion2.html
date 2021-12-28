@@ -8,10 +8,17 @@ text{
     font-size: 10px;
 }
 circle{
-    fill: green;
+    fill: none;
+    stroke: black;
+    stroke-width: 5px;
 }
 rect.cache{
     fill: white;
+}
+path.clacos{
+    //fill: blue;
+    stroke: black;
+    stroke-width: 2px;
 }
 </style>
 </head>
@@ -67,6 +74,24 @@ let deriv_distorsion = function(x, c, r, p){
 	}
 };
 
+let echelle_distorsion = function(x, e, c, r){
+	let x1 = x-c;
+    let t;
+    if(x1 < 0)
+        x1 = -x1;
+
+    if(x1 <= 0.1*r)
+        return 1;
+	else
+        x1 -= 0.1*r;
+    if(x1 >= r)
+		return e;
+	else
+		t = 1 - x1/r;
+	
+    return (1-t) * e + t;
+};
+
 
 const margin = {top: 20, right: 20, bottom: 50, left: 30};
 const width = 800 - margin.left - margin.right;
@@ -120,14 +145,27 @@ data = data.map((d,i) => ({
         return "translate(" + positionCentre(d, c, r, p) + "," + y +")";
     };
 
-    let formeDisque = function(d, c=0, r=0, p=0){
-        let ry = /*0.5*/Ech_y(d.population);
+    let formeDisque0 = function(d, c=0, r=0, p=0){
+        let ry = Ech_y(d.population);
         let rx = Ech_x.bandwidth()/2;
         if (rx > ry)
             return 1;
         let R = rx/ry;
         if(r > 0)
             R *= deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, p);
+        if(R > 1)
+            R = 1;
+        return R;
+    };
+
+    let formeDisque = function(d, c=0, r=0, p=0){
+        let ry = Ech_y(d.population);
+        let rx = Ech_x.bandwidth()/2;
+        if (rx > ry)
+            return 1;
+        let R = rx/ry;
+        if(r > 0)
+            R = echelle_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), R, c, r);
         if(R > 1)
             R = 1;
         return R;
@@ -148,14 +186,51 @@ data = data.map((d,i) => ({
         .attr("y2", height)
         .attr("stroke", "black");
     
+    let clacos = d3.pie();
+
+    let couleurs = d3.scaleOrdinal()
+          .domain(d3.range(12))
+          .range(d3.schemeDark2);
+
+    let dessine_disque = function(dat){
+        //console.log(dat);
+        let dd = clacos(dat.repartition).map(d=> {d.pays = dat.pays; d.population = dat.population; return d});
+        //console.log(dd);
+        groupe.append("g")
+              .selectAll("path")
+              //.data(clacos(dat.repartition))
+              .data(dd)
+              .enter()
+              .append("path")
+              .attr("class", "clacos")
+              .attr('d', (d) => {
+                                    //console.log(d);
+                                    let pathdata = d3.arc().innerRadius(0).outerRadius(Ech_y(dat.population))(d);
+                                    //console.log(pathdata);
+                                    return pathdata;})
+              .attr("fill", d => couleurs(d.index))
+              .attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat));
+    };
+
+    /*let disques = groupe.selectAll("circle")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("cx", 0)
+        .attr("cy", height/2)
+        .attr("r", d => Ech_y(d.population))
+        .attr("transform", d => positionDisque(d) + " " + echelleDisque(d));
+     */
     let disques = groupe.selectAll("circle")
         .data(data)
         .enter()
         .append("circle")
         .attr("cx", 0)
         .attr("cy", height/2)
-        .attr("r", d => /*0.5*/Ech_y(d.population))
-        .attr("transform", d => positionDisque(d) + " " + echelleDisque(d));//scale(0.5, 1)");
+        .attr("r", d => Ech_y(d.population))
+        .attr("transform", d => positionDisque(d) + " " + echelleDisque(d))
+        .each(d => dessine_disque(d));
+    
 
     let cache = svg.append("rect")
           .attr("class", "cache")
@@ -164,9 +239,7 @@ data = data.map((d,i) => ({
           .attr("y", 0)
           .attr("height", height+ margin.top + margin.bottom);
 
-    /*axeVertical = groupe.append("g")
-    //.call(d3.axisLeft(Ech_y).ticks(6));
-    .call(d3.axisLeft(Ech_y));*/
+
 
     axeVertical = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
@@ -188,6 +261,7 @@ data = data.map((d,i) => ({
 
 
     let legendes = axeHorizontal.selectAll(".legende");
+    let secteurs = groupe.selectAll("path.clacos");
     
     svg.on("mousemove", function(event, d){
 		let truc = d3.pointer(event);
@@ -202,7 +276,8 @@ data = data.map((d,i) => ({
 		lignes.attr("x1", d => positionCentre(d, c, r, 5))
               .attr("x2", d => positionCentre(d, c, r, 5));
         legendes.attr("transform", d => positionDisque(d, 15, c, r, 5));
-        disques.attr("transform", d => positionDisque(d, 0, c, r, 5) + " " + echelleDisque(d, c, r, 5));//scale(0.5, 1)");
+        disques.attr("transform", d => positionDisque(d, 0, c, r, 5) + " " + echelleDisque(d, c, r, 5));
+        secteurs.attr("transform", d => positionDisque(d, height/2, c, r, 5) + " " + echelleDisque(d, c, r, 5));
 	});		
 
 //});
