@@ -7,6 +7,12 @@
 text{
     font-size: 10px;
 }
+circle{
+    fill: green;
+}
+rect.cache{
+    fill: white;
+}
 </style>
 </head>
 <body id="corpus">
@@ -42,8 +48,27 @@ let distorsion = function(x, c, r, p){
 	}
 };
 
+let deriv_distorsion = function(x, c, r, p){
+	let x1 = x-c;
+	if(x1 >=0)
+	{
+		if(x1>= r)
+			return 1;
+		else
+			return ((1-p)/r)*x1 + p;
+	}
+	else
+	{
+		//return x;
+		if(x1 <= -r)
+			return 1;
+		else
+			return ((p-1)/r)*x1 + p;
+	}
+};
 
-const margin = {top: 20, right: 20, bottom: 90, left: 120};
+
+const margin = {top: 20, right: 20, bottom: 50, left: 30};
 const width = 800 - margin.left - margin.right;
 const height = 400 - margin.top - margin.bottom;
 
@@ -52,13 +77,14 @@ const Ech_x = d3.scaleBand()
     .padding(0.1);
 
 const Ech_y = d3.scaleLinear()
-    .range([height, 0]);
+    .range([-height/2, +height/2]);
 
 let svg = d3.select("#corpus")
 	.append("svg")
 	.attr("id", "svg")
 	.attr("width", width + margin.left + margin.right)
 	.attr("height", height + margin.top + margin.bottom);
+
 let groupe = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -80,30 +106,36 @@ data = data.map((d,i) => ({
     // Pour l'axe X, c'est la liste des pays
     // Pour l'axe Y, c'est le max des populations
     Ech_x.domain(data.map(d => d.pays));
-    Ech_y.domain([0, d3.max(data, d => d.population)]);
-    
+    let maxY = d3.max(data, d => d.population);
+    Ech_y.domain([-maxY, maxY]);
 
+    let positionCentre = function(d, c=0, r=0, p=0){
+        let x = Ech_x.bandwidth()/2 + Ech_x(d.pays);
+        if(r > 0)
+            x = distorsion(x, c, r, p);
+        return x;
+    };    
 
-    axeHorizontal = groupe.append("g").attr("transform", "translate(0," + height + ")")
-    axeHorizontal.selectAll("g")
-                 .data(data)
-                 .enter()
-                 .append("g")
-                 .attr("class", "legende")
-                 .attr("transform", d => "translate(" + (Ech_x.bandwidth()/2 + Ech_x(d.pays)) + ",15)")
-                 .append("text")
-                 .style("text-anchor", "end")
-                 //.attr("dx", Ech_x.bandwidth())
-                 .attr("dy", 10)
-                 .text(d => d.pays)
-                 .attr("transform", "rotate(-65)")
-                 
-    
-    // Ajout de l'axe Y au SVG avec 6 éléments de légende en utilisant la fonction ticks (sinon D3JS en place autant qu'il peut).
-    axeVertical = groupe.append("g")
-        .call(d3.axisLeft(Ech_y).ticks(6));
-        //.call(d3.axisLeft(Ech_y));
+    let positionDisque = function(d, y=0, c=0, r=0, p=0){
+        return "translate(" + positionCentre(d, c, r, p) + "," + y +")";
+    };
 
+    let formeDisque = function(d, c=0, r=0, p=0){
+        let ry = /*0.5*/Ech_y(d.population);
+        let rx = Ech_x.bandwidth()/2;
+        if (rx > ry)
+            return 1;
+        let R = rx/ry;
+        if(r > 0)
+            R *= deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, p);
+        if(R > 1)
+            R = 1;
+        return R;
+    };
+
+    let echelleDisque = function(d, c=0, r=0, p=0){
+        return "scale(" + formeDisque(d, c, r, p) + ",1)";
+    }                 
     
     let lignes = groupe.selectAll(".ligne")
         .data(data)
@@ -120,17 +152,40 @@ data = data.map((d,i) => ({
         .data(data)
         .enter()
         .append("circle")
-        .attr("cx", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
+        .attr("cx", 0)
         .attr("cy", height/2)
-        .attr("r", d => 0.2*Ech_y(d.population));
-    /*groupe.selectAll(".bar")
-        .data(data)
-    .enter().append("rect")
-        .attr("class", "bar")
-        .attr("x", d => Ech_x(d.pays))
-        .attr("width", Ech_x.bandwidth())
-        .attr("y", d => Ech_y(d.population))
-        .attr("height", d => height - Ech_y(d.population));*/
+        .attr("r", d => /*0.5*/Ech_y(d.population))
+        .attr("transform", d => positionDisque(d) + " " + echelleDisque(d));//scale(0.5, 1)");
+
+    let cache = svg.append("rect")
+          .attr("class", "cache")
+          .attr("x", 0)
+          .attr("width", margin.left)
+          .attr("y", 0)
+          .attr("height", height+ margin.top + margin.bottom);
+
+    /*axeVertical = groupe.append("g")
+    //.call(d3.axisLeft(Ech_y).ticks(6));
+    .call(d3.axisLeft(Ech_y));*/
+
+    axeVertical = svg.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+        .call(d3.axisLeft(Ech_y));
+
+    axeHorizontal = groupe.append("g").attr("transform", "translate(0," + height + ")")
+    axeHorizontal.selectAll("g")
+                 .data(data)
+                 .enter()
+                 .append("g")
+                 .attr("class", "legende")
+                 .attr("transform", d => positionDisque(d, 15))
+                 .append("text")
+                 .style("text-anchor", "end")
+                 //.attr("dx", Ech_x.bandwidth())
+                 .attr("dy", 10)
+                 .text(d => d.pays)
+                 .attr("transform", "rotate(-65)")
+
 
     let legendes = axeHorizontal.selectAll(".legende");
     
@@ -144,21 +199,10 @@ data = data.map((d,i) => ({
         r = 50*r
         if(r>50)
             r = 100-r;
-		if (r<0)
-		{
-			lignes.attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
-                  .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.pays));
-            legendes.attr("transform", d => "translate(" + (Ech_x.bandwidth()/2 + Ech_x(d.pays)) + ",15)");
-            disques.attr("cx", d => Ech_x.bandwidth()/2 + Ech_x(d.pays));
-		}
-		else
-        {
-			lignes.attr("x1", d => distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5))
-                  .attr("x2", d => distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5));
-            legendes.attr("transform", d => "translate(" + distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5) + ",15)");
-            disques.attr("cx", d => distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5));
-        }		
-		
+		lignes.attr("x1", d => positionCentre(d, c, r, 5))
+              .attr("x2", d => positionCentre(d, c, r, 5));
+        legendes.attr("transform", d => positionDisque(d, 15, c, r, 5));
+        disques.attr("transform", d => positionDisque(d, 0, c, r, 5) + " " + echelleDisque(d, c, r, 5));//scale(0.5, 1)");
 	});		
 
 //});
