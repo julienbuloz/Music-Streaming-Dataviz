@@ -1,0 +1,13 @@
+P = aX2 + bX + c
+P(0) = 0 => c = 0
+P'(0) = p <=> b = p
+P'(1) = 1 <=> 2a + b = 1 <=> a = (1-p)/2
+
+P'(r) = 1 <=> 2ar + b = 1 <=> a = (1-p)/2r
+
+P = (1-p)X²/2 + pX  centre : 0. rayon : 1
+P = (1-p)X²/2r + pX  centre : 0. rayon : r
+P = ((1-p)/(2r))(X-c)² + pX -pc centre : c rayon: r
+
+
+largeur : (1-p)X/r + p  centre 0; rayon r

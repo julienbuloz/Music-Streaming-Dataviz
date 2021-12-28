@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="ocks-org do-not-copy"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<title>Distorsion</title>
+</head>
+<body>
+<h1 id="titre">Distorsion</h1>
+<script>
+let distorsion = function(x, c, r, p){
+// c: centre
+// r: rayon >0
+// p: rapport de magnification >0
+	let x1 = x-c;
+	if(x1 >=0)
+	{
+		if(x1>= r)
+		{
+			yr = r*(1+p)/2;
+			//return c + yr + x1 - r;		
+			return x + yr - r;
+		}
+		else
+			return (1-p)/(2*r)*x1**2 + p*x1 + c;
+	}
+	else
+	{
+		//return x;
+		if(x1 <= -r)
+		{
+			yr = -r*(1+p)/2;
+			//return c + yr + x1 + r;
+			return x + yr + r;
+		}
+		else
+			return (p-1)/(2*r)*x1**2 + p*x1 + c;
+	}
+};
+
+let deriv_distorsion = function(x, c, r, p){
+	let x1 = x-c;
+	if(x1 >=0)
+	{
+		if(x1>= r)
+			return 1;
+		else
+			return ((1-p)/r)*x1 + p;
+	}
+	else
+	{
+		//return x;
+		if(x1 <= -r)
+			return 1;
+		else
+			return ((p-1)/r)*x1 + p;
+	}
+};
+
+const margin = {top: 20, right: 20, bottom: 90, left: 120};
+const width = 800 - margin.left - margin.right;
+const height = 400 - margin.top - margin.bottom;
+
+const Ech_x = d3.scaleBand()
+    .range([0, width])
+    .padding(0.1);
+
+const Ech_y = d3.scaleLinear()
+    .range([height, 0]);
+
+let svg = d3.select("#titre")
+	.append("svg")
+	.attr("id", "svg")
+	.attr("width", width + margin.left + margin.right)
+	.attr("height", height + margin.top + margin.bottom);
+let groupe = svg.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+let nbBarres = d3.randomInt(30,40)();
+let data = d3.shuffle(d3.range(nbBarres));
+
+data = data.map((d,i) => ({
+   "population":d,
+   "pays":("ici "+i),
+   "repartition":Array.from({length:d3.randomInt(3,10)()}, d3.randomUniform(1,10))
+}))
+
+// On demande à D3JS de charger notre fichier
+//d3.tsv("https://www.datavis.fr/d3js/barchart/data.tsv").then(function(data) {
+    // Conversion des caractères en nombres
+    data.forEach(d => d.population = +d.population);
+
+    // Mise en relation du scale avec les données de notre fichier
+    // Pour l'axe X, c'est la liste des pays
+    // Pour l'axe Y, c'est le max des populations
+    Ech_x.domain(data.map(d => d.pays));
+    Ech_y.domain([0, d3.max(data, d => d.population)]);
+    
+    // Ajout de l'axe X au SVG
+    // Déplacement de l'axe horizontal et du futur texte (via la fonction translate) au bas du SVG
+    // Selection des noeuds text, positionnement puis rotation
+    groupe.append("g")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(Ech_x).tickSize(0))
+        .selectAll("text")	
+            .style("text-anchor", "end")
+            .attr("dx", "-.8em")
+            .attr("dy", ".15em")
+            .attr("transform", "rotate(-65)");
+    
+    // Ajout de l'axe Y au SVG avec 6 éléments de légende en utilisant la fonction ticks (sinon D3JS en place autant qu'il peut).
+    groupe.append("g")
+        .call(d3.axisLeft(Ech_y).ticks(6));
+
+    // Ajout des bars en utilisant les données de notre fichier data.tsv
+    // La largeur de la barre est déterminée par la fonction x
+    // La hauteur par la fonction y en tenant compte de la population
+    // La gestion des events de la souris pour le popup
+    groupe.selectAll(".bar")
+        .data(data)
+    .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", d => Ech_x(d.pays))
+        .attr("width", Ech_x.bandwidth())
+        .attr("y", d => Ech_y(d.population))
+        .attr("height", d => height - Ech_y(d.population));
+
+    let barres = groupe.selectAll("rect.bar");
+    
+    svg.on("mousemove", function(event, d){
+		let truc = d3.pointer(event);
+		let c = truc[0] - margin.left;
+		//console.log(c);
+		let y = height - truc[1];
+		let r = 50 * (y/height);
+		if (r<0)
+			barres.attr("x", d => Ech_x(d.pays))
+			      .attr("width", Ech_x.bandwidth());
+		else
+			barres.attr("x", d => distorsion(Ech_x(d.pays), c, r, 5))
+			      .attr("width", d => Ech_x.bandwidth() * deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5));
+		
+		
+	});				
+
+//});
+</script>
+</body>
+</html>
