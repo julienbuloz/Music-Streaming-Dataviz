@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="ocks-org do-not-copy"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<title>Distorsion</title>
+<style>
+text{
+    font-size: 10px;
+}
+</style>
+</head>
+<body id="corpus">
+<h1 id="titre">Distorsion</h1>
+<script>
+let distorsion = function(x, c, r, p){
+// c: centre
+// r: rayon >0
+// p: rapport de magnification >0
+	let x1 = x-c;
+	if(x1 >=0)
+	{
+		if(x1>= r)
+		{
+			yr = r*(1+p)/2;
+			//return c + yr + x1 - r;		
+			return x + yr - r;
+		}
+		else
+			return (1-p)/(2*r)*x1**2 + p*x1 + c;
+	}
+	else
+	{
+		//return x;
+		if(x1 <= -r)
+		{
+			yr = -r*(1+p)/2;
+			//return c + yr + x1 + r;
+			return x + yr + r;
+		}
+		else
+			return (p-1)/(2*r)*x1**2 + p*x1 + c;
+	}
+};
+
+
+const margin = {top: 20, right: 20, bottom: 90, left: 120};
+const width = 800 - margin.left - margin.right;
+const height = 400 - margin.top - margin.bottom;
+
+const Ech_x = d3.scaleBand()
+    .range([0, width])
+    .padding(0.1);
+
+const Ech_y = d3.scaleLinear()
+    .range([height, 0]);
+
+let svg = d3.select("#corpus")
+	.append("svg")
+	.attr("id", "svg")
+	.attr("width", width + margin.left + margin.right)
+	.attr("height", height + margin.top + margin.bottom);
+let groupe = svg.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+let nbBarres = d3.randomInt(30,40)();
+let data = d3.shuffle(d3.range(nbBarres));
+
+data = data.map((d,i) => ({
+   "population":d,
+   "pays":("ici "+i),
+   "repartition":Array.from({length:d3.randomInt(3,10)()}, d3.randomUniform(1,10))
+}))
+
+// On demande à D3JS de charger notre fichier
+//d3.tsv("https://www.datavis.fr/d3js/barchart/data.tsv").then(function(data) {
+    // Conversion des caractères en nombres
+    data.forEach(d => d.population = +d.population);
+
+    // Mise en relation du scale avec les données de notre fichier
+    // Pour l'axe X, c'est la liste des pays
+    // Pour l'axe Y, c'est le max des populations
+    Ech_x.domain(data.map(d => d.pays));
+    Ech_y.domain([0, d3.max(data, d => d.population)]);
+    
+
+
+    axeHorizontal = groupe.append("g").attr("transform", "translate(0," + height + ")")
+    axeHorizontal.selectAll("g")
+                 .data(data)
+                 .enter()
+                 .append("g")
+                 .attr("class", "legende")
+                 .attr("transform", d => "translate(" + (Ech_x.bandwidth()/2 + Ech_x(d.pays)) + ",15)")
+                 .append("text")
+                 .style("text-anchor", "end")
+                 //.attr("dx", Ech_x.bandwidth())
+                 .attr("dy", 10)
+                 .text(d => d.pays)
+                 .attr("transform", "rotate(-65)")
+                 
+    
+    // Ajout de l'axe Y au SVG avec 6 éléments de légende en utilisant la fonction ticks (sinon D3JS en place autant qu'il peut).
+    axeVertical = groupe.append("g")
+        .call(d3.axisLeft(Ech_y).ticks(6));
+        //.call(d3.axisLeft(Ech_y));
+
+    
+    let lignes = groupe.selectAll(".ligne")
+        .data(data)
+        .enter()
+        .append("line")
+        .attr("class", "ligne")
+        .attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
+        .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
+        .attr("y1", height/2)
+        .attr("y2", height)
+        .attr("stroke", "black");
+    
+    let disques = groupe.selectAll("circle")
+        .data(data)
+        .enter()
+        .append("circle")
+        .attr("cx", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
+        .attr("cy", height/2)
+        .attr("r", d => 0.2*Ech_y(d.population));
+    /*groupe.selectAll(".bar")
+        .data(data)
+    .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", d => Ech_x(d.pays))
+        .attr("width", Ech_x.bandwidth())
+        .attr("y", d => Ech_y(d.population))
+        .attr("height", d => height - Ech_y(d.population));*/
+
+    let legendes = axeHorizontal.selectAll(".legende");
+    
+    svg.on("mousemove", function(event, d){
+		let truc = d3.pointer(event);
+		let c = truc[0] - margin.left;
+		//console.log(c);
+		let y = truc[1] - margin.top;
+        y = height - y;
+		let r = 2*(y)/height;
+        r = 50*r
+        if(r>50)
+            r = 100-r;
+		if (r<0)
+		{
+			lignes.attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
+                  .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.pays));
+            legendes.attr("transform", d => "translate(" + (Ech_x.bandwidth()/2 + Ech_x(d.pays)) + ",15)");
+            disques.attr("cx", d => Ech_x.bandwidth()/2 + Ech_x(d.pays));
+		}
+		else
+        {
+			lignes.attr("x1", d => distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5))
+                  .attr("x2", d => distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5));
+            legendes.attr("transform", d => "translate(" + distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5) + ",15)");
+            disques.attr("cx", d => distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, 5));
+        }		
+		
+	});		
+
+//});
+</script>
+</body>
+</html>
