@@ -330,62 +330,272 @@
 328,120,Deez,2021-12-12 12:33:26,2021-12-12,Dimanche,12,Pierre Lapointe,Paris Tristesse,Quelques gouttes de sang,undefined
 329,121,Deez,2021-12-12 12:33:27,2021-12-12,Dimanche,12,Pierre Lapointe,2x2,Le Maquis,undefined
 330,122,Deez,2021-12-12 13:02:57,2021-12-12,Dimanche,13,Pierre Lapointe,Paris Tristesse,Quelques gouttes de sang,undefined
-331,123,Deez,2021-12-12 13:05:54,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
-332,124,Deez,2021-12-12 13:09:42,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
-333,125,Deez,2021-12-12 13:09:45,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
-334,126,Deez,2021-12-12 13:13:47,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
-335,127,Deez,2021-12-12 13:13:48,2021-12-12,Dimanche,13,Gene Autry,Rudolph The Red Nosed Reindeer And Other Christmas Classics,Rudolph the Red-Nosed Reindeer,undefined
-336,128,Deez,2021-12-12 13:16:56,2021-12-12,Dimanche,13,Gene Autry,Rudolph The Red Nosed Reindeer And Other Christmas Classics,Rudolph the Red-Nosed Reindeer,undefined
-337,129,Deez,2021-12-12 13:19:58,2021-12-12,Dimanche,13,The Ronettes,A Christmas Gift For You From Phil Spector,Sleigh Ride,undefined
-338,130,Deez,2021-12-12 13:19:59,2021-12-12,Dimanche,13,The Temptations,The Temptations' Christmas Card,Silent Night,undefined
-339,131,Deez,2021-12-12 13:22:25,2021-12-12,Dimanche,13,The Temptations,The Temptations' Christmas Card,Silent Night,undefined
-340,132,Deez,2021-12-12 13:25:54,2021-12-12,Dimanche,13,Robbie Williams,The Christmas Present (Deluxe),Santa Baby (feat. Helene Fischer),undefined
-341,133,Deez,2021-12-12 13:28:08,2021-12-12,Dimanche,13,Bobby Helms,Frosty the Snowman,Jingle Bell Rock,undefined
-342,134,Deez,2021-12-12 13:28:09,2021-12-12,Dimanche,13,Coldplay,Christmas Lights,Christmas Lights,undefined
-343,135,Deez,2021-12-12 13:32:12,2021-12-12,Dimanche,13,Coldplay,Christmas Lights,Christmas Lights,undefined
-344,136,Deez,2021-12-12 13:32:13,2021-12-12,Dimanche,13,Pink Martini,Joy to the World,Santa Baby,undefined
-345,137,Deez,2021-12-12 13:34:53,2021-12-12,Dimanche,13,Pink Martini,Joy to the World,Santa Baby,undefined
-346,138,Deez,2021-12-12 13:34:54,2021-12-12,Dimanche,13,Elvis Presley,Elvis' Christmas Album,Here Comes Santa Claus,undefined
-347,139,Deez,2021-12-12 13:36:51,2021-12-12,Dimanche,13,Elvis Presley,Elvis' Christmas Album,Here Comes Santa Claus,undefined
-348,140,Deez,2021-12-12 13:38:06,2021-12-12,Dimanche,13,Frank Sinatra,It's Christmas,Winter Wonderland,undefined
-349,141,Deez,2021-12-12 13:38:07,2021-12-12,Dimanche,13,Taylor Swift,Christmas Tree Farm,Christmas Tree Farm,undefined
-350,142,Deez,2021-12-12 13:41:56,2021-12-12,Dimanche,13,Taylor Swift,Christmas Tree Farm,Christmas Tree Farm,undefined
-351,143,Deez,2021-12-12 13:41:57,2021-12-12,Dimanche,13,The Drifters,"Merry Christmas with Bing Crosby, Elvis Presley, Frank Sinatra and Doris Day",White Christmas,undefined
-352,144,Deez,2021-12-12 13:44:37,2021-12-12,Dimanche,13,The Drifters,"Merry Christmas with Bing Crosby, Elvis Presley, Frank Sinatra and Doris Day",White Christmas,undefined
-353,145,Deez,2021-12-12 13:44:38,2021-12-12,Dimanche,13,Michael Bublé,Christmas (Deluxe Special Edition),Have Yourself a Merry Little Christmas,undefined
-354,146,Deez,2021-12-12 13:48:29,2021-12-12,Dimanche,13,Michael Bublé,Christmas (Deluxe Special Edition),Have Yourself a Merry Little Christmas,undefined
-355,147,Deez,2021-12-12 13:48:30,2021-12-12,Dimanche,13,M,Noël ! Noël !! Noël !!!,Douce nuit,undefined
-356,148,Deez,2021-12-12 13:52:13,2021-12-12,Dimanche,13,M,Noël ! Noël !! Noël !!!,Douce nuit,undefined
-357,149,Deez,2021-12-12 13:52:14,2021-12-12,Dimanche,13,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
-358,150,Deez,2021-12-12 13:54:19,2021-12-12,Dimanche,13,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
-359,151,Deez,2021-12-12 13:56:57,2021-12-12,Dimanche,13,Frank Sinatra,Christmas,White Christmas,undefined
-360,152,Deez,2021-12-12 14:00:40,2021-12-12,Dimanche,14,Beyoncé,I AM...SASHA FIERCE,Ave Maria,undefined
-361,153,Deez,2021-12-12 14:00:41,2021-12-12,Dimanche,14,Sia,Snowman,Snowman,undefined
-362,154,Deez,2021-12-12 14:03:28,2021-12-12,Dimanche,14,Sia,Snowman,Snowman,undefined
-363,155,Deez,2021-12-12 14:03:29,2021-12-12,Dimanche,14,Nat King Cole,The Christmas Song,The Christmas Song (Merry Christmas To You) (Remastered 1999),undefined
-364,156,Deez,2021-12-12 14:06:41,2021-12-12,Dimanche,14,Nat King Cole,The Christmas Song,The Christmas Song (Merry Christmas To You) (Remastered 1999),undefined
-365,157,Deez,2021-12-12 14:06:42,2021-12-12,Dimanche,14,Stevie Wonder,For Once In My Life,For Once In My Life,undefined
-366,158,Deez,2021-12-12 14:09:34,2021-12-12,Dimanche,14,Stevie Wonder,For Once In My Life,For Once In My Life,undefined
-367,159,Deez,2021-12-12 14:09:35,2021-12-12,Dimanche,14,Dalida,Vive Le Vent,Vive le vent,undefined
-368,160,Deez,2021-12-12 14:12:12,2021-12-12,Dimanche,14,Dalida,Vive Le Vent,Vive le vent,undefined
-369,161,Deez,2021-12-12 14:12:13,2021-12-12,Dimanche,14,Josh Groban,Have Yourself a Merry Little Christmas,Have Yourself a Merry Little Christmas,undefined
-370,162,Deez,2021-12-12 14:16:19,2021-12-12,Dimanche,14,Mariah Carey,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),Oh Santa! (feat. Ariana Grande & Jennifer Hudson),undefined
-371,163,Deez,2021-12-12 14:19:42,2021-12-12,Dimanche,14,Michael Bublé,Christmas (Deluxe Special Edition),Holly Jolly Christmas,undefined
-372,164,Deez,2021-12-12 14:21:43,2021-12-12,Dimanche,14,Dean Martin,The Dean Martin Christmas Album,Silver Bells,undefined
-373,165,Deez,2021-12-12 14:24:08,2021-12-12,Dimanche,14,Céline Dion,These are Special Times,Christmas Eve,undefined
-374,166,Deez,2021-12-12 14:28:26,2021-12-12,Dimanche,14,The Beach Boys,Christmas With The Beach Boys,Little Saint Nick (1991 Remix),undefined
-375,167,Deez,2021-12-12 14:30:30,2021-12-12,Dimanche,14,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
-376,168,Deez,2021-12-12 14:32:29,2021-12-12,Dimanche,14,Jackson 5,Christmas Album,Someday At Christmas,undefined
-377,169,Deez,2021-12-12 14:35:14,2021-12-12,Dimanche,14,Redbone,Come and Get Your Love (Single Edit),Come and Get Your Love (Single Version),undefined
-378,170,Deez,2021-12-12 14:38:42,2021-12-12,Dimanche,14,Louane,Louane (Deluxe),Santa Claus Is Coming To Town,undefined
-379,171,Deez,2021-12-12 14:41:28,2021-12-12,Dimanche,14,Ariana Grande,Santa Tell Me,Santa Tell Me,undefined
-380,172,Deez,2021-12-12 14:44:54,2021-12-12,Dimanche,14,John Lennon,Signature Box,Happy Xmas (War Is Over) (Remastered 2010),undefined
-381,173,Deez,2021-12-12 14:48:30,2021-12-12,Dimanche,14,Otis Redding,The King of Soul,White Christmas,undefined
-382,174,Deez,2021-12-12 14:51:34,2021-12-12,Dimanche,14,Sia,Santa's Coming for Us,Santa's Coming for Us,undefined
-383,175,Deez,2021-12-12 14:55:03,2021-12-12,Dimanche,14,Stevie Wonder,The Complete Stevie Wonder,What Christmas Means To Me,undefined
-384,176,Deez,2021-12-12 14:57:32,2021-12-12,Dimanche,14,Diana Krall,Christmas Songs,Jingle Bells,undefined
-385,177,Deez,2021-12-12 15:00:59,2021-12-12,Dimanche,15,Justin Bieber,Under The Mistletoe (Deluxe Edition),Mistletoe,undefined
-386,178,Deez,2021-12-12 16:07:50,2021-12-12,Dimanche,16,Stromae,Santé,Santé,undefined
-387,179,Deez,2021-12-12 16:11:02,2021-12-12,Dimanche,16,Stromae,Santé,Santé,undefined
-388,180,Deez,2021-12-13 16:45:32,2021-12-13,Lundi,16,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
-389,181,Deez,2021-12-13 16:49:34,2021-12-13,Lundi,16,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+331,123,Deez,2021-12-12 13:03:24,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+332,124,Deez,2021-12-12 13:05:54,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+333,125,Deez,2021-12-12 13:09:42,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+334,126,Deez,2021-12-12 13:09:45,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+335,127,Deez,2021-12-12 13:13:47,2021-12-12,Dimanche,13,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+336,128,Deez,2021-12-12 13:13:48,2021-12-12,Dimanche,13,Gene Autry,Rudolph The Red Nosed Reindeer And Other Christmas Classics,Rudolph the Red-Nosed Reindeer,undefined
+337,129,Deez,2021-12-12 13:16:56,2021-12-12,Dimanche,13,Gene Autry,Rudolph The Red Nosed Reindeer And Other Christmas Classics,Rudolph the Red-Nosed Reindeer,undefined
+338,130,Deez,2021-12-12 13:19:58,2021-12-12,Dimanche,13,The Ronettes,A Christmas Gift For You From Phil Spector,Sleigh Ride,undefined
+339,131,Deez,2021-12-12 13:19:59,2021-12-12,Dimanche,13,The Temptations,The Temptations' Christmas Card,Silent Night,undefined
+340,132,Deez,2021-12-12 13:22:25,2021-12-12,Dimanche,13,The Temptations,The Temptations' Christmas Card,Silent Night,undefined
+341,133,Deez,2021-12-12 13:25:54,2021-12-12,Dimanche,13,Robbie Williams,The Christmas Present (Deluxe),Santa Baby (feat. Helene Fischer),undefined
+342,134,Deez,2021-12-12 13:28:08,2021-12-12,Dimanche,13,Bobby Helms,Frosty the Snowman,Jingle Bell Rock,undefined
+343,135,Deez,2021-12-12 13:28:09,2021-12-12,Dimanche,13,Coldplay,Christmas Lights,Christmas Lights,undefined
+344,136,Deez,2021-12-12 13:32:12,2021-12-12,Dimanche,13,Coldplay,Christmas Lights,Christmas Lights,undefined
+345,137,Deez,2021-12-12 13:32:13,2021-12-12,Dimanche,13,Pink Martini,Joy to the World,Santa Baby,undefined
+346,138,Deez,2021-12-12 13:34:53,2021-12-12,Dimanche,13,Pink Martini,Joy to the World,Santa Baby,undefined
+347,139,Deez,2021-12-12 13:34:54,2021-12-12,Dimanche,13,Elvis Presley,Elvis' Christmas Album,Here Comes Santa Claus,undefined
+348,140,Deez,2021-12-12 13:36:51,2021-12-12,Dimanche,13,Elvis Presley,Elvis' Christmas Album,Here Comes Santa Claus,undefined
+349,141,Deez,2021-12-12 13:38:06,2021-12-12,Dimanche,13,Frank Sinatra,It's Christmas,Winter Wonderland,undefined
+350,142,Deez,2021-12-12 13:38:07,2021-12-12,Dimanche,13,Taylor Swift,Christmas Tree Farm,Christmas Tree Farm,undefined
+351,143,Deez,2021-12-12 13:41:56,2021-12-12,Dimanche,13,Taylor Swift,Christmas Tree Farm,Christmas Tree Farm,undefined
+352,144,Deez,2021-12-12 13:41:57,2021-12-12,Dimanche,13,The Drifters,"Merry Christmas with Bing Crosby, Elvis Presley, Frank Sinatra and Doris Day",White Christmas,undefined
+353,145,Deez,2021-12-12 13:44:37,2021-12-12,Dimanche,13,The Drifters,"Merry Christmas with Bing Crosby, Elvis Presley, Frank Sinatra and Doris Day",White Christmas,undefined
+354,146,Deez,2021-12-12 13:44:38,2021-12-12,Dimanche,13,Michael Bublé,Christmas (Deluxe Special Edition),Have Yourself a Merry Little Christmas,undefined
+355,147,Deez,2021-12-12 13:48:29,2021-12-12,Dimanche,13,Michael Bublé,Christmas (Deluxe Special Edition),Have Yourself a Merry Little Christmas,undefined
+356,148,Deez,2021-12-12 13:48:30,2021-12-12,Dimanche,13,M,Noël ! Noël !! Noël !!!,Douce nuit,undefined
+357,149,Deez,2021-12-12 13:52:13,2021-12-12,Dimanche,13,M,Noël ! Noël !! Noël !!!,Douce nuit,undefined
+358,150,Deez,2021-12-12 13:52:14,2021-12-12,Dimanche,13,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+359,151,Deez,2021-12-12 13:54:19,2021-12-12,Dimanche,13,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+360,152,Deez,2021-12-12 13:56:57,2021-12-12,Dimanche,13,Frank Sinatra,Christmas,White Christmas,undefined
+361,153,Deez,2021-12-12 14:00:40,2021-12-12,Dimanche,14,Beyoncé,I AM...SASHA FIERCE,Ave Maria,undefined
+362,154,Deez,2021-12-12 14:00:41,2021-12-12,Dimanche,14,Sia,Snowman,Snowman,undefined
+363,155,Deez,2021-12-12 14:03:28,2021-12-12,Dimanche,14,Sia,Snowman,Snowman,undefined
+364,156,Deez,2021-12-12 14:03:29,2021-12-12,Dimanche,14,Nat King Cole,The Christmas Song,The Christmas Song (Merry Christmas To You) (Remastered 1999),undefined
+365,157,Deez,2021-12-12 14:06:41,2021-12-12,Dimanche,14,Nat King Cole,The Christmas Song,The Christmas Song (Merry Christmas To You) (Remastered 1999),undefined
+366,158,Deez,2021-12-12 14:06:42,2021-12-12,Dimanche,14,Stevie Wonder,For Once In My Life,For Once In My Life,undefined
+367,159,Deez,2021-12-12 14:09:34,2021-12-12,Dimanche,14,Stevie Wonder,For Once In My Life,For Once In My Life,undefined
+368,160,Deez,2021-12-12 14:09:35,2021-12-12,Dimanche,14,Dalida,Vive Le Vent,Vive le vent,undefined
+369,161,Deez,2021-12-12 14:12:12,2021-12-12,Dimanche,14,Dalida,Vive Le Vent,Vive le vent,undefined
+370,162,Deez,2021-12-12 14:12:13,2021-12-12,Dimanche,14,Josh Groban,Have Yourself a Merry Little Christmas,Have Yourself a Merry Little Christmas,undefined
+371,163,Deez,2021-12-12 14:16:19,2021-12-12,Dimanche,14,Mariah Carey,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),Oh Santa! (feat. Ariana Grande & Jennifer Hudson),undefined
+372,164,Deez,2021-12-12 14:19:42,2021-12-12,Dimanche,14,Michael Bublé,Christmas (Deluxe Special Edition),Holly Jolly Christmas,undefined
+373,165,Deez,2021-12-12 14:21:43,2021-12-12,Dimanche,14,Dean Martin,The Dean Martin Christmas Album,Silver Bells,undefined
+374,166,Deez,2021-12-12 14:24:08,2021-12-12,Dimanche,14,Céline Dion,These are Special Times,Christmas Eve,undefined
+375,167,Deez,2021-12-12 14:28:26,2021-12-12,Dimanche,14,The Beach Boys,Christmas With The Beach Boys,Little Saint Nick (1991 Remix),undefined
+376,168,Deez,2021-12-12 14:30:30,2021-12-12,Dimanche,14,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
+377,169,Deez,2021-12-12 14:32:29,2021-12-12,Dimanche,14,Jackson 5,Christmas Album,Someday At Christmas,undefined
+378,170,Deez,2021-12-12 14:35:14,2021-12-12,Dimanche,14,Redbone,Come and Get Your Love (Single Edit),Come and Get Your Love (Single Version),undefined
+379,171,Deez,2021-12-12 14:38:42,2021-12-12,Dimanche,14,Louane,Louane (Deluxe),Santa Claus Is Coming To Town,undefined
+380,172,Deez,2021-12-12 14:41:28,2021-12-12,Dimanche,14,Ariana Grande,Santa Tell Me,Santa Tell Me,undefined
+381,173,Deez,2021-12-12 14:44:54,2021-12-12,Dimanche,14,John Lennon,Signature Box,Happy Xmas (War Is Over) (Remastered 2010),undefined
+382,174,Deez,2021-12-12 14:48:30,2021-12-12,Dimanche,14,Otis Redding,The King of Soul,White Christmas,undefined
+383,175,Deez,2021-12-12 14:51:34,2021-12-12,Dimanche,14,Sia,Santa's Coming for Us,Santa's Coming for Us,undefined
+384,176,Deez,2021-12-12 14:55:03,2021-12-12,Dimanche,14,Stevie Wonder,The Complete Stevie Wonder,What Christmas Means To Me,undefined
+385,177,Deez,2021-12-12 14:57:32,2021-12-12,Dimanche,14,Diana Krall,Christmas Songs,Jingle Bells,undefined
+386,178,Deez,2021-12-12 15:00:59,2021-12-12,Dimanche,15,Justin Bieber,Under The Mistletoe (Deluxe Edition),Mistletoe,undefined
+387,179,Deez,2021-12-12 16:07:50,2021-12-12,Dimanche,16,Stromae,Santé,Santé,undefined
+388,180,Deez,2021-12-12 16:11:02,2021-12-12,Dimanche,16,Stromae,Santé,Santé,undefined
+389,181,Deez,2021-12-13 16:45:32,2021-12-13,Lundi,16,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+390,182,Deez,2021-12-13 16:45:42,2021-12-13,Lundi,16,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+391,183,Deez,2021-12-13 16:49:34,2021-12-13,Lundi,16,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+392,184,Deez,2021-12-13 16:50:01,2021-12-13,Lundi,16,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+393,185,Deez,2021-12-16 17:06:35,2021-12-16,Jeudi,17,Pierre Lapointe,Sentiments humains,Je reviendrai,undefined
+394,186,Deez,2021-12-16 17:10:31,2021-12-16,Jeudi,17,Pierre Lapointe,Les vertiges d'en haut - EP,Les vertiges d'en haut,undefined
+395,187,Deez,2021-12-16 17:12:55,2021-12-16,Jeudi,17,Pierre Lapointe,Pierre Lapointe En Concert Dans La Forêt Des Mal-Aimés Avec L'orchestre Métropolitain Du Grand Montréal Dirigé Par Yannick Nézet-S,Tic Tac,undefined
+396,188,Deez,2021-12-16 17:15:30,2021-12-16,Jeudi,17,Pierre Lapointe,Paris Tristesse,C'est extra,undefined
+397,189,Deez,2021-12-16 17:19:21,2021-12-16,Jeudi,17,Pierre Lapointe,Pierre Lapointe En Concert Dans La Forêt Des Mal-Aimés Avec L'orchestre Métropolitain Du Grand Montréal Dirigé Par Yannick Nézet-S,Tel Un Seul Homme,undefined
+398,190,Deez,2021-12-16 17:23:11,2021-12-16,Jeudi,17,Pierre Lapointe,Sentiments humains,Au bar des suicidés,undefined
+399,191,Deez,2021-12-16 17:26:35,2021-12-16,Jeudi,17,Pierre Lapointe,La forêt des mal-aimés,Au pays des fleurs de la transe,undefined
+400,192,Deez,2021-12-16 17:32:15,2021-12-16,Jeudi,17,Pierre Lapointe,2x2,Le Maquis,undefined
+401,193,Deez,2021-12-16 17:38:36,2021-12-16,Jeudi,17,Pierre Lapointe,Paris Tristesse,Quelques gouttes de sang,undefined
+402,194,Deez,2021-12-19 10:24:42,2021-12-19,Dimanche,10,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+403,195,Deez,2021-12-19 10:28:50,2021-12-19,Dimanche,10,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+404,196,Deez,2021-12-19 10:34:13,2021-12-19,Dimanche,10,The Platters,Bless You (All I Want for Christmas),We Wish You a Merry Christmas,undefined
+405,197,Deez,2021-12-19 10:36:52,2021-12-19,Dimanche,10,Louane,Louane (Deluxe),Santa Claus Is Coming To Town,undefined
+406,198,Deez,2021-12-19 10:38:06,2021-12-19,Dimanche,10,Christophe Maé,Y'a du soleil,Y'a du soleil,undefined
+407,199,Deez,2021-12-19 10:41:22,2021-12-19,Dimanche,10,Clara Luciani,Cœur,Le reste,undefined
+408,200,Deez,2021-12-19 10:45:02,2021-12-19,Dimanche,10,Fréro Delavega,Des ombres et des lumières,Autour de moi,undefined
+409,201,Deez,2021-12-19 10:48:16,2021-12-19,Dimanche,10,Fréro Delavega,Fréro Delavega,Le chant des sirènes,undefined
+410,202,Deez,2021-12-19 10:51:17,2021-12-19,Dimanche,10,Fréro Delavega,Fréro Delavega,Save Tonight,undefined
+411,203,Deez,2021-12-19 10:54:22,2021-12-19,Dimanche,10,Bill Medley,Dirty Dancing (Original Motion Picture Soundtrack),"(I've Had) The Time Of My Life (From ""Dirty Dancing"" Soundtrack)",undefined
+412,204,Deez,2021-12-19 10:59:14,2021-12-19,Dimanche,10,The Blow Monkeys,Dirty Dancing (Original Motion Picture Soundtrack),You Don't Own Me,undefined
+413,205,Deez,2021-12-19 11:02:17,2021-12-19,Dimanche,11,Pierre Lapointe,Pour déjouer l'ennui,Qu'est ce qu'on y peut ?,undefined
+414,206,Deez,2021-12-19 11:05:18,2021-12-19,Dimanche,11,Pierre Lapointe,Paris Tristesse,Je déteste ma vie,undefined
+415,207,Deez,2021-12-19 11:08:47,2021-12-19,Dimanche,11,Pierre Lapointe,Pour déjouer l'ennui,Tatouage,undefined
+416,208,Deez,2021-12-19 11:11:49,2021-12-19,Dimanche,11,Pierre Lapointe,Paris Tristesse,Nos joies répétitives,undefined
+417,209,Deez,2021-12-19 11:15:58,2021-12-19,Dimanche,11,Pierre Lapointe,Pour déjouer l'ennui,Le monarque des Indes,undefined
+418,210,Deez,2021-12-19 11:18:51,2021-12-19,Dimanche,11,Pierre Lapointe,Pierre Lapointe Seul Au Piano,Les lignes de ma main,undefined
+419,211,Deez,2021-12-19 11:21:34,2021-12-19,Dimanche,11,Pierre Lapointe,Pour déjouer l'ennui,Un coeur qui saigne,undefined
+420,212,Deez,2021-12-19 11:24:45,2021-12-19,Dimanche,11,Pierre Lapointe,Paris Tristesse,Nu devant moi,undefined
+421,213,Deez,2021-12-19 11:28:02,2021-12-19,Dimanche,11,Pierre Lapointe,La science du coeur,Une lettre,undefined
+422,214,Deez,2021-12-19 11:31:26,2021-12-19,Dimanche,11,Pierre Lapointe,Pierre Lapointe,Plaisirs dénudés,undefined
+423,215,Deez,2021-12-19 11:34:17,2021-12-19,Dimanche,11,Pierre Lapointe,Pierre Lapointe,Le columbarium,undefined
+424,216,Deez,2021-12-19 11:36:48,2021-12-19,Dimanche,11,Pierre Lapointe,Pour déjouer l'ennui,Pour déjouer l'ennui,undefined
+425,217,Deez,2021-12-19 11:40:10,2021-12-19,Dimanche,11,Pierre Lapointe,La science du coeur,La science du coeur,undefined
+426,218,Deez,2021-12-19 11:44:21,2021-12-19,Dimanche,11,Pierre Lapointe,Souris Calle,"Sophie, la vie, la mort",undefined
+427,219,Deez,2021-12-19 11:47:03,2021-12-19,Dimanche,11,Pierre Lapointe,La science du coeur,Sais-tu vraiment qui tu es,undefined
+428,220,Deez,2021-12-19 11:50:35,2021-12-19,Dimanche,11,Pierre Lapointe,Paris Tristesse,Tel un seul homme,undefined
+429,221,Deez,2021-12-19 11:54:37,2021-12-19,Dimanche,11,Pierre Lapointe,La forêt des mal-aimés,Deux par deux rassemblés,undefined
+430,222,Deez,2021-12-19 11:58:32,2021-12-19,Dimanche,11,Pierre Lapointe,La forêt des mal-aimés,Au nom des cieux galvanisés,undefined
+431,223,Deez,2021-12-19 12:02:15,2021-12-19,Dimanche,12,Pierre Lapointe,Pierre Lapointe,Pointant Le Nord,undefined
+432,224,Deez,2021-12-19 12:06:01,2021-12-19,Dimanche,12,Pierre Lapointe,Pour déjouer l'ennui,La plus belle des maisons,undefined
+433,225,Deez,2021-12-21 18:03:21,2021-12-21,Mardi,18,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+434,226,Deez,2021-12-21 18:07:29,2021-12-21,Mardi,18,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+435,227,Deez,2021-12-21 18:11:31,2021-12-21,Mardi,18,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
+436,228,Deez,2021-12-21 18:13:27,2021-12-21,Mardi,18,Michael Bublé,Christmas (Deluxe Special Edition),It's Beginning to Look a Lot like Christmas,undefined
+437,229,Deez,2021-12-21 18:15:12,2021-12-21,Mardi,18,Michael Bublé,Christmas (Deluxe Special Edition),It's Beginning to Look a Lot like Christmas,undefined
+438,230,Deez,2021-12-21 18:30:09,2021-12-21,Mardi,18,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+439,231,Deez,2021-12-21 18:34:11,2021-12-21,Mardi,18,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
+440,232,Deez,2021-12-21 18:36:07,2021-12-21,Mardi,18,Michael Bublé,Christmas (Deluxe Special Edition),It's Beginning to Look a Lot like Christmas,undefined
+441,233,Deez,2021-12-21 18:39:34,2021-12-21,Mardi,18,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+442,234,Deez,2021-12-21 18:41:37,2021-12-21,Mardi,18,Wham!,LAST CHRISTMAS,Last Christmas,undefined
+443,235,Deez,2021-12-21 18:45:59,2021-12-21,Mardi,18,Redbone,Come and Get Your Love (Single Edit),Come and Get Your Love (Single Version),undefined
+444,236,Deez,2021-12-21 18:49:25,2021-12-21,Mardi,18,Ariana Grande,Santa Tell Me,Santa Tell Me,undefined
+445,237,Deez,2021-12-21 18:52:50,2021-12-21,Mardi,18,Bobby Helms,Frosty the Snowman,Jingle Bell Rock,undefined
+446,238,Deez,2021-12-21 18:55:02,2021-12-21,Mardi,18,Sia,Snowman,Snowman,undefined
+447,239,Deez,2021-12-21 18:57:48,2021-12-21,Mardi,18,Brett Eldredge,It's the Most Wonderful Time of the Year,It's the Most Wonderful Time of the Year,undefined
+448,240,Deez,2021-12-21 19:00:45,2021-12-21,Mardi,19,Justin Bieber,Under The Mistletoe (Deluxe Edition),Mistletoe,undefined
+449,241,Deez,2021-12-21 19:03:48,2021-12-21,Mardi,19,Frank Sinatra,Christmas,White Christmas,undefined
+450,242,Deez,2021-12-21 19:05:41,2021-12-21,Mardi,19,Beyoncé,I AM...SASHA FIERCE,Ave Maria,undefined
+451,243,Deez,2021-12-21 19:09:24,2021-12-21,Mardi,19,Stevie Wonder,The Complete Stevie Wonder,What Christmas Means To Me,undefined
+452,244,Deez,2021-12-21 19:11:52,2021-12-21,Mardi,19,Tino Rossi,40 titres d'or,Petit Papa Noël,undefined
+453,245,Deez,2021-12-21 19:15:22,2021-12-21,Mardi,19,José Feliciano,Feliz Navidad,Feliz Navidad,undefined
+454,246,Deez,2021-12-21 19:18:26,2021-12-21,Mardi,19,Mariah Carey,Oh Santa! (feat. Ariana Grande & Jennifer Hudson),Oh Santa! (feat. Ariana Grande & Jennifer Hudson),undefined
+455,247,Deez,2021-12-21 19:20:23,2021-12-21,Mardi,19,The Vamps,Meet The Vamps (Christmas Edition),Jingle Bells,undefined
+456,248,Deez,2021-12-21 19:21:51,2021-12-21,Mardi,19,Daryl Hall & John Oates,How Cool Is That Christmas,Jingle Bell Rock (Daryl's Version),undefined
+457,249,Deez,2021-12-21 19:22:46,2021-12-21,Mardi,19,Bing Crosby,Bing Crosby - Christmas Classics,I Wish You A Merry Christmas (Remastered 2006),undefined
+458,250,Deez,2021-12-21 19:24:12,2021-12-21,Mardi,19,Bing Crosby,Night Before Christmas,I Wish You a Merry Christmas,undefined
+459,251,Deez,2021-12-21 19:25:20,2021-12-21,Mardi,19,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+460,252,Deez,2021-12-21 19:29:22,2021-12-21,Mardi,19,Dean Martin,Christmas With Nat And Dean,Let It Snow! Let It Snow! Let It Snow!,undefined
+461,253,Deez,2021-12-21 19:31:19,2021-12-21,Mardi,19,Michael Bublé,Christmas (Deluxe Special Edition),It's Beginning to Look a Lot like Christmas,undefined
+462,254,Deez,2021-12-21 19:34:45,2021-12-21,Mardi,19,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+463,255,Deez,2021-12-21 19:36:48,2021-12-21,Mardi,19,Wham!,LAST CHRISTMAS,Last Christmas,undefined
+464,256,Deez,2021-12-21 19:41:11,2021-12-21,Mardi,19,Redbone,Come and Get Your Love (Single Edit),Come and Get Your Love (Single Version),undefined
+465,257,Deez,2021-12-21 19:44:36,2021-12-21,Mardi,19,Ariana Grande,Santa Tell Me,Santa Tell Me,undefined
+466,258,Deez,2021-12-21 19:48:00,2021-12-21,Mardi,19,Bobby Helms,Frosty the Snowman,Jingle Bell Rock,undefined
+467,259,Deez,2021-12-21 19:50:13,2021-12-21,Mardi,19,Sia,Snowman,Snowman,undefined
+468,260,Deez,2021-12-21 19:52:59,2021-12-21,Mardi,19,Brett Eldredge,It's the Most Wonderful Time of the Year,It's the Most Wonderful Time of the Year,undefined
+469,261,Deez,2021-12-21 19:55:56,2021-12-21,Mardi,19,Justin Bieber,Under The Mistletoe (Deluxe Edition),Mistletoe,undefined
+470,262,Deez,2021-12-21 19:58:59,2021-12-21,Mardi,19,Frank Sinatra,Christmas,White Christmas,undefined
+471,263,Deez,2021-12-21 20:01:35,2021-12-21,Mardi,20,Ed Sheeran,= (Christmas Edition),Merry Christmas,undefined
+472,264,Deez,2021-12-21 20:05:37,2021-12-21,Mardi,20,Diana Krall,Christmas Songs,Jingle Bells,undefined
+473,265,Deez,2021-12-21 20:09:02,2021-12-21,Mardi,20,Pentatonix,The Best Of Pentatonix Christmas,Hallelujah,undefined
+474,266,Deez,2021-12-21 20:13:34,2021-12-21,Mardi,20,The Ronettes,A Christmas Gift For You From Phil Spector,Sleigh Ride,undefined
+475,267,Deez,2021-12-21 20:14:26,2021-12-21,Mardi,20,Céline Dion,On ne change pas,S'il suffisait d'aimer,undefined
+476,268,Deez,2021-12-21 20:18:02,2021-12-21,Mardi,20,Michel Sardou,Les Lacs Du Connemara,Les lacs du Connemara,undefined
+477,269,Deez,2021-12-21 20:24:05,2021-12-21,Mardi,20,Marc Lavoine,Marc Lavoine,Elle a les yeux revolver,undefined
+478,270,Deez,2021-12-21 20:27:45,2021-12-21,Mardi,20,M,BOF Un Monstre A Paris (Limited Edition),La Seine (Extrait de la bande originale un monstre à Paris),undefined
+479,271,Deez,2021-12-21 20:30:32,2021-12-21,Mardi,20,Michel Berger,Beauséjour (Remasterisé en 2002),La groupie du pianiste (Remasterisé en 2002),undefined
+480,272,Deez,2021-12-21 20:35:16,2021-12-21,Mardi,20,Gold,Le Train De Mes Souvenirs,Plus près des étoiles,undefined
+481,273,Deez,2021-12-23 12:35:44,2021-12-23,Jeudi,12,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+482,274,Deez,2021-12-23 12:39:46,2021-12-23,Jeudi,12,Sam Smith,Have Yourself A Merry Little Christmas,Have Yourself A Merry Little Christmas,undefined
+483,275,Deez,2021-12-23 12:42:36,2021-12-23,Jeudi,12,Dalida,Vive Le Vent,Vive le vent,undefined
+484,276,Deez,2021-12-23 12:45:13,2021-12-23,Jeudi,12,Ed Sheeran,= (Christmas Edition),Merry Christmas,undefined
+485,277,Deez,2021-12-23 12:48:41,2021-12-23,Jeudi,12,Stevie Wonder,The Complete Stevie Wonder,What Christmas Means To Me,undefined
+486,278,Deez,2021-12-23 12:51:09,2021-12-23,Jeudi,12,Jackson 5,Christmas Album,Frosty The Snowman,undefined
+487,279,Deez,2021-12-24 11:30:51,2021-12-24,Vendredi,11,The Beatles,Yellow Submarine Songtrack,All You Need Is Love,undefined
+488,280,Deez,2021-12-24 11:31:25,2021-12-24,Vendredi,11,The Beatles,Rubber Soul (Remastered),Michelle (Remastered 2009),undefined
+489,281,Deez,2021-12-24 11:34:36,2021-12-24,Vendredi,11,Marie Denise Pelletier,Les mots de Marnay,"La croix, l'étoile et le croissant",undefined
+490,282,Deez,2021-12-24 11:38:25,2021-12-24,Vendredi,11,Pentatonix,The Best Of Pentatonix Christmas,Hallelujah,undefined
+491,283,Deez,2021-12-24 11:43:06,2021-12-24,Vendredi,11,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+492,284,Deez,2021-12-24 11:47:15,2021-12-24,Vendredi,11,Mariah Carey,Merry Christmas,All I Want for Christmas Is You,undefined
+493,285,Deez,2021-12-24 11:51:16,2021-12-24,Vendredi,11,Michael Bublé,Christmas (Deluxe Special Edition),It's Beginning to Look a Lot like Christmas,undefined
+494,286,Deez,2021-12-24 11:54:43,2021-12-24,Vendredi,11,Brenda Lee,The Very Best of Brenda Lee,Rockin' Around the Christmas Tree,undefined
+495,287,Deez,2021-12-24 11:56:46,2021-12-24,Vendredi,11,Wham!,LAST CHRISTMAS,Last Christmas,undefined
+496,288,Deez,2021-12-24 12:01:09,2021-12-24,Vendredi,12,Redbone,Come and Get Your Love (Single Edit),Come and Get Your Love (Single Version),undefined
+497,289,Deez,2021-12-25 10:56:20,2021-12-25,Samedi,10,Rihanna,Music Of The Sun,Pon de Replay,undefined
+498,290,Deez,2021-12-28 15:50:33,2021-12-28,Mardi,15,Céline Dion,D'eux - Édition 15ème Anniversaire,J'irai où tu iras (with Jean-Jacques Goldman),undefined
+499,291,Deez,2021-12-28 15:51:20,2021-12-28,Mardi,15,Christophe Maé,Y'a du soleil,Y'a du soleil,undefined
+500,292,Deez,2021-12-28 15:54:34,2021-12-28,Mardi,15,Amel Bent,Sorøre,Ne retiens pas tes larmes,undefined
+501,293,Deez,2021-12-28 15:57:37,2021-12-28,Mardi,15,Thierry Hazard,Le jerk,Le jerk,undefined
+502,294,Deez,2021-12-28 16:01:32,2021-12-28,Mardi,16,Clara Luciani,Cœur,Amour toujours,undefined
+503,295,Deez,2021-12-28 16:04:59,2021-12-28,Mardi,16,Clara Luciani,Cœur,Respire encore,undefined
+504,296,Deez,2021-12-28 16:08:47,2021-12-28,Mardi,16,Claudio Capéo,Tant que rien ne m'arrête (Version deluxe),C'est une chanson,undefined
+505,297,Deez,2021-12-31 19:06:32,2021-12-31,Vendredi,19,Naps,La kiffance,La kiffance,undefined
+506,298,Deez,2021-12-31 19:09:33,2021-12-31,Vendredi,19,Naps,La kiffance,La kiffance,undefined
+507,299,Deez,2021-12-31 19:12:42,2021-12-31,Vendredi,19,Master KG,Jerusalema (feat. Nomcebo Zikode) (Edit),Jerusalema (feat. Nomcebo Zikode) (Edit),undefined
+508,300,Deez,2021-12-31 19:12:43,2021-12-31,Vendredi,19,Naps,La kiffance,La kiffance,undefined
+509,301,Deez,2021-12-31 19:15:42,2021-12-31,Vendredi,19,Naps,La kiffance,La kiffance,undefined
+510,302,Deez,2021-12-31 19:15:43,2021-12-31,Vendredi,19,Rihanna,Diamonds,Diamonds,undefined
+511,303,Deez,2021-12-31 19:17:06,2021-12-31,Vendredi,19,Rihanna,Diamonds,Diamonds,undefined
+512,304,Deez,2021-12-31 19:17:07,2021-12-31,Vendredi,19,Britney Spears,...Baby One More Time (Digital Deluxe Version),...Baby One More Time,undefined
+513,305,Deez,2021-12-31 19:20:39,2021-12-31,Vendredi,19,Britney Spears,...Baby One More Time (Digital Deluxe Version),...Baby One More Time,undefined
+514,306,Deez,2021-12-31 19:24:19,2021-12-31,Vendredi,19,Larusso,Simplement,Tu m'oublieras,undefined
+515,307,Deez,2021-12-31 19:24:20,2021-12-31,Vendredi,19,Britney Spears,In The Zone,Toxic,undefined
+516,308,Deez,2021-12-31 19:27:39,2021-12-31,Vendredi,19,Britney Spears,In The Zone,Toxic,undefined
+517,309,Deez,2021-12-31 19:27:47,2021-12-31,Vendredi,19,Britney Spears,Blackout,Gimme More,undefined
+518,310,Deez,2021-12-31 19:28:53,2021-12-31,Vendredi,19,Britney Spears,Blackout,Gimme More,undefined
+519,311,Deez,2021-12-31 19:29:17,2021-12-31,Vendredi,19,Britney Spears,In The Zone,Toxic,undefined
+520,312,Deez,2021-12-31 19:31:16,2021-12-31,Vendredi,19,Britney Spears,In The Zone,Toxic,undefined
+521,313,Deez,2021-12-31 19:31:17,2021-12-31,Vendredi,19,Britney Spears,...Baby One More Time (Digital Deluxe Version),...Baby One More Time,undefined
+522,314,Deez,2021-12-31 19:34:48,2021-12-31,Vendredi,19,Britney Spears,...Baby One More Time (Digital Deluxe Version),...Baby One More Time,undefined
+523,315,Deez,2021-12-31 19:35:02,2021-12-31,Vendredi,19,Britney Spears,In The Zone,Toxic,undefined
+524,316,Deez,2021-12-31 19:38:21,2021-12-31,Vendredi,19,Britney Spears,In The Zone,Toxic,undefined
+525,317,Deez,2021-12-31 19:38:23,2021-12-31,Vendredi,19,Beyoncé,Dangerously In Love,Crazy In Love (feat. Jay-Z),undefined
+526,318,Deez,2021-12-31 19:42:19,2021-12-31,Vendredi,19,Beyoncé,Dangerously In Love,Crazy In Love (feat. Jay-Z),undefined
+527,319,Deez,2021-12-31 19:42:20,2021-12-31,Vendredi,19,Gwen Stefani,The Sweet Escape,The Sweet Escape,undefined
+528,320,Deez,2021-12-31 19:46:27,2021-12-31,Vendredi,19,Gwen Stefani,The Sweet Escape,The Sweet Escape,undefined
+529,321,Deez,2021-12-31 19:46:28,2021-12-31,Vendredi,19,Jennifer Lopez,On The Floor,On The Floor (Radio Edit),undefined
+530,322,Deez,2021-12-31 19:50:19,2021-12-31,Vendredi,19,Jennifer Lopez,On The Floor,On The Floor (Radio Edit),undefined
+531,323,Deez,2021-12-31 19:50:20,2021-12-31,Vendredi,19,Lolly,Pick 'n' Mix,Girls Just Wanna Have Fun,undefined
+532,324,Deez,2021-12-31 19:53:13,2021-12-31,Vendredi,19,Lolly,Pick 'n' Mix,Girls Just Wanna Have Fun,undefined
+533,325,Deez,2021-12-31 19:53:15,2021-12-31,Vendredi,19,Shakira,Laundry Service,"Whenever, Wherever",undefined
+534,326,Deez,2021-12-31 19:56:30,2021-12-31,Vendredi,19,Shakira,Laundry Service,"Whenever, Wherever",undefined
+535,327,Deez,2021-12-31 19:56:32,2021-12-31,Vendredi,19,Britney Spears,Blackout,Gimme More,undefined
+536,328,Deez,2021-12-31 20:00:43,2021-12-31,Vendredi,20,Britney Spears,Blackout,Gimme More,undefined
+537,329,Deez,2021-12-31 20:00:44,2021-12-31,Vendredi,20,Sexy Back,SexyBack - Single (Justin Timberlake & Timbaland Tribute),SexyBack,undefined
+538,330,Deez,2021-12-31 20:05:03,2021-12-31,Vendredi,20,Sexy Back,SexyBack - Single (Justin Timberlake & Timbaland Tribute),SexyBack,undefined
+539,331,Deez,2021-12-31 20:05:05,2021-12-31,Vendredi,20,Black Eyed Peas,Let's Get It Started,Let's Get It Started (Spike Mix),undefined
+540,332,Deez,2021-12-31 20:08:42,2021-12-31,Vendredi,20,Black Eyed Peas,Let's Get It Started,Let's Get It Started (Spike Mix),undefined
+541,333,Deez,2021-12-31 20:10:33,2021-12-31,Vendredi,20,Images,Les démons de minuit,Les démons de minuit,undefined
+542,334,Deez,2021-12-31 20:14:06,2021-12-31,Vendredi,20,Images,Les démons de minuit,Les démons de minuit,undefined
+543,335,Deez,2021-12-31 20:18:15,2021-12-31,Vendredi,20,Partenaire Particulier,Le son des années 80,Partenaire Particulier,undefined
+544,336,Deez,2021-12-31 20:21:53,2021-12-31,Vendredi,20,Eurythmics,Sweet Dreams (Are Made Of This),Sweet Dreams (Are Made of This) (Remastered),undefined
+545,337,Deez,2021-12-31 20:25:47,2021-12-31,Vendredi,20,Jean-Jacques Goldman,Quand la musique est bonne,Quand la musique est bonne,undefined
+546,338,Deez,2021-12-31 20:29:17,2021-12-31,Vendredi,20,AC/DC,Highway to Hell,Highway to Hell,undefined
+547,339,Deez,2021-12-31 20:32:21,2021-12-31,Vendredi,20,Ricchi & Poveri,Amore mio,Sara perche ti amo,undefined
+548,340,Deez,2021-12-31 20:36:36,2021-12-31,Vendredi,20,Début de Soirée,Best of Début de Soirée (Le meilleur des années 80),Nuit de folie (Version originale 1988),undefined
+549,341,Deez,2021-12-31 20:39:33,2021-12-31,Vendredi,20,Joan Jett and the Blackhearts,I Love Rock 'N' Roll (Expanded Edition),I Love Rock 'N Roll,undefined
+550,342,Deez,2021-12-31 20:43:28,2021-12-31,Vendredi,20,Nena,99 Luftballons,99 Luftballons,undefined
+551,343,Deez,2021-12-31 20:47:18,2021-12-31,Vendredi,20,The Pointer Sisters,80s 100 Hits,I'm So Excited,undefined
+552,344,Deez,2021-12-31 23:02:09,2021-12-31,Vendredi,23,Images,Les démons de minuit,Les démons de minuit,undefined
+553,345,Deez,2021-12-31 23:05:42,2021-12-31,Vendredi,23,Images,Les démons de minuit,Les démons de minuit,undefined
+554,346,Deez,2021-12-31 23:09:51,2021-12-31,Vendredi,23,Partenaire Particulier,Le son des années 80,Partenaire Particulier,undefined
+555,347,Deez,2021-12-31 23:13:29,2021-12-31,Vendredi,23,Eurythmics,Sweet Dreams (Are Made Of This),Sweet Dreams (Are Made of This) (Remastered),undefined
+556,348,Deez,2021-12-31 23:17:23,2021-12-31,Vendredi,23,Jean-Jacques Goldman,Quand la musique est bonne,Quand la musique est bonne,undefined
+557,349,Deez,2021-12-31 23:20:53,2021-12-31,Vendredi,23,AC/DC,Highway to Hell,Highway to Hell,undefined
+558,350,Deez,2021-12-31 23:20:54,2021-12-31,Vendredi,23,Ricchi & Poveri,Amore mio,Sara perche ti amo,undefined
+559,351,Deez,2021-12-31 23:23:57,2021-12-31,Vendredi,23,Ricchi & Poveri,Amore mio,Sara perche ti amo,undefined
+560,352,Deez,2021-12-31 23:23:58,2021-12-31,Vendredi,23,Début de Soirée,Best of Début de Soirée (Le meilleur des années 80),Nuit de folie (Version originale 1988),undefined
+561,353,Deez,2021-12-31 23:28:13,2021-12-31,Vendredi,23,Début de Soirée,Best of Début de Soirée (Le meilleur des années 80),Nuit de folie (Version originale 1988),undefined
+562,354,Deez,2021-12-31 23:28:14,2021-12-31,Vendredi,23,Joan Jett and the Blackhearts,I Love Rock 'N' Roll (Expanded Edition),I Love Rock 'N Roll,undefined
+563,355,Deez,2021-12-31 23:31:10,2021-12-31,Vendredi,23,Joan Jett and the Blackhearts,I Love Rock 'N' Roll (Expanded Edition),I Love Rock 'N Roll,undefined
+564,356,Deez,2021-12-31 23:31:11,2021-12-31,Vendredi,23,Nena,99 Luftballons,99 Luftballons,undefined
+565,357,Deez,2021-12-31 23:35:05,2021-12-31,Vendredi,23,Nena,99 Luftballons,99 Luftballons,undefined
+566,358,Deez,2021-12-31 23:38:55,2021-12-31,Vendredi,23,The Pointer Sisters,80s 100 Hits,I'm So Excited,undefined
+567,359,Deez,2021-12-31 23:38:56,2021-12-31,Vendredi,23,France Gall,Babacar (Remasterisé en 2004),"Ella, elle l'a (Remasterisé en 2004)",undefined
+568,360,Deez,2021-12-31 23:43:49,2021-12-31,Vendredi,23,France Gall,Babacar (Remasterisé en 2004),"Ella, elle l'a (Remasterisé en 2004)",undefined
+569,361,Deez,2021-12-31 23:48:45,2021-12-31,Vendredi,23,Kool & The Gang,Something Special,Get Down On It,undefined
+570,362,Deez,2021-12-31 23:53:14,2021-12-31,Vendredi,23,Téléphone,Best of,Ça c'est vraiment toi,undefined
+571,363,Deez,2021-12-31 23:53:15,2021-12-31,Vendredi,23,a-ha,Hunting High and Low,Take on Me,undefined
+572,364,Deez,2021-12-31 23:57:04,2021-12-31,Vendredi,23,a-ha,Hunting High and Low,Take on Me,undefined
+573,365,Deez,2021-12-31 23:57:05,2021-12-31,Vendredi,23,Peter & Sloane,"Besoin De Rien, Envie De Toi","Besoin de rien, envie de toi",undefined
+574,366,Deez,2022-01-01 00:00:48,2022-01-01,Samedi,0,Peter & Sloane,"Besoin De Rien, Envie De Toi","Besoin de rien, envie de toi",undefined
+575,367,Deez,2022-01-01 00:00:49,2022-01-01,Samedi,0,Patrick Hernandez,Born to Be Alive,Born to Be Alive,undefined
+576,368,Deez,2022-01-01 00:03:59,2022-01-01,Samedi,0,Patrick Hernandez,Born to Be Alive,Born to Be Alive,undefined
+577,369,Deez,2022-01-01 11:59:29,2022-01-01,Samedi,11,Britney Spears,In The Zone,Toxic,undefined
+578,370,Deez,2022-01-01 12:02:52,2022-01-01,Samedi,12,Britney Spears,...Baby One More Time (Digital Deluxe Version),...Baby One More Time,undefined
+579,371,Deez,2022-01-01 15:40:39,2022-01-01,Samedi,15,Britney Spears,In The Zone,Toxic,undefined
+580,372,Deez,2022-01-01 15:43:59,2022-01-01,Samedi,15,Katy Perry,Hot N Cold,Hot N Cold,undefined
+581,373,Deez,2022-01-01 15:47:11,2022-01-01,Samedi,15,Britney Spears,In The Zone,Toxic,undefined
+582,374,Deez,2022-01-01 15:50:31,2022-01-01,Samedi,15,Lady Gaga,The Fame,Poker Face,undefined
+583,375,Deez,2022-01-01 15:54:29,2022-01-01,Samedi,15,Usher,Versus,DJ Got Us Fallin' In Love (feat. Pitbull),undefined
+584,376,Deez,2022-01-01 15:56:03,2022-01-01,Samedi,15,Clara Luciani,Cœur,Respire encore,undefined
+585,377,Deez,2022-01-01 15:59:51,2022-01-01,Samedi,15,Clara Luciani,Cœur,Amour toujours,undefined
+586,378,Deez,2022-01-01 16:01:01,2022-01-01,Samedi,16,Angèle,Nonante-Cinq,Bruxelles je t’aime,undefined
+587,379,Deez,2022-01-01 16:03:49,2022-01-01,Samedi,16,Michel Berger,Différences (Remasterisé en 2002),Chanter pour ceux qui sont loin de chez eux (Remasterisé en 2002),undefined
+588,380,Deez,2022-01-01 16:07:34,2022-01-01,Samedi,16,Dave,Les Grands Succès De Dave,Lettre a Hélène,undefined
+589,381,Deez,2022-01-01 16:10:58,2022-01-01,Samedi,16,Charles Aznavour,L'album de sa vie 100 titres,Mourir d'aimer,undefined
+590,382,Deez,2022-01-01 16:14:56,2022-01-01,Samedi,16,François Feldman,Best Of Gold,Slave (Album Version),undefined
+591,383,Deez,2022-01-01 16:18:36,2022-01-01,Samedi,16,Michel Jonasz,Changez tout,Les vacances au bord de la mer,undefined
+592,384,Deez,2022-01-01 16:20:56,2022-01-01,Samedi,16,ZAZ,Zaz,Je veux,undefined
+593,385,Deez,2022-01-01 16:23:28,2022-01-01,Samedi,16,ZAZ,Zaz,Éblouie par la nuit,undefined
+594,386,Deez,2022-01-01 16:25:53,2022-01-01,Samedi,16,Zazie,Zest Of,Je suis un homme,undefined
+595,387,Deez,2022-01-01 16:30:24,2022-01-01,Samedi,16,ZAZ,On ira,On ira,undefined
+596,388,Deez,2022-01-01 16:33:37,2022-01-01,Samedi,16,ZAZ,Zaz,La fée,undefined
+597,389,Deez,2022-01-01 16:37:44,2022-01-01,Samedi,16,Stanislas,L'Equilibre Instable (e album),Le Manège,undefined
+598,390,Deez,2022-01-01 16:40:09,2022-01-01,Samedi,16,Zazie,Zest Of,Je suis un homme,undefined
+599,391,Deez,2022-01-01 16:44:17,2022-01-01,Samedi,16,Zazie,Speed,Speed,undefined
