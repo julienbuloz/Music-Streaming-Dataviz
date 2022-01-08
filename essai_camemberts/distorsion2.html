@@ -9,22 +9,29 @@ text{
 }
 circle{
     fill: none;
-    stroke: black;
-    stroke-width: 5px;
+    //stroke: black;
+    //stroke-width: 5px;
+}
+circle.plein{
+	fill: orange;
 }
 rect.cache{
     fill: white;
 }
 path.clacos{
     //fill: blue;
-    stroke: black;
-    stroke-width: 2px;
+    //stroke: black;
+    //stroke-width: 2px;
 }
 </style>
 </head>
 <body id="corpus">
 <h1 id="titre">Distorsion</h1>
 <script>
+
+let mag = 10; //coefficient de magnification
+let rayMag = 50 //rayon de magnification
+
 let distorsion = function(x, c, r, p){
 // c: centre
 // r: rayon >0
@@ -117,25 +124,25 @@ let nbBarres = d3.randomInt(30,40)();
 let data = d3.shuffle(d3.range(nbBarres));
 
 data = data.map((d,i) => ({
-   "population":d,
-   "pays":("ici "+i),
+   "quantite":d,
+   "hdate":("ici "+i),
    "repartition":Array.from({length:d3.randomInt(3,10)()}, d3.randomUniform(1,10))
 }))
 
 // On demande à D3JS de charger notre fichier
 //d3.tsv("https://www.datavis.fr/d3js/barchart/data.tsv").then(function(data) {
     // Conversion des caractères en nombres
-    data.forEach(d => d.population = +d.population);
+    data.forEach(d => d.quantite = +d.quantite);
 
     // Mise en relation du scale avec les données de notre fichier
-    // Pour l'axe X, c'est la liste des pays
-    // Pour l'axe Y, c'est le max des populations
-    Ech_x.domain(data.map(d => d.pays));
-    let maxY = d3.max(data, d => d.population);
+    // Pour l'axe X, c'est la liste des hdate
+    // Pour l'axe Y, c'est le max des quantités
+    Ech_x.domain(data.map(d => d.hdate));
+    let maxY = d3.max(data, d => d.quantite);
     Ech_y.domain([-maxY, maxY]);
 
     let positionCentre = function(d, c=0, r=0, p=0){
-        let x = Ech_x.bandwidth()/2 + Ech_x(d.pays);
+        let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
         if(r > 0)
             x = distorsion(x, c, r, p);
         return x;
@@ -146,33 +153,54 @@ data = data.map((d,i) => ({
     };
 
     let formeDisque0 = function(d, c=0, r=0, p=0){
-        let ry = Ech_y(d.population);
+        let ry = Ech_y(d.quantite);
         let rx = Ech_x.bandwidth()/2;
         if (rx > ry)
             return 1;
         let R = rx/ry;
         if(r > 0)
-            R *= deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), c, r, p);
+            R *= deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.hdate), c, r, p);
         if(R > 1)
             R = 1;
         return R;
     };
 
     let formeDisque = function(d, c=0, r=0, p=0){
-        let ry = Ech_y(d.population);
+        let ry = Ech_y(d.quantite);
         let rx = Ech_x.bandwidth()/2;
         if (rx > ry)
             return 1;
         let R = rx/ry;
         if(r > 0)
-            R = echelle_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.pays), R, c, r);
+            R = echelle_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.hdate), R, c, r);
         if(R > 1)
             R = 1;
         return R;
     };
 
     let echelleDisque = function(d, c=0, r=0, p=0){
-        return "scale(" + formeDisque(d, c, r, p) + ",1)";
+        let echX = formeDisque(d, c, r, p);
+        let echY = 1;
+        let ry = Ech_y(d.quantite);
+        if ((ry > 0) && (p>0) && (r>=0) && (ry < p*Ech_x.bandwidth()/2))
+        {
+            let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
+            x = x-c;
+            if (x < 0)
+                x = -x;
+            if (x>r)
+                x = 0;
+            else
+                x = 1-(x/r);
+            let maxi = p * Ech_x.bandwidth()/(2*ry);
+            let t=r/rayMag;  
+            t *= x;         
+            let k = (1-t) + t*(maxi);
+            echX *= k;
+            echY *= k;
+            //console.log(r, ry, k);
+        }
+        return "scale(" + echX + "," + echY + ")"; 
     }                 
     
     let lignes = groupe.selectAll(".ligne")
@@ -180,24 +208,46 @@ data = data.map((d,i) => ({
         .enter()
         .append("line")
         .attr("class", "ligne")
-        .attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
-        .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.pays))
+        .attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.hdate))
+        .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.hdate))
         .attr("y1", height/2)
         .attr("y2", height)
         .attr("stroke", "black");
     
     let clacos = d3.pie();
 
-    let couleurs = d3.scaleOrdinal()
+    /*let couleurs = d3.scaleOrdinal()
           .domain(d3.range(12))
+          .range(d3.schemeDark2);*/
+
+    function faireCouleurs(nbCouleurs){
+        let C = d3.scaleOrdinal()
+          .domain(d3.range(nbCouleurs))
           .range(d3.schemeDark2);
+        let K = [];
+        for(let i=0; i<nbCouleurs; i+=1)
+        {
+            let k = C(i).substr(1);
+            K.push([+("0x" + k.substr(0,2)), +("0x" + k.substr(2,2)), +("0x" + k.substr(4))]);
+        }
+        return function(i, t=1){
+            let k = K[i]
+            k = (Math.floor(k[0] * t)*256+Math.floor(k[1] * t))*256 + Math.floor(k[2] * t);
+            k += 256*256*256;
+            return "#" + k.toString(16).substr(1);
+        };
+    }
+
+    let couleurs = faireCouleurs(12);
 
     let dessine_disque = function(dat){
         //console.log(dat);
-        let dd = clacos(dat.repartition).map(d=> {d.pays = dat.pays; d.population = dat.population; return d});
+        let dd = clacos(dat.repartition).map(d=> {d.hdate = dat.hdate; d.quantite = dat.quantite; return d});
         //console.log(dd);
-        groupe.append("g")
-              .selectAll("path")
+        let transfoDisque = formeDisque(dat);
+        let disq = groupe.append("g");
+        //groupe.append("g")
+              disq.selectAll("path")
               //.data(clacos(dat.repartition))
               .data(dd)
               .enter()
@@ -205,29 +255,32 @@ data = data.map((d,i) => ({
               .attr("class", "clacos")
               .attr('d', (d) => {
                                     //console.log(d);
-                                    let pathdata = d3.arc().innerRadius(0).outerRadius(Ech_y(dat.population))(d);
+                                    let R = Ech_y(dat.quantite);
+                                    //let pathdata = d3.arc().innerRadius(0).outerRadius(Ech_y(dat.quantite))(d);
+                                   	let pathdata = d3.arc().innerRadius(R*0.4).outerRadius(R)(d);
                                     //console.log(pathdata);
                                     return pathdata;})
-              .attr("fill", d => couleurs(d.index))
+              .attr("fill", d => couleurs(d.index, transfoDisque))
               .attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat));
+              disq.append("circle")
+        	   .attr("cx", 0)
+	           //.attr("cy", height/2)
+	           .attr("cy", "0")
+       		   .attr("r", Ech_y(dat.quantite)*0.4)
+       		   .attr("class", "plein")
+	           .attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat))
     };
 
-    /*let disques = groupe.selectAll("circle")
-        .data(data)
-        .enter()
-        .append("circle")
-        .attr("cx", 0)
-        .attr("cy", height/2)
-        .attr("r", d => Ech_y(d.population))
-        .attr("transform", d => positionDisque(d) + " " + echelleDisque(d));
-     */
+
     let disques = groupe.selectAll("circle")
         .data(data)
         .enter()
         .append("circle")
         .attr("cx", 0)
         .attr("cy", height/2)
-        .attr("r", d => Ech_y(d.population))
+        .attr("r", d => Ech_y(d.quantite))
+        //.attr("r", d => Ech_y(d.quantite)*0.4)
+        //.attr("class", "plein")
         .attr("transform", d => positionDisque(d) + " " + echelleDisque(d))
         .each(d => dessine_disque(d));
     
@@ -256,12 +309,13 @@ data = data.map((d,i) => ({
                  .style("text-anchor", "end")
                  //.attr("dx", Ech_x.bandwidth())
                  .attr("dy", 10)
-                 .text(d => d.pays)
+                 .text(d => d.hdate)
                  .attr("transform", "rotate(-65)")
 
 
     let legendes = axeHorizontal.selectAll(".legende");
     let secteurs = groupe.selectAll("path.clacos");
+    let centres_disques = groupe.selectAll("circle.plein").data(data);
     
     svg.on("mousemove", function(event, d){
 		let truc = d3.pointer(event);
@@ -270,15 +324,57 @@ data = data.map((d,i) => ({
 		let y = truc[1] - margin.top;
         y = height - y;
 		let r = 2*(y)/height;
-        r = 50*r
-        if(r>50)
-            r = 100-r;
-		lignes.attr("x1", d => positionCentre(d, c, r, 5))
-              .attr("x2", d => positionCentre(d, c, r, 5));
-        legendes.attr("transform", d => positionDisque(d, 15, c, r, 5));
-        disques.attr("transform", d => positionDisque(d, 0, c, r, 5) + " " + echelleDisque(d, c, r, 5));
-        secteurs.attr("transform", d => positionDisque(d, height/2, c, r, 5) + " " + echelleDisque(d, c, r, 5));
-	});		
+        r = rayMag*r
+        if(r>rayMag)
+            r = 2*rayMag-r;
+		lignes.attr("x1", d => positionCentre(d, c, r, mag))
+              .attr("x2", d => positionCentre(d, c, r, mag));
+        legendes.attr("transform", d => positionDisque(d, 15, c, r, mag));
+        disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+        secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+        secteurs.attr("fill", d => couleurs(d.index, formeDisque(d, c, r, mag)));
+        centres_disques.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+	});
+    
+    svg.on("mouseleave", function(event, d){
+        //console.log("mouseleave " + d3.pointer(event));
+        let duree = 200;
+        let truc = d3.pointer(event);
+		let c = truc[0] - margin.left;
+		//console.log(c);
+		let y = truc[1] - margin.top;
+        y = height - y;
+		let r = 2*(y)/height;
+        r = rayMag*r
+        if(r>rayMag)
+            r = 2*rayMag-r;
+        let interpol = d3.interpolate(r, 0)
+        let tweenX = d => function(t){return positionCentre(d, c, interpol(t), mag);}
+        let tweenSecteurs = d => function(t){return positionDisque(d, height/2, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)};
+        
+        lignes.transition()
+              .duration(duree)
+              .attrTween("x1", tweenX)
+              .attrTween("x2", tweenX);
+                                        
+        legendes.transition()
+                .duration(duree)
+                .attrTween("transform", d => function(t){return positionDisque(d, 15, c, interpol(t), mag);});
+        disques.transition()
+               .duration(duree)
+               .attrTween("transform", d => function(t){return positionDisque(d, 0, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)});
+        secteurs.transition()
+               .duration(duree)
+               .attrTween("transform", tweenSecteurs)
+               .attrTween("fill", d => function(t){return couleurs(d.index, formeDisque(d, c, interpol(t), mag));});
+        centres_disques.transition()
+               .duration(duree)
+               .attrTween("transform", tweenSecteurs);
+    });		
+
+ /*   svg.on("mouseout", function(event, d){
+        console.log("mouseout");
+    });		 */
 
 //});
 </script>
