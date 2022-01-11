@@ -1,209 +1,877 @@
 ,User,Date,Jour,Week_day,Heure,Artiste,Titre,Song,Genre
-142,M,2021-09-01 13:44:00,2021-09-01,Mercredi,13,Richard De Palmas,Marche dans le sable,undefined,Français
-654,M,2021-09-01 15:01:00,2021-09-01,Mercredi,15,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
-662,M,2021-09-01 17:40:00,2021-09-01,Mercredi,17,Syd Barrett,The Madcap Laughs,undefined,Rock/Folk
-421,M,2021-09-01 22:44:00,2021-09-01,Mercredi,22, Mogwai,Come on die young,undefined,Electro/Rap/Techno
-332,M,2021-09-02 08:26:00,2021-09-02,Jeudi,8, Lunatic Calm,undefined,undefined,Electro/Rap/Techno
-733,M,2021-09-02 21:48:00,2021-09-02,Jeudi,21,Thomas Fersen,Pièce montée des grands jours,undefined,Français
-521,M,2021-09-03 19:14:00,2021-09-03,Vendredi,19,PJ Harvey,Uh Huh Her,undefined,Rock/Folk
-758,M,2021-09-03 20:39:00,2021-09-03,Vendredi,20, US3,Broadway & 52nd,undefined,Electro/Rap/Techno
-605,M,2021-09-03 21:49:00,2021-09-03,Vendredi,21,The Shangri Las,Best of,undefined,Rock/Folk
-310,M,2021-09-03 22:58:00,2021-09-03,Vendredi,22,Leyanis Lopez,Corazon presumido,undefined,World
-688,M,2021-09-04 12:22:00,2021-09-04,Samedi,12,The Fields of the Nephilim,The Nephilim,undefined,Rock/Folk
-202,M,2021-09-04 16:16:00,2021-09-04,Samedi,16,Théodor Gouvy,Requiem,undefined,Classique/Contemporain
-125,M,2021-09-04 17:53:00,2021-09-04,Samedi,17,John Coltrane,Meditations,undefined,Jazz/Blues
-727,M,2021-09-04 20:43:00,2021-09-04,Samedi,20,Thelonious Monk,With John Coltrane at Carnegie Hall,undefined,Jazz/Blues
-170,M,2021-09-05 12:53:00,2021-09-05,Dimanche,12,Jacques Dutronc,Complètement Dutronc,undefined,Français
-46,M,2021-09-05 15:00:00,2021-09-05,Dimanche,15,Georges Bizet,Carmen,undefined,Classique/Contemporain
-449,M,2021-09-05 19:47:00,2021-09-05,Dimanche,19, No Man's Land,No Man's Land,undefined,Français
-118,M,2021-09-05 20:13:00,2021-09-05,Dimanche,20,John Coltrane,Duke Ellington and John Coltrane,undefined,Jazz/Blues
-103,M,2021-09-06 07:23:00,2021-09-06,Lundi,7,Frédéric Chopin,Vol 2 : Sonata n°3 - Mazurkas,undefined,Classique/Contemporain
-398,M,2021-09-06 22:15:00,2021-09-06,Lundi,22, Mickey 3D,Tu vas pas mourir de rire,undefined,Français
-332,M,2021-09-08 09:55:00,2021-09-08,Mercredi,9, Lunatic Calm,undefined,undefined,Electro/Rap/Techno
-18,M,2021-09-08 22:19:00,2021-09-08,Mercredi,22, Arvo Part,De Profundis,undefined,Classique/Contemporain
-649,M,2021-09-09 20:18:00,2021-09-09,Jeudi,20,Steve Reich,Three Movement,undefined,Classique/Contemporain
-27,M,2021-09-10 21:24:00,2021-09-10,Vendredi,21,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
-439,M,2021-09-10 22:10:00,2021-09-10,Vendredi,22, Niagara,Religion,undefined,Français
-380,M,2021-09-11 12:52:00,2021-09-11,Samedi,12,Bob Marley,Songs of Freedom,undefined,World
-329,M,2021-09-11 21:45:00,2021-09-11,Samedi,21, Ludwig Von 88,Prophètes et nains de jardin,undefined,Français
-587,M,2021-09-12 14:38:00,2021-09-12,Dimanche,14, Romano Sclavis Texier,Suite Africaine,undefined,Jazz/Blues
-614,M,2021-09-12 18:37:00,2021-09-12,Dimanche,18,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
-8,M,2021-09-12 20:59:00,2021-09-12,Dimanche,20, Akosh S. Unit,Omeko Live,undefined,Jazz/Blues
-177,M,2021-09-13 21:37:00,2021-09-13,Lundi,21, EMF,Schubert Dip,undefined,Français
-738,M,2021-09-14 22:53:00,2021-09-14,Mardi,22,Tom Mc Rae,Black Session 2005,undefined,Rock/Folk
-714,M,2021-09-15 12:49:00,2021-09-15,Mercredi,12,The Velvet Underground,The Velvet Underground & Nico,undefined,Rock/Folk
-642,M,2021-09-15 16:26:00,2021-09-15,Mercredi,16,Stan Getz,Getz/Gilberto,undefined,Jazz/Blues
-308,M,2021-09-15 18:12:00,2021-09-15,Mercredi,18,Les Wampas,Trop Précieux,undefined,Français
-274,M,2021-09-15 20:02:00,2021-09-15,Mercredi,20, King Size,Disfit for a King,undefined,Rock/Folk
-219,M,2021-09-15 22:38:00,2021-09-15,Mercredi,22,Ben Harper,Live at the Hollywood Bowl,undefined,Rock/Folk
-323,M,2021-09-16 12:15:00,2021-09-16,Jeudi,12,Julien Loureau,The Rise,undefined,Jazz/Blues
-583,M,2021-09-17 19:48:00,2021-09-17,Vendredi,19,Roger Water,"Music from ""the body""",undefined,Jazz/Blues
-658,M,2021-09-18 19:16:00,2021-09-18,Samedi,19,John Surman,The amazing adventures of Simon Simon,undefined,Jazz/Blues
-719,M,2021-09-18 20:05:00,2021-09-18,Samedi,20,Thelonious Monk,Criss-Cross,undefined,Jazz/Blues
-654,M,2021-09-19 13:26:00,2021-09-19,Dimanche,13,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
-199,M,2021-09-19 14:16:00,2021-09-19,Dimanche,14,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
-231,M,2021-09-19 15:32:00,2021-09-19,Dimanche,15,Jimi Hendrix,Jimi plays Monterey,undefined,Rock/Folk
-655,M,2021-09-19 17:56:00,2021-09-19,Dimanche,17, Stravinsky,L'oiseau de feu - Pulcinella Suite,undefined,Classique/Contemporain
-107,M,2021-09-19 19:12:00,2021-09-19,Dimanche,19,Eric Clapton,Unplugged,undefined,Jazz/Blues
-199,M,2021-09-19 20:40:00,2021-09-19,Dimanche,20,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
-323,M,2021-09-20 20:48:00,2021-09-20,Lundi,20,Julien Loureau,The Rise,undefined,Jazz/Blues
-662,M,2021-09-21 21:21:00,2021-09-21,Mardi,21,Syd Barrett,The Madcap Laughs,undefined,Rock/Folk
-214,M,2021-09-22 17:53:00,2021-09-22,Mercredi,17,Herbie Hancock,Maiden Voyage,undefined,Jazz/Blues
-725,M,2021-09-22 19:53:00,2021-09-22,Mercredi,19,Thelonious Monk,Thelonious Monk with John Coltrane,undefined,Jazz/Blues
-199,M,2021-09-23 21:34:00,2021-09-23,Jeudi,21,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
-155,M,2021-09-25 10:40:00,2021-09-25,Samedi,10, Dionysos,Whatever the weather (electrique),undefined,Français
-757,M,2021-09-25 12:37:00,2021-09-25,Samedi,12, Urban Species,Listen,undefined,Electro/Rap/Techno
-16,M,2021-09-25 13:34:00,2021-09-25,Samedi,13, Arte Mixo,Deseos,undefined,World
-702,M,2021-09-25 14:40:00,2021-09-25,Samedi,14,The Rolling Stones,Flashpoint,undefined,Rock/Folk
-120,M,2021-09-25 15:37:00,2021-09-25,Samedi,15,John Coltrane,John Coltrane and Johnny Hartman,undefined,Jazz/Blues
-259,M,2021-09-25 18:10:00,2021-09-25,Samedi,18, Judas Priest,Unleashed in the East,undefined,Rock/Folk
-663,M,2021-09-25 19:35:00,2021-09-25,Samedi,19,Talvin Singh,Presents the soundz of the Asian underground,undefined,Electro/Rap/Techno
-741,M,2021-09-25 21:31:00,2021-09-25,Samedi,21,Tracy Chapman,Tracy Chapman,undefined,Rock/Folk
-269,M,2021-09-26 11:16:00,2021-09-26,Dimanche,11, Ketama,Konfusion,undefined,World
-106,M,2021-09-26 14:13:00,2021-09-26,Dimanche,14,Eric Clapton,From the Cradle,undefined,Jazz/Blues
-176,M,2021-09-26 16:16:00,2021-09-26,Dimanche,16,Duke Ellington,Money Jungle,undefined,Jazz/Blues
-365,M,2021-09-26 17:05:00,2021-09-26,Dimanche,17, Mano Solo,Les animals,undefined,Français
-12,M,2021-09-26 19:47:00,2021-09-26,Dimanche,19, Arcade Fire,Neon Bible,undefined,Rock/Folk
-311,M,2021-09-27 19:19:00,2021-09-27,Lundi,19,Ismaël Lo,Jammu Africa,undefined,World
-377,M,2021-09-27 20:23:00,2021-09-27,Lundi,20, Marilyn Manson,Antichrist Superstar,undefined,Rock/Folk
-590,M,2021-09-27 21:06:00,2021-09-27,Lundi,21,Georges Russell,Ezz-thetics,undefined,Jazz/Blues
-656,M,2021-09-29 12:05:00,2021-09-29,Mercredi,12, Stravinsky,Petrouchka - Sacre du Printemps,undefined,Classique/Contemporain
-669,M,2021-09-29 18:32:00,2021-09-29,Mercredi,18,The Auteur,?,undefined,Rock/Folk
-738,M,2021-10-01 18:05:00,2021-10-01,Vendredi,18,Tom Mc Rae,Black Session 2005,undefined,Rock/Folk
-267,M,2021-10-01 19:29:00,2021-10-01,Vendredi,19,Kenny Garret,Triology,undefined,Jazz/Blues
-824,M,2021-10-01 20:57:00,2021-10-01,Vendredi,20, Divers,Les plus belles comptines italiennes,undefined,World
-270,M,2021-10-02 13:14:00,2021-10-02,Samedi,13,Keziah Jones,Blufunk is a fact,undefined,Rock/Folk
-762,M,2021-10-02 17:09:00,2021-10-02,Samedi,17,Christian Vander,Wurdah Itah,undefined,Rock/Folk
-256,M,2021-10-02 19:56:00,2021-10-02,Samedi,19,Janis Joplin,In Concert,undefined,Rock/Folk
-145,M,2021-10-02 22:27:00,2021-10-02,Samedi,22, Deee Lite,World Clique,undefined,Rock/Folk
-665,M,2021-10-03 00:19:00,2021-10-03,Dimanche,0,Les Tetes Raides,Gratte Poil,undefined,Français
-800,M,2021-10-03 14:07:00,2021-10-03,Dimanche,14, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
-764,M,2021-10-03 17:28:00,2021-10-03,Dimanche,17,Vanessa Paradis,Vanessa Paradis,undefined,Français
-213,M,2021-10-03 20:58:00,2021-10-03,Dimanche,20,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
-654,M,2021-10-03 21:38:00,2021-10-03,Dimanche,21,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
-648,M,2021-10-06 08:22:00,2021-10-06,Mercredi,8,Steve Reich,Six Marimbas - Different Trains - Kronos Quartet,undefined,Classique/Contemporain
-334,M,2021-10-06 19:26:00,2021-10-06,Mercredi,19, Lunel,Un instant,undefined,Français
-101,M,2021-10-09 00:16:00,2021-10-09,Samedi,0, Cheer,Lovehearts,undefined,Rock/Folk
-131,M,2021-10-09 01:12:00,2021-10-09,Samedi,1,John Coltrane,The John Coltrane Quartet plays,undefined,Jazz/Blues
-396,M,2021-10-09 09:22:00,2021-10-09,Samedi,9,George Michael,Patience,undefined,Rock/Folk
-778,M,2021-10-09 12:37:00,2021-10-09,Samedi,12,Barry White,The Ultimate Collection,undefined,Rock/Folk
-353,M,2021-10-09 17:49:00,2021-10-09,Samedi,17, Magma,Kohntarkosz,undefined,Rock/Folk
-813,M,2021-10-09 20:04:00,2021-10-09,Samedi,20, Divers,Guitarra Flamenca,undefined,World
-156,M,2021-10-09 21:33:00,2021-10-09,Samedi,21, DJ Hype & DJ Zinc,DJ Hype & DJ Zinc,undefined,Electro/Rap/Techno
-835,M,2021-10-09 22:41:00,2021-10-09,Samedi,22, Divers,Sine : Vive le jazz,undefined,Jazz/Blues
-11,M,2021-10-10 00:31:00,2021-10-10,Dimanche,0, Arcade Fire,Funeral,undefined,Rock/Folk
-833,M,2021-10-10 09:01:00,2021-10-10,Dimanche,9, Divers,Schweiz Rock,undefined,Rock/Folk
-166,M,2021-10-10 10:16:00,2021-10-10,Dimanche,10, Dominique A ,Remué,undefined,Français
-453,M,2021-10-10 14:50:00,2021-10-10,Dimanche,14, Noir Desir,Des visages des Figures,undefined,Français
-197,M,2021-10-10 15:43:00,2021-10-10,Dimanche,15,Gloria Gaynor,First be a Woman,undefined,Rock/Folk
-190,M,2021-10-10 22:54:00,2021-10-10,Dimanche,22,Aretha Franklin,The very best of,undefined,Jazz/Blues
-109,M,2021-10-11 21:35:00,2021-10-11,Lundi,21, CocoRosie,The adventures of ghosthorse and stillborn,undefined,Electro/Rap/Techno
-478,M,2021-10-13 10:28:00,2021-10-13,Mercredi,10, Pet Shop Boys,Behaviour,undefined,Electro/Rap/Techno
-472,M,2021-10-13 11:04:00,2021-10-13,Mercredi,11,Geoffrey Oryema,Exile,undefined,World
-488,M,2021-10-13 13:08:00,2021-10-13,Mercredi,13,Peter Hammil,The noise,undefined,Rock/Folk
-622,M,2021-10-13 18:49:00,2021-10-13,Mercredi,18, Sonic Youth,Dirty,undefined,Rock/Folk
-12,M,2021-10-13 19:13:00,2021-10-13,Mercredi,19, Arcade Fire,Neon Bible,undefined,Rock/Folk
-608,M,2021-10-15 21:41:00,2021-10-15,Vendredi,21, Simple Minds,Street Fighting Years,undefined,Rock/Folk
-800,M,2021-10-16 10:15:00,2021-10-16,Samedi,10, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
-752,M,2021-10-16 12:47:00,2021-10-16,Samedi,12, Tryo,Mamagubida,undefined,Français
-387,M,2021-10-16 16:35:00,2021-10-16,Samedi,16,Max Roach,It's Time,undefined,Jazz/Blues
-534,M,2021-10-16 18:55:00,2021-10-16,Samedi,18,Finlay Quaye,Maverick a Strike,undefined,Rock/Folk
-86,M,2021-10-16 19:41:00,2021-10-16,Samedi,19, Carmel,Collected,undefined,Rock/Folk
-834,M,2021-10-16 22:36:00,2021-10-16,Samedi,22, Dominique A,Si je connais Harry,undefined,Français
-474,M,2021-10-17 11:39:00,2021-10-17,Dimanche,11, Paganini,24 Caprices,undefined,Classique/Contemporain
-644,M,2021-10-17 14:43:00,2021-10-17,Dimanche,14,Steve Coleman,Resistance is futile,undefined,Jazz/Blues
-546,M,2021-10-17 17:41:00,2021-10-17,Dimanche,17, Radiohead,The Bends,undefined,Rock/Folk
-407,M,2021-10-17 19:51:00,2021-10-17,Dimanche,19,Glenn Miller,The Glenn Miller Story,undefined,Jazz/Blues
-344,M,2021-10-18 18:03:00,2021-10-18,Lundi,18, Magic Malik,69-96,undefined,Jazz/Blues
-634,M,2021-10-18 19:35:00,2021-10-18,Lundi,19,Sonny Rollins,Our Man in Jazz,undefined,Jazz/Blues
-434,M,2021-10-18 20:11:00,2021-10-18,Lundi,20,David Murray,The Tip,undefined,Jazz/Blues
-645,M,2021-10-19 19:30:00,2021-10-19,Mardi,19,Steve Coleman,Weaving Symbolics,undefined,Jazz/Blues
-828,M,2021-10-20 16:22:00,2021-10-20,Mercredi,16, Divers,New York New York,undefined,Jazz/Blues
-433,M,2021-10-20 18:53:00,2021-10-20,Mercredi,18,David Murray,Fo Deuk Revue,undefined,Jazz/Blues
-37,M,2021-10-20 20:01:00,2021-10-20,Mercredi,20, Beastie Boys,Live 98,undefined,Electro/Rap/Techno
-190,M,2021-10-21 22:12:00,2021-10-21,Jeudi,22,Aretha Franklin,The very best of,undefined,Jazz/Blues
-117,M,2021-10-22 19:21:00,2021-10-22,Vendredi,19,John Coltrane,Crescent,undefined,Jazz/Blues
-376,M,2021-10-22 20:48:00,2021-10-22,Vendredi,20,Marcus Miller,Live : The Complete bootleg Collection,undefined,Jazz/Blues
-127,M,2021-10-23 09:16:00,2021-10-23,Samedi,9,John Coltrane,The Complete 1961 Village Vanguard Recordings,undefined,Jazz/Blues
-149,M,2021-10-23 11:14:00,2021-10-23,Samedi,11, Deftones,Around the Fur,undefined,Rock/Folk
-775,M,2021-10-23 13:38:00,2021-10-23,Samedi,13,Wayne Shorter,Speak No Evil,undefined,Jazz/Blues
-693,M,2021-10-23 17:15:00,2021-10-23,Samedi,17,The Kills,Black Session 14 mars 2005,undefined,Rock/Folk
-678,M,2021-10-23 19:47:00,2021-10-23,Samedi,19,The Clash,From here to eternity,undefined,Rock/Folk
-556,M,2021-10-23 20:27:00,2021-10-23,Samedi,20, Red Hot Chili Peppers,Red Blood Sugar Sex Magic,undefined,Rock/Folk
-648,M,2021-10-24 12:20:00,2021-10-24,Dimanche,12,Steve Reich,Six Marimbas - Different Trains - Kronos Quartet,undefined,Classique/Contemporain
-118,M,2021-10-24 15:33:00,2021-10-24,Dimanche,15,John Coltrane,Duke Ellington and John Coltrane,undefined,Jazz/Blues
-467,M,2021-10-24 18:19:00,2021-10-24,Dimanche,18,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
-96,M,2021-10-24 19:20:00,2021-10-24,Dimanche,19,Johnny Cash,At Folsom prison,undefined,Rock/Folk
-777,M,2021-10-25 19:33:00,2021-10-25,Lundi,19,Wes Montgomery,Bumpin',undefined,Jazz/Blues
-223,M,2021-10-26 22:49:00,2021-10-26,Mardi,22,PJ Harvey,To bring you my love,undefined,Rock/Folk
-171,M,2021-10-27 18:05:00,2021-10-27,Mercredi,18,Bob Dylan,The Freewheelin' Bob Dylan,undefined,Rock/Folk
-593,M,2021-10-27 19:46:00,2021-10-27,Mercredi,19, Saï Saï,L'esprit du sound,undefined,Français
-32,M,2021-10-27 20:36:00,2021-10-27,Mercredi,20,Jean-Sébastien Bach,Passions,undefined,Classique/Contemporain
-846,M,2021-10-28 20:32:00,2021-10-28,Jeudi,20, Divers,Victoires de la musique classique - Révélations 2005 ,undefined,Classique/Contemporain
-580,M,2021-10-28 22:41:00,2021-10-28,Jeudi,22,Robert Miles,Dreamland,undefined,Electro/Rap/Techno
-1,M,2021-10-29 19:29:00,2021-10-29,Vendredi,19, AC/DC,Blow up Your Video,undefined,Rock/Folk
-351,M,2021-10-30 01:21:00,2021-10-30,Samedi,1, Magma,Kobaia,undefined,Rock/Folk
-361,M,2021-10-30 13:42:00,2021-10-30,Samedi,13, Mano Negra,King of Bongo,undefined,Français
-545,M,2021-10-30 14:52:00,2021-10-30,Samedi,14, Radiohead,Pablo Honey,undefined,Rock/Folk
-436,M,2021-10-30 18:16:00,2021-10-30,Samedi,18, Muse,Bliss,undefined,Rock/Folk
-443,M,2021-10-30 19:43:00,2021-10-30,Samedi,19,Nina Simone,My Way,undefined,Jazz/Blues
-251,M,2021-10-30 20:00:00,2021-10-30,Samedi,20, Jefferson Airplane,After bathing at Baxter's,undefined,Rock/Folk
-263,M,2021-10-31 11:28:00,2021-10-31,Dimanche,11, Katerine,Imbécile,undefined,Français
-797,M,2021-10-31 12:19:00,2021-10-31,Dimanche,12, Zen Zila,Mais ou on va comme ca,undefined,Français
-798,M,2021-10-31 14:04:00,2021-10-31,Dimanche,14, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
-614,M,2021-10-31 16:15:00,2021-10-31,Dimanche,16,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
-465,M,2021-11-03 17:00:00,2021-11-03,Mercredi,17,Oliver Nelson,The Blue & the Abstract Truth,undefined,Jazz/Blues
-90,M,2021-11-03 18:35:00,2021-11-03,Mercredi,18,James Carter,Jurassic Classics,undefined,Jazz/Blues
-26,M,2021-11-03 20:49:00,2021-11-03,Mercredi,20,Jean-Sébastien Bach,Cello Suites,undefined,Classique/Contemporain
-132,M,2021-11-03 22:34:00,2021-11-03,Mercredi,22, Compulsion,Hi Fi,undefined,Rock/Folk
-398,M,2021-11-04 09:39:00,2021-11-04,Jeudi,9, Mickey 3D,Tu vas pas mourir de rire,undefined,Français
-614,M,2021-11-06 12:05:00,2021-11-06,Samedi,12,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
-625,M,2021-11-06 19:53:00,2021-11-06,Samedi,19, Sonic Youth,Goo (demo),undefined,Rock/Folk
-555,M,2021-11-07 16:20:00,2021-11-07,Dimanche,16, Red Hot Chili Peppers,Californication,undefined,Rock/Folk
-817,M,2021-11-07 17:50:00,2021-11-07,Dimanche,17, Divers,Jazz,undefined,Jazz/Blues
-213,M,2021-11-07 19:47:00,2021-11-07,Dimanche,19,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
-29,M,2021-11-08 08:31:00,2021-11-08,Lundi,8,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
-439,M,2021-11-09 21:09:00,2021-11-09,Mardi,21, Niagara,Religion,undefined,Français
-271,M,2021-11-12 19:28:00,2021-11-12,Vendredi,19, Kickback,Forever War,undefined,Rock/Folk
-342,M,2021-11-12 22:31:00,2021-11-12,Vendredi,22, Madness,Divine Madness,undefined,Rock/Folk
-554,M,2021-11-13 10:58:00,2021-11-13,Samedi,10, Ravel,Boléro - La Valse - Concertos pour piano,undefined,Classique/Contemporain
-93,M,2021-11-13 17:10:00,2021-11-13,Samedi,17,James Carter,Live at Baker's Keyboard Lounge,undefined,Jazz/Blues
-834,M,2021-11-13 22:01:00,2021-11-13,Samedi,22, Dominique A,Si je connais Harry,undefined,Français
-166,M,2021-11-14 12:23:00,2021-11-14,Dimanche,12, Dominique A ,Remué,undefined,Français
-694,M,2021-11-14 15:53:00,2021-11-14,Dimanche,15,The Kills,Keep on your mean Side,undefined,Rock/Folk
-204,M,2021-11-14 17:30:00,2021-11-14,Dimanche,17,Buddy Guy,Damn Right I've got the Blues,undefined,Jazz/Blues
-54,M,2021-11-14 20:28:00,2021-11-14,Dimanche,20,Art Blackey and the Jazz Messengers,Moanin',undefined,Jazz/Blues
-191,M,2021-11-15 13:37:00,2021-11-15,Lundi,13, Funambule,Silently with You,undefined,Français
-754,M,2021-11-15 19:38:00,2021-11-15,Lundi,19, U2,War,undefined,Rock/Folk
-508,M,2021-11-15 21:01:00,2021-11-15,Lundi,21, Pink Floyd,Ummagumma,undefined,Rock/Folk
-598,M,2021-11-16 18:03:00,2021-11-16,Mardi,18, Scorpions,World Wide Live,undefined,Rock/Folk
-553,M,2021-11-17 12:26:00,2021-11-17,Mercredi,12,Raul Paz,Mulata,undefined,World
-601,M,2021-11-17 21:09:00,2021-11-17,Mercredi,21, Sepultura,Chaos A.D.,undefined,Rock/Folk
-184,M,2021-11-18 21:14:00,2021-11-18,Jeudi,21,Ella Fitzgerald,Compact Jazz,undefined,Jazz/Blues
-402,M,2021-11-19 19:10:00,2021-11-19,Vendredi,19,Miles Davis,On the corner,undefined,Jazz/Blues
-807,M,2021-11-20 00:19:00,2021-11-20,Samedi,0, Divers,Chat Noir Chat Blanc,undefined,World
-304,M,2021-11-20 19:11:00,2021-11-20,Samedi,19,Les Tambourinaires du Burundi,Les tambourinaires du Burundi,undefined,World
-673,M,2021-11-20 21:37:00,2021-11-20,Samedi,21,The Blue Aeroplanes,Beatsongs,undefined,Rock/Folk
-586,M,2021-11-21 10:58:00,2021-11-21,Dimanche,10, Romano Sclavis Texier,Carnet de Routes,undefined,Jazz/Blues
-351,M,2021-11-21 13:33:00,2021-11-21,Dimanche,13, Magma,Kobaia,undefined,Rock/Folk
-721,M,2021-11-21 15:44:00,2021-11-21,Dimanche,15,Thelonious Monk,Monk's dream,undefined,Jazz/Blues
-304,M,2021-11-21 17:31:00,2021-11-21,Dimanche,17,Les Tambourinaires du Burundi,Les tambourinaires du Burundi,undefined,World
-432,M,2021-11-21 18:23:00,2021-11-21,Dimanche,18,Wolfgang Amadeus Mozart,Requiem,undefined,Classique/Contemporain
-641,M,2021-11-22 07:48:00,2021-11-22,Lundi,7, Spicy Box,Spicy Box,undefined,Electro/Rap/Techno
-757,M,2021-11-22 21:37:00,2021-11-22,Lundi,21, Urban Species,Listen,undefined,Electro/Rap/Techno
-499,M,2021-11-23 21:36:00,2021-11-23,Mardi,21, Pili Pili,Nomansland,undefined,Français
-476,M,2021-11-23 22:26:00,2021-11-23,Mardi,22,Jarable de Palo,La Flaca,undefined,World
-636,M,2021-11-24 15:49:00,2021-11-24,Mercredi,15,Sonny Rollins,Sonny meets Hawk,undefined,Jazz/Blues
-114,M,2021-11-24 20:46:00,2021-11-24,Mercredi,20,John Coltrane,Ballads,undefined,Jazz/Blues
-798,M,2021-11-26 17:16:00,2021-11-26,Vendredi,17, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
-92,M,2021-11-26 18:56:00,2021-11-26,Vendredi,18,James Carter,Live,undefined,Jazz/Blues
-578,M,2021-11-26 19:01:00,2021-11-26,Vendredi,19,Robert Cray,Shame + A Sin,undefined,Jazz/Blues
-30,M,2021-11-27 00:20:00,2021-11-27,Samedi,0,Jean-Sébastien Bach,Goldberg Variations BW988 1981,undefined,Classique/Contemporain
-84,M,2021-11-27 13:37:00,2021-11-27,Samedi,13, Cali,Menteur,undefined,Français
-596,M,2021-11-27 16:34:00,2021-11-27,Samedi,16,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
-404,M,2021-11-28 11:18:00,2021-11-28,Dimanche,11,Miles Davis,Steckes of Spain,undefined,Jazz/Blues
-618,M,2021-11-28 14:20:00,2021-11-28,Dimanche,14,Patti Smith,Horses,undefined,Rock/Folk
-741,M,2021-11-28 17:58:00,2021-11-28,Dimanche,17,Tracy Chapman,Tracy Chapman,undefined,Rock/Folk
-812,M,2021-11-28 18:53:00,2021-11-28,Dimanche,18, Divers,Gipsy Jazz School,undefined,Jazz/Blues
-789,M,2021-11-29 13:14:00,2021-11-29,Lundi,13,Zakir Hussein,Zakir Hussein,undefined,World
-313,M,2021-11-30 21:38:00,2021-11-30,Mardi,21,Lorena Mc Kenitt,Lorena Mc Kenitt,undefined,World
+0,M,2021-01-01 18:29:00,2021-01-01,Vendredi,18, Deee Lite,World Clique,undefined,Rock/Folk
+1,M,2021-01-01 20:33:00,2021-01-01,Vendredi,20,John Coltrane,The heavyweight Champion,undefined,Jazz/Blues
+2,M,2021-01-02 10:34:00,2021-01-02,Samedi,10, Urban Species,Listen,undefined,Electro/Rap/Techno
+3,M,2021-01-02 11:11:00,2021-01-02,Samedi,11,Gabriel Faure,Requiem,undefined,Classique/Contemporain
+4,M,2021-01-02 12:14:00,2021-01-02,Samedi,12,Andrew Bird,And the mysterious production of eggs,undefined,Rock/Folk
+5,M,2021-01-02 22:26:00,2021-01-02,Samedi,22,Luz Luz Casa,Luz Casal,undefined,World
+6,M,2021-01-03 12:10:00,2021-01-03,Dimanche,12, Pet Shop Boys,Behaviour,undefined,Electro/Rap/Techno
+7,M,2021-01-03 14:49:00,2021-01-03,Dimanche,14,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+8,M,2021-01-03 15:36:00,2021-01-03,Dimanche,15,Jean-Sébastien Bach,Passions,undefined,Classique/Contemporain
+9,M,2021-01-03 21:48:00,2021-01-03,Dimanche,21, Arrested Developement,"3 years, 5 months, and 2 days in the life of…",undefined,Electro/Rap/Techno
+10,M,2021-01-04 19:19:00,2021-01-04,Lundi,19,John Lee Hooker,Mr Lucky,undefined,Jazz/Blues
+11,M,2021-01-04 20:55:00,2021-01-04,Lundi,20, Magic Malik,69-96,undefined,Jazz/Blues
+12,M,2021-01-05 07:28:00,2021-01-05,Mardi,7, Magma,Les Voix,undefined,Rock/Folk
+13,M,2021-01-05 21:42:00,2021-01-05,Mardi,21, Experience,Positive karaoke with a gun Negative karaoke with a smile,undefined,Français
+14,M,2021-01-05 22:26:00,2021-01-05,Mardi,22, Extreme ,Pornograffitti,undefined,Rock/Folk
+15,M,2021-01-06 20:14:00,2021-01-06,Mercredi,20, Air !,Moon Safari,undefined,Electro/Rap/Techno
+16,M,2021-01-06 21:35:00,2021-01-06,Mercredi,21, Pink Floyd,Meedle,undefined,Rock/Folk
+17,M,2021-01-07 09:10:00,2021-01-07,Jeudi,9, Divers,Midem'96,undefined,Rock/Folk
+18,M,2021-01-07 19:34:00,2021-01-07,Jeudi,19,Horace Silver,Song for my father,undefined,Jazz/Blues
+19,M,2021-01-07 22:22:00,2021-01-07,Jeudi,22, MC Solaar,Qui Sème le Vent récolte le Tempo,undefined,Français
+20,M,2021-01-08 19:17:00,2021-01-08,Vendredi,19,Wolfgang Amadeus Mozart,Requiem,undefined,Classique/Contemporain
+21,M,2021-01-09 09:52:00,2021-01-09,Samedi,9,"Julian ""Cannonball"" Aderley",Somethin' Else,undefined,Jazz/Blues
+22,M,2021-01-09 11:16:00,2021-01-09,Samedi,11, Dominique A,La musique / La matère,undefined,Français
+23,M,2021-01-09 19:17:00,2021-01-09,Samedi,19,John Coltrane,New thing at Newport,undefined,Jazz/Blues
+24,M,2021-01-09 21:03:00,2021-01-09,Samedi,21, Renaud,Marchand de Cailloux,undefined,Français
+25,M,2021-01-10 08:24:00,2021-01-10,Dimanche,8,Rob and his band Gordon,The Complete Caledonian Ball,undefined,World
+26,M,2021-01-10 11:33:00,2021-01-10,Dimanche,11, Magic Malik,Saoule,undefined,Jazz/Blues
+27,M,2021-01-10 12:51:00,2021-01-10,Dimanche,12,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+28,M,2021-01-10 19:29:00,2021-01-10,Dimanche,19,Youssou N'Dour,Joko,undefined,World
+29,M,2021-01-11 20:57:00,2021-01-11,Lundi,20,Wes Montgomery,Bumpin',undefined,Jazz/Blues
+30,M,2021-01-11 21:17:00,2021-01-11,Lundi,21,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+31,M,2021-01-12 21:35:00,2021-01-12,Mardi,21,Nina Simone,Nina Simone,undefined,Jazz/Blues
+32,M,2021-01-13 10:12:00,2021-01-13,Mercredi,10,Peter Gabriel,4th Album,undefined,Rock/Folk
+33,M,2021-01-13 18:05:00,2021-01-13,Mercredi,18,Steve Reich,Three Movement,undefined,Classique/Contemporain
+34,M,2021-01-13 21:16:00,2021-01-13,Mercredi,21,Oscar Peterson,At Carnegie Hall,undefined,Jazz/Blues
+35,M,2021-01-14 08:59:00,2021-01-14,Jeudi,8, Deftones,Around the Fur,undefined,Rock/Folk
+36,M,2021-01-15 07:14:00,2021-01-15,Vendredi,7,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
+37,M,2021-01-15 17:31:00,2021-01-15,Vendredi,17,Gerard Manset,La vallée de la Paix,undefined,Français
+38,M,2021-01-15 19:04:00,2021-01-15,Vendredi,19,Billie Holiday,Lady Day : The complete BH on Columbia 1933-1944,undefined,Jazz/Blues
+39,M,2021-01-16 08:44:00,2021-01-16,Samedi,8, Budka Suflera,"Nic nie Boli, Tak jak Zycie",undefined,Rock/Folk
+40,M,2021-01-16 10:04:00,2021-01-16,Samedi,10,Louis Armstrong,Hello Louis!,undefined,Jazz/Blues
+41,M,2021-01-16 13:22:00,2021-01-16,Samedi,13,Jean-Sébastien Bach,Goldberg Variations BW988 1981,undefined,Classique/Contemporain
+42,M,2021-01-16 19:31:00,2021-01-16,Samedi,19,Kurt Elling,Close your eyes,undefined,Jazz/Blues
+43,M,2021-01-16 21:49:00,2021-01-16,Samedi,21,The Shangri Las,Best of,undefined,Rock/Folk
+44,M,2021-01-17 14:23:00,2021-01-17,Dimanche,14,Sonny Rollins,What's new ?,undefined,Jazz/Blues
+45,M,2021-01-17 15:47:00,2021-01-17,Dimanche,15, Magma,1001°C,undefined,Rock/Folk
+46,M,2021-01-17 16:10:00,2021-01-17,Dimanche,16,Nina Simone,Nina Simone,undefined,Jazz/Blues
+47,M,2021-01-17 17:46:00,2021-01-17,Dimanche,17,The Cure,Black Session 15 octobre 2004,undefined,Rock/Folk
+48,M,2021-01-17 18:22:00,2021-01-17,Dimanche,18,Frank Zappa,?,undefined,Rock/Folk
+49,M,2021-01-17 19:00:00,2021-01-17,Dimanche,19,John Coltrane,The Complete 1961 Village Vanguard Recordings,undefined,Jazz/Blues
+50,M,2021-01-17 20:25:00,2021-01-17,Dimanche,20, Stravinsky,L'oiseau de feu - Pulcinella Suite,undefined,Classique/Contemporain
+51,M,2021-01-19 20:48:00,2021-01-19,Mardi,20, VRP,VRP,undefined,Français
+52,M,2021-01-20 11:36:00,2021-01-20,Mercredi,11,Thelonious Monk,Monk in France,undefined,Jazz/Blues
+53,M,2021-01-20 14:31:00,2021-01-20,Mercredi,14, Prince Paul,A Prince Among Thieves,undefined,Electro/Rap/Techno
+54,M,2021-01-20 16:18:00,2021-01-20,Mercredi,16,PJ Harvey,Dry,undefined,Rock/Folk
+55,M,2021-01-20 20:44:00,2021-01-20,Mercredi,20,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+56,M,2021-01-20 22:38:00,2021-01-20,Mercredi,22,Les Tetes Raides,Gratte Poil,undefined,Français
+57,M,2021-01-21 09:51:00,2021-01-21,Jeudi,9,Tom Mc Rae,Black Session 2005,undefined,Rock/Folk
+58,M,2021-01-22 19:09:00,2021-01-22,Vendredi,19,Ahmad Jamal,The Essence part I,undefined,Jazz/Blues
+59,M,2021-01-23 12:50:00,2021-01-23,Samedi,12,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+60,M,2021-01-23 18:16:00,2021-01-23,Samedi,18,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
+61,M,2021-01-23 19:03:00,2021-01-23,Samedi,19,Jimmy Smith,Midnight Special,undefined,Jazz/Blues
+62,M,2021-01-23 20:53:00,2021-01-23,Samedi,20, Blues Trottoir,Histoires Courtes,undefined,Français
+63,M,2021-01-23 22:17:00,2021-01-23,Samedi,22,Charles Mingus,Tijuana Moods,undefined,Jazz/Blues
+64,M,2021-01-24 11:40:00,2021-01-24,Dimanche,11, Divers,Le Destin,undefined,World
+65,M,2021-01-24 12:50:00,2021-01-24,Dimanche,12, Nirvana,Nevermind,undefined,Rock/Folk
+66,M,2021-01-24 17:21:00,2021-01-24,Dimanche,17, Ludwig Von 88,Houlala La mission,undefined,Français
+67,M,2021-01-24 18:33:00,2021-01-24,Dimanche,18,David Bowie,Hunky Dory,undefined,Rock/Folk
+68,M,2021-01-24 21:01:00,2021-01-24,Dimanche,21, Dominique A,Auguri,undefined,Français
+69,M,2021-01-25 22:40:00,2021-01-25,Lundi,22,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+70,M,2021-01-27 12:28:00,2021-01-27,Mercredi,12, Deftones,Around the Fur,undefined,Rock/Folk
+71,M,2021-01-27 13:42:00,2021-01-27,Mercredi,13,John Coltrane,The heavyweight Champion,undefined,Jazz/Blues
+72,M,2021-01-27 15:35:00,2021-01-27,Mercredi,15,Finlay Quaye,Maverick a Strike,undefined,Rock/Folk
+73,M,2021-01-28 08:38:00,2021-01-28,Jeudi,8, Dionysos,Monsters in Love,undefined,Français
+74,M,2021-01-29 08:59:00,2021-01-29,Vendredi,8,Jean-Sébastien Bach,Ich hatte viel Bekümmernis Cantates BWV21 & 42,undefined,Classique/Contemporain
+75,M,2021-01-29 18:56:00,2021-01-29,Vendredi,18,Jean-Luc Ponty,?,undefined,Jazz/Blues
+76,M,2021-01-29 20:10:00,2021-01-29,Vendredi,20, Divers,Gipsy Jazz School,undefined,Jazz/Blues
+77,M,2021-01-29 21:03:00,2021-01-29,Vendredi,21,Ludwig Von Beethoven,Symphonies n°1 & 3,undefined,Classique/Contemporain
+78,M,2021-01-30 08:52:00,2021-01-30,Samedi,8,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+79,M,2021-01-30 09:17:00,2021-01-30,Samedi,9, Miossec,A Prendre,undefined,Français
+80,M,2021-01-30 10:31:00,2021-01-30,Samedi,10,David Bowie,Diamond dogs,undefined,Rock/Folk
+81,M,2021-01-30 11:17:00,2021-01-30,Samedi,11,Mino Cinelu,Mino Cinelu,undefined,World
+82,M,2021-01-31 09:57:00,2021-01-31,Dimanche,9,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+83,M,2021-01-31 10:48:00,2021-01-31,Dimanche,10, Culture,Pay day,undefined,World
+84,M,2021-01-31 14:04:00,2021-01-31,Dimanche,14, Generation X,Perfects Hits 1975-1981,undefined,Rock/Folk
+85,M,2021-01-31 15:07:00,2021-01-31,Dimanche,15, Dionysos,Whatever the weather (electrique),undefined,Français
+86,M,2021-01-31 18:50:00,2021-01-31,Dimanche,18,Sonny Rollins,Saxophone Colossus,undefined,Jazz/Blues
+87,M,2021-01-31 19:41:00,2021-01-31,Dimanche,19,Joshua Redman,Live in the Village Vanguard,undefined,Jazz/Blues
+88,M,2021-01-31 21:58:00,2021-01-31,Dimanche,21,Steve Reich,Different Trains - Triple Quartet - The Four Section,undefined,Classique/Contemporain
+89,M,2021-02-01 20:46:00,2021-02-01,Lundi,20,John Coltrane,The Complete Impulse Recording,undefined,Jazz/Blues
+90,M,2021-02-03 12:55:00,2021-02-03,Mercredi,12,Raul Paz,Cuba Libre,undefined,World
+91,M,2021-02-03 14:25:00,2021-02-03,Mercredi,14, Triumph,Classics,undefined,Rock/Folk
+92,M,2021-02-03 22:06:00,2021-02-03,Mercredi,22, Dominique A,La mémoire neuve,undefined,Français
+93,M,2021-02-04 21:21:00,2021-02-04,Jeudi,21, Dionysos,Whatever the weather (electrique),undefined,Français
+94,M,2021-02-04 22:14:00,2021-02-04,Jeudi,22, KRS One,Return of the Boom Tap,undefined,Electro/Rap/Techno
+95,M,2021-02-05 20:18:00,2021-02-05,Vendredi,20, Romano Sclavis Texier,Suite Africaine,undefined,Jazz/Blues
+96,M,2021-02-06 10:22:00,2021-02-06,Samedi,10,Louis Armstrong,Porgy & Bess,undefined,Jazz/Blues
+97,M,2021-02-06 12:10:00,2021-02-06,Samedi,12,Nat « King » & Nathali Cole,Unforgettable,undefined,Jazz/Blues
+98,M,2021-02-06 17:25:00,2021-02-06,Samedi,17, Arcade Fire,Funeral,undefined,Rock/Folk
+99,M,2021-02-06 20:23:00,2021-02-06,Samedi,20, Sonic Youth,In the fields od Sonic Love,undefined,Rock/Folk
+100,M,2021-02-06 22:00:00,2021-02-06,Samedi,22,Serge Gainsbourg,De Gainsbourg a Gainsbarre,undefined,Français
+101,M,2021-02-07 12:06:00,2021-02-07,Dimanche,12, Divers,Black Cat White Cat,undefined,World
+102,M,2021-02-07 13:00:00,2021-02-07,Dimanche,13,Syd Barrett,Barret,undefined,Rock/Folk
+103,M,2021-02-09 20:38:00,2021-02-09,Mardi,20, Arte Mixo,Deseos,undefined,World
+104,M,2021-02-09 21:47:00,2021-02-09,Mardi,21, Divers,Le Destin,undefined,World
+105,M,2021-02-09 22:25:00,2021-02-09,Mardi,22,Astor Piazzola,Tango Fever,undefined,World
+106,M,2021-02-10 19:07:00,2021-02-10,Mercredi,19, De Rosa,AfroBlues,undefined,Jazz/Blues
+107,M,2021-02-10 20:07:00,2021-02-10,Mercredi,20,Steve Coleman,Resistance is futile,undefined,Jazz/Blues
+108,M,2021-02-11 21:54:00,2021-02-11,Jeudi,21,Jean-Sébastien Bach,Ich hatte viel Bekümmernis Cantates BWV21 & 42,undefined,Classique/Contemporain
+109,M,2021-02-13 00:31:00,2021-02-13,Samedi,0, Divers,Chat Noir Chat Blanc,undefined,World
+110,M,2021-02-13 12:04:00,2021-02-13,Samedi,12,Erik Truffaz,Out of the Dreamn,undefined,Jazz/Blues
+111,M,2021-02-13 13:07:00,2021-02-13,Samedi,13,Ludwig Von Beethoven,"Symphony n°3 ""Eroica"" - Trio Op.11 - Sextet Op.81b - String Quartet",undefined,Classique/Contemporain
+112,M,2021-02-13 14:16:00,2021-02-13,Samedi,14,Frank Zappa,?,undefined,Rock/Folk
+113,M,2021-02-13 16:09:00,2021-02-13,Samedi,16, Daft Punk,Discovery,undefined,Electro/Rap/Techno
+114,M,2021-02-13 20:07:00,2021-02-13,Samedi,20,Count Basie,E=MC2,undefined,Jazz/Blues
+115,M,2021-02-13 22:09:00,2021-02-13,Samedi,22, Divers,Absolute Hard Techno,undefined,Electro/Rap/Techno
+116,M,2021-02-14 16:32:00,2021-02-14,Dimanche,16,Georges Bizet,Carmen,undefined,Classique/Contemporain
+117,M,2021-02-14 18:07:00,2021-02-14,Dimanche,18, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+118,M,2021-02-14 20:42:00,2021-02-14,Dimanche,20,John Coltrane,New thing at Newport,undefined,Jazz/Blues
+119,M,2021-02-15 08:22:00,2021-02-15,Lundi,8,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+120,M,2021-02-15 18:48:00,2021-02-15,Lundi,18, AC/DC,The Razors Edge,undefined,Rock/Folk
+121,M,2021-02-16 08:39:00,2021-02-16,Mardi,8,Brad Mehldaud,Art of the trio 4 back at the vanguard,undefined,Jazz/Blues
+122,M,2021-02-16 18:54:00,2021-02-16,Mardi,18,Miles Davis,Tutu,undefined,Jazz/Blues
+123,M,2021-02-18 08:08:00,2021-02-18,Jeudi,8, Divers,Kansas City,undefined,Jazz/Blues
+124,M,2021-02-18 21:35:00,2021-02-18,Jeudi,21,Compay Segundo,Calle Salud,undefined,World
+125,M,2021-02-19 08:48:00,2021-02-19,Vendredi,8,Les Garçons Bouchers,Vacarmélite,undefined,Français
+126,M,2021-02-19 21:21:00,2021-02-19,Vendredi,21, Magic Malik,69-96,undefined,Jazz/Blues
+127,M,2021-02-19 22:22:00,2021-02-19,Vendredi,22, Magma,Kohntarkosz,undefined,Rock/Folk
+128,M,2021-02-20 11:50:00,2021-02-20,Samedi,11, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+129,M,2021-02-20 12:25:00,2021-02-20,Samedi,12, Cocteau Twins,Treasure,undefined,Rock/Folk
+130,M,2021-02-20 13:56:00,2021-02-20,Samedi,13,Ben Harper,Burn to shine,undefined,Rock/Folk
+131,M,2021-02-20 19:32:00,2021-02-20,Samedi,19,Nina Simone,Nina Simone,undefined,Jazz/Blues
+132,M,2021-02-20 22:13:00,2021-02-20,Samedi,22, King Crimson,In the court of Crimson King,undefined,Rock/Folk
+133,M,2021-02-21 11:23:00,2021-02-21,Dimanche,11, Arvo Part,De Profundis,undefined,Classique/Contemporain
+134,M,2021-02-21 15:59:00,2021-02-21,Dimanche,15, Arvo Part,De Profundis,undefined,Classique/Contemporain
+135,M,2021-02-21 18:38:00,2021-02-21,Dimanche,18,John Coltrane,The Complete 1961 Village Vanguard Recordings,undefined,Jazz/Blues
+136,M,2021-02-21 19:43:00,2021-02-21,Dimanche,19,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
+137,M,2021-02-21 21:02:00,2021-02-21,Dimanche,21,David Murray,The Tip,undefined,Jazz/Blues
+138,M,2021-02-22 19:51:00,2021-02-22,Lundi,19,Sonny Rollins,Saxophone Colossus,undefined,Jazz/Blues
+139,M,2021-02-24 09:02:00,2021-02-24,Mercredi,9,Ludwig Von Beethoven,"Symphony n°3 ""Eroica"" - Trio Op.11 - Sextet Op.81b - String Quartet",undefined,Classique/Contemporain
+140,M,2021-02-24 13:06:00,2021-02-24,Mercredi,13, Magma,Udu Wudu,undefined,Rock/Folk
+141,M,2021-02-25 09:14:00,2021-02-25,Jeudi,9, Judas Priest,Unleashed in the East,undefined,Rock/Folk
+142,M,2021-02-25 19:44:00,2021-02-25,Jeudi,19,John Coltrane,Live in Japan,undefined,Jazz/Blues
+143,M,2021-02-25 20:50:00,2021-02-25,Jeudi,20, Radiohead,I might be wrong,undefined,Rock/Folk
+144,M,2021-02-25 21:08:00,2021-02-25,Jeudi,21, Paganini,24 Caprices,undefined,Classique/Contemporain
+145,M,2021-02-26 21:39:00,2021-02-26,Vendredi,21,Jimi Hendrix,Electric Ladyland,undefined,Rock/Folk
+146,M,2021-02-26 22:03:00,2021-02-26,Vendredi,22,"Julian ""Cannonball"" Aderley",Somethin' Else,undefined,Jazz/Blues
+147,M,2021-02-27 11:12:00,2021-02-27,Samedi,11, Divers,Spirit Of Africa,undefined,World
+148,M,2021-02-27 15:35:00,2021-02-27,Samedi,15,Brad Mehldaud,Art of the trio 4 back at the vanguard,undefined,Jazz/Blues
+149,M,2021-02-27 20:31:00,2021-02-27,Samedi,20,Chet Baker,Chet,undefined,Jazz/Blues
+150,M,2021-02-28 10:40:00,2021-02-28,Dimanche,10,Erik Truffaz,Bending the Corner,undefined,Jazz/Blues
+151,M,2021-02-28 11:49:00,2021-02-28,Dimanche,11,Carla Bley,Escalator Over the Hill,undefined,Jazz/Blues
+152,M,2021-02-28 16:23:00,2021-02-28,Dimanche,16,The Rolling Stones,Sticky Fingers,undefined,Rock/Folk
+153,M,2021-02-28 18:21:00,2021-02-28,Dimanche,18, Divers,Jackie Brown,undefined,Rock/Folk
+154,M,2021-03-01 19:02:00,2021-03-01,Lundi,19,Herbie Hancock,Dis is da drums,undefined,Jazz/Blues
+155,M,2021-03-01 21:47:00,2021-03-01,Lundi,21,Oliver Nelson,The Blue & the Abstract Truth,undefined,Jazz/Blues
+156,M,2021-03-02 20:41:00,2021-03-02,Mardi,20,Sonny Rollins,A night at the Village Vanguard,undefined,Jazz/Blues
+157,M,2021-03-03 10:04:00,2021-03-03,Mercredi,10,John Coltrane,The heavyweight Champion,undefined,Jazz/Blues
+158,M,2021-03-03 19:50:00,2021-03-03,Mercredi,19,The Sixteen Horspower,Low Estate,undefined,Rock/Folk
+159,M,2021-03-03 22:38:00,2021-03-03,Mercredi,22, Marilyn Manson,Antichrist Superstar,undefined,Rock/Folk
+160,M,2021-03-04 09:33:00,2021-03-04,Jeudi,9, Marilyn Manson,Mechanical Animals,undefined,Rock/Folk
+161,M,2021-03-04 13:42:00,2021-03-04,Jeudi,13, Arvo Part,De Profundis,undefined,Classique/Contemporain
+162,M,2021-03-05 18:26:00,2021-03-05,Vendredi,18,Steve Reich,Three Movement,undefined,Classique/Contemporain
+163,M,2021-03-05 21:53:00,2021-03-05,Vendredi,21,David Bowie,Ziggy Stardust,undefined,Rock/Folk
+164,M,2021-03-06 12:05:00,2021-03-06,Samedi,12,Pierre Desproges,Chroniques de la haine ordinaires,undefined,Français
+165,M,2021-03-06 19:43:00,2021-03-06,Samedi,19,Compay Segundo,Calle Salud,undefined,World
+166,M,2021-03-06 20:08:00,2021-03-06,Samedi,20,Charles Mingus,Mingus Mingus Mingus Mingus Mingus,undefined,Jazz/Blues
+167,M,2021-03-07 09:21:00,2021-03-07,Dimanche,9, Compulsion,Hi Fi,undefined,Rock/Folk
+168,M,2021-03-07 10:44:00,2021-03-07,Dimanche,10, Korn,Korn,undefined,Rock/Folk
+169,M,2021-03-07 12:40:00,2021-03-07,Dimanche,12, UB40,The Best of vol.1,undefined,Rock/Folk
+170,M,2021-03-07 13:43:00,2021-03-07,Dimanche,13,PJ Harvey,Uh Huh Her,undefined,Rock/Folk
+171,M,2021-03-07 18:21:00,2021-03-07,Dimanche,18, De Rosa,AfroBlues,undefined,Jazz/Blues
+172,M,2021-03-07 19:12:00,2021-03-07,Dimanche,19,Herbie Hancock,Maiden Voyage,undefined,Jazz/Blues
+173,M,2021-03-08 07:08:00,2021-03-08,Lundi,7, Kraftwerk,The Man Machine,undefined,Rock/Folk
+174,M,2021-03-08 21:57:00,2021-03-08,Lundi,21, Divers,Underground,undefined,World
+175,M,2021-03-09 20:13:00,2021-03-09,Mardi,20,Horace Silver,Song for my father,undefined,Jazz/Blues
+176,M,2021-03-10 12:26:00,2021-03-10,Mercredi,12, Pink Floyd,The Piper at the Gates of Down,undefined,Rock/Folk
+177,M,2021-03-10 14:32:00,2021-03-10,Mercredi,14,Erik Truffaz,Bending the Corner,undefined,Jazz/Blues
+178,M,2021-03-10 19:45:00,2021-03-10,Mercredi,19, Divers,Gadjo Dilo,undefined,World
+179,M,2021-03-10 20:01:00,2021-03-10,Mercredi,20,Miles Davis,Paris Jazz Concerts,undefined,Jazz/Blues
+180,M,2021-03-11 21:32:00,2021-03-11,Jeudi,21, Cheer,Lovehearts,undefined,Rock/Folk
+181,M,2021-03-11 22:41:00,2021-03-11,Jeudi,22,Cock Robin,The Best of,undefined,Rock/Folk
+182,M,2021-03-12 20:55:00,2021-03-12,Vendredi,20, Art Ensemble of Chicago,Coming Home Jamaica,undefined,Jazz/Blues
+183,M,2021-03-12 22:20:00,2021-03-12,Vendredi,22,Thelonious Monk,Thelonious Monk with John Coltrane,undefined,Jazz/Blues
+184,M,2021-03-13 10:42:00,2021-03-13,Samedi,10,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
+185,M,2021-03-13 12:15:00,2021-03-13,Samedi,12,Tracy Chapman,Tracy Chapman,undefined,Rock/Folk
+186,M,2021-03-13 15:19:00,2021-03-13,Samedi,15, Deee Lite,World Clique,undefined,Rock/Folk
+187,M,2021-03-13 16:13:00,2021-03-13,Samedi,16,Tom Mc Rae,Black Session 2005,undefined,Rock/Folk
+188,M,2021-03-13 17:36:00,2021-03-13,Samedi,17,John Coltrane,The Complete Africa/Brass Sessions,undefined,Jazz/Blues
+189,M,2021-03-13 19:35:00,2021-03-13,Samedi,19,Richard De Palmas,Marche dans le sable,undefined,Français
+190,M,2021-03-13 20:36:00,2021-03-13,Samedi,20, Romano Sclavis Texier,African Flashback,undefined,Jazz/Blues
+191,M,2021-03-14 09:39:00,2021-03-14,Dimanche,9,Frank Zappa,Hot Rats,undefined,Rock/Folk
+192,M,2021-03-14 14:37:00,2021-03-14,Dimanche,14, Renaud,Chansons Réalistes,undefined,Français
+193,M,2021-03-14 17:11:00,2021-03-14,Dimanche,17,Oscar Peterson,Tenderly,undefined,Jazz/Blues
+194,M,2021-03-14 20:23:00,2021-03-14,Dimanche,20, Buckshot Lefonque,Buckshot Lefonque,undefined,Jazz/Blues
+195,M,2021-03-15 21:54:00,2021-03-15,Lundi,21,John Coltrane,Coltrane,undefined,Jazz/Blues
+196,M,2021-03-17 20:40:00,2021-03-17,Mercredi,20,Astor Piazzola,Milonga Del Angel,undefined,World
+197,M,2021-03-17 21:47:00,2021-03-17,Mercredi,21, OTH,Sauvagerie,undefined,Français
+198,M,2021-03-18 08:31:00,2021-03-18,Jeudi,8,Jacques Dutronc,Complètement Dutronc,undefined,Français
+199,M,2021-03-18 09:45:00,2021-03-18,Jeudi,9,Zakir Hussein,Zakir Hussein,undefined,World
+200,M,2021-03-18 22:46:00,2021-03-18,Jeudi,22,The Sisters of Mercy,Sisters of Mercy,undefined,Rock/Folk
+201,M,2021-03-19 20:01:00,2021-03-19,Vendredi,20,Miles Davis,Tutu,undefined,Jazz/Blues
+202,M,2021-03-19 22:58:00,2021-03-19,Vendredi,22, Kruder & Dorfmeister,Kruder & Dorfmeister,undefined,Electro/Rap/Techno
+203,M,2021-03-20 09:36:00,2021-03-20,Samedi,9, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+204,M,2021-03-20 19:10:00,2021-03-20,Samedi,19, Saxemble,Saxemble,undefined,Jazz/Blues
+205,M,2021-03-20 21:53:00,2021-03-20,Samedi,21, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+206,M,2021-03-21 11:33:00,2021-03-21,Dimanche,11,Ornette Coleman,Something Else,undefined,Jazz/Blues
+207,M,2021-03-21 16:55:00,2021-03-21,Dimanche,16, Led Zeppelin,IV,undefined,Rock/Folk
+208,M,2021-03-21 17:19:00,2021-03-21,Dimanche,17, Divers,Kansas City,undefined,Jazz/Blues
+209,M,2021-03-21 19:14:00,2021-03-21,Dimanche,19,Jean-Sébastien Bach,French suites - English suites,undefined,Classique/Contemporain
+210,M,2021-03-22 21:15:00,2021-03-22,Lundi,21, Placebo,Sleeping with Ghosts & Covers,undefined,Rock/Folk
+211,M,2021-03-22 22:30:00,2021-03-22,Lundi,22, Marilyn Manson,Antichrist Superstar,undefined,Rock/Folk
+212,M,2021-03-24 10:54:00,2021-03-24,Mercredi,10, Romano Sclavis Texier,African Flashback,undefined,Jazz/Blues
+213,M,2021-03-26 20:08:00,2021-03-26,Vendredi,20, Mogwai,Come on die young,undefined,Electro/Rap/Techno
+214,M,2021-03-26 21:30:00,2021-03-26,Vendredi,21, Divers,Black Cat White Cat,undefined,World
+215,M,2021-03-26 22:24:00,2021-03-26,Vendredi,22, Triumph,Classics,undefined,Rock/Folk
+216,M,2021-03-27 00:24:00,2021-03-27,Samedi,0,James Carter,Conversin' with the Elders,undefined,Jazz/Blues
+217,M,2021-03-27 11:17:00,2021-03-27,Samedi,11, Placebo,Sleeping with Ghosts,undefined,Rock/Folk
+218,M,2021-03-27 13:40:00,2021-03-27,Samedi,13, Trust,Tournée 1980,undefined,Français
+219,M,2021-03-27 14:01:00,2021-03-27,Samedi,14, Dominique A,La mémoire neuve,undefined,Français
+220,M,2021-03-27 18:09:00,2021-03-27,Samedi,18, Magma,Theusz Hamtaahk trilogie,undefined,Rock/Folk
+221,M,2021-03-27 22:48:00,2021-03-27,Samedi,22,Serge Gainsbourg,Casino de Paris,undefined,Français
+222,M,2021-03-28 08:54:00,2021-03-28,Dimanche,8, Stravinsky,Petrouchka - Sacre du Printemps,undefined,Classique/Contemporain
+223,M,2021-03-28 13:16:00,2021-03-28,Dimanche,13,Frédéric Chopin,Vol 2 : Sonata n°3 - Mazurkas,undefined,Classique/Contemporain
+224,M,2021-03-28 14:23:00,2021-03-28,Dimanche,14, Noir Desir,Ou veux-tu qu'je r'garde,undefined,Français
+225,M,2021-03-28 16:56:00,2021-03-28,Dimanche,16,Jean-Sébastien Bach,Goldberg Variations BW988 1981,undefined,Classique/Contemporain
+226,M,2021-03-28 17:22:00,2021-03-28,Dimanche,17, Dimmu Borgir,Spiritual Black Dimensions,undefined,Rock/Folk
+227,M,2021-03-28 20:16:00,2021-03-28,Dimanche,20, Art Ensemble of Chicago,Coming Home Jamaica,undefined,Jazz/Blues
+228,M,2021-03-29 07:05:00,2021-03-29,Lundi,7,PJ Harvey,4 Tracks Demo,undefined,Rock/Folk
+229,M,2021-03-30 21:24:00,2021-03-30,Mardi,21, Manu le Malin,Manu le Malin,undefined,Electro/Rap/Techno
+230,M,2021-03-30 22:21:00,2021-03-30,Mardi,22,Steve Reich,Sextet - The Desert Music,undefined,Classique/Contemporain
+231,M,2021-03-31 06:06:00,2021-03-31,Mercredi,6, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+232,M,2021-03-31 22:55:00,2021-03-31,Mercredi,22,Les Garçons Bouchers,La saga des Garçons Bouchers,undefined,Français
+233,M,2021-04-02 19:36:00,2021-04-02,Vendredi,19,Vincent Delerm,15 Chansons,undefined,Français
+234,M,2021-04-02 20:15:00,2021-04-02,Vendredi,20,Nusrat Fateh Ali Khan,En concert a Paris,undefined,World
+235,M,2021-04-02 21:30:00,2021-04-02,Vendredi,21,David Bowie,Heathen ,undefined,Rock/Folk
+236,M,2021-04-02 22:16:00,2021-04-02,Vendredi,22, Forguette Me Note,Cruciforme,undefined,Français
+237,M,2021-04-03 13:44:00,2021-04-03,Samedi,13, Divers,Victoires de la musique classique - Révélations 2005 ,undefined,Classique/Contemporain
+238,M,2021-04-03 16:32:00,2021-04-03,Samedi,16, Sonic Youth,Goo (demo),undefined,Rock/Folk
+239,M,2021-04-03 17:58:00,2021-04-03,Samedi,17,Brad Mehldaud,Art of the trio 4 back at the vanguard,undefined,Jazz/Blues
+240,M,2021-04-03 22:33:00,2021-04-03,Samedi,22, Deep Purple,In rock,undefined,Rock/Folk
+241,M,2021-04-04 12:42:00,2021-04-04,Dimanche,12, Divers,Flamenco Vivo,undefined,World
+242,M,2021-04-04 13:29:00,2021-04-04,Dimanche,13,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+243,M,2021-04-04 17:52:00,2021-04-04,Dimanche,17, Marilyn Manson,Mechanical Animals,undefined,Rock/Folk
+244,M,2021-04-04 18:05:00,2021-04-04,Dimanche,18,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+245,M,2021-04-04 19:49:00,2021-04-04,Dimanche,19, Supergrass,Pumpin' on your Stereo,undefined,Rock/Folk
+246,M,2021-04-04 20:15:00,2021-04-04,Dimanche,20,John Coltrane,The Complete Africa/Brass Sessions,undefined,Jazz/Blues
+247,M,2021-04-06 21:51:00,2021-04-06,Mardi,21,Max Roach,It's Time,undefined,Jazz/Blues
+248,M,2021-04-07 12:03:00,2021-04-07,Mercredi,12,Erik Truffaz,Out of the Dreamn,undefined,Jazz/Blues
+249,M,2021-04-07 20:29:00,2021-04-07,Mercredi,20, R.E.M.,Out of Time,undefined,Rock/Folk
+250,M,2021-04-08 12:08:00,2021-04-08,Jeudi,12,M Murray Head,Watching ourselves go by,undefined,Rock/Folk
+251,M,2021-04-08 21:11:00,2021-04-08,Jeudi,21, Bunbury,Rdical Sonora,undefined,Rock/Folk
+252,M,2021-04-08 22:54:00,2021-04-08,Jeudi,22,John Coltrane,The heavyweight Champion,undefined,Jazz/Blues
+253,M,2021-04-09 19:04:00,2021-04-09,Vendredi,19, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+254,M,2021-04-09 20:06:00,2021-04-09,Vendredi,20,Sonny Rollins,The Bridge,undefined,Jazz/Blues
+255,M,2021-04-09 21:01:00,2021-04-09,Vendredi,21, Morcheeba,Who can you trust ?,undefined,Electro/Rap/Techno
+256,M,2021-04-10 08:56:00,2021-04-10,Samedi,8,Randy Weston,Saga,undefined,Jazz/Blues
+257,M,2021-04-10 12:38:00,2021-04-10,Samedi,12,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+258,M,2021-04-10 16:41:00,2021-04-10,Samedi,16,Louis Armstrong,Hello Louis!,undefined,Jazz/Blues
+259,M,2021-04-10 18:21:00,2021-04-10,Samedi,18, Dominique A,Tout sera comme avant,undefined,Français
+260,M,2021-04-10 21:29:00,2021-04-10,Samedi,21, US3,Hand on the Torche,undefined,Electro/Rap/Techno
+261,M,2021-04-11 10:01:00,2021-04-11,Dimanche,10, Sting,Brand New Day,undefined,Rock/Folk
+262,M,2021-04-11 11:49:00,2021-04-11,Dimanche,11,PJ Harvey,Stories from the City / Stories from the Sea,undefined,Rock/Folk
+263,M,2021-04-11 12:59:00,2021-04-11,Dimanche,12,Seu Jorge,The Life Aquatic Studio Sessions,undefined,World
+264,M,2021-04-11 16:16:00,2021-04-11,Dimanche,16,John Surman,The amazing adventures of Simon Simon,undefined,Jazz/Blues
+265,M,2021-04-11 19:19:00,2021-04-11,Dimanche,19,Horace Silver,Song for my father,undefined,Jazz/Blues
+266,M,2021-04-11 20:21:00,2021-04-11,Dimanche,20, Korn,Korn,undefined,Rock/Folk
+267,M,2021-04-12 19:33:00,2021-04-12,Lundi,19,Manu Dibango,Live 91,undefined,Jazz/Blues
+268,M,2021-04-12 20:05:00,2021-04-12,Lundi,20, Various,Santa's Christmas Collection,undefined,Jazz/Blues
+269,M,2021-04-12 22:13:00,2021-04-12,Lundi,22,Johnny Cash,At Folsom prison,undefined,Rock/Folk
+270,M,2021-04-13 08:40:00,2021-04-13,Mardi,8,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
+271,M,2021-04-14 18:56:00,2021-04-14,Mercredi,18, Divers,L'alphabet du Jazz,undefined,Jazz/Blues
+272,M,2021-04-14 22:03:00,2021-04-14,Mercredi,22, DJ Krust,Through the Eyes,undefined,Electro/Rap/Techno
+273,M,2021-04-16 20:05:00,2021-04-16,Vendredi,20, Magic Malik,69-96,undefined,Jazz/Blues
+274,M,2021-04-17 10:01:00,2021-04-17,Samedi,10,Théodor Gouvy,Requiem,undefined,Classique/Contemporain
+275,M,2021-04-17 19:19:00,2021-04-17,Samedi,19, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+276,M,2021-04-17 21:47:00,2021-04-17,Samedi,21,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
+277,M,2021-04-18 13:29:00,2021-04-18,Dimanche,13,"Julian ""Cannonball"" Aderley",Somethin' Else,undefined,Jazz/Blues
+278,M,2021-04-18 14:55:00,2021-04-18,Dimanche,14, Chokebore,A part from Life,undefined,Rock/Folk
+279,M,2021-04-18 15:18:00,2021-04-18,Dimanche,15,Melvin Taylor,Melvin Taylor & the Slack Band,undefined,Jazz/Blues
+280,M,2021-04-18 17:28:00,2021-04-18,Dimanche,17,Charles Mingus,Mingus Mingus Mingus Mingus Mingus,undefined,Jazz/Blues
+281,M,2021-04-19 08:42:00,2021-04-19,Lundi,8, Niagara,Religion,undefined,Français
+282,M,2021-04-20 22:12:00,2021-04-20,Mardi,22,Jeff Buckley,Live at the Bataclan,undefined,Rock/Folk
+283,M,2021-04-21 16:18:00,2021-04-21,Mercredi,16, Magma,Attachk,undefined,Rock/Folk
+284,M,2021-04-21 17:07:00,2021-04-21,Mercredi,17,Miles Davis,Bitches Brew,undefined,Jazz/Blues
+285,M,2021-04-21 19:06:00,2021-04-21,Mercredi,19,John Coltrane,Ballads,undefined,Jazz/Blues
+286,M,2021-04-21 20:58:00,2021-04-21,Mercredi,20, Queen,Innuendo,undefined,Rock/Folk
+287,M,2021-04-22 21:40:00,2021-04-22,Jeudi,21,Alejandro Sanz,Mas,undefined,World
+288,M,2021-04-23 18:58:00,2021-04-23,Vendredi,18,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+289,M,2021-04-24 10:26:00,2021-04-24,Samedi,10,Wolfgang Amadeus Mozart,Requiem,undefined,Classique/Contemporain
+290,M,2021-04-24 13:03:00,2021-04-24,Samedi,13,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
+291,M,2021-04-24 17:51:00,2021-04-24,Samedi,17, Blues Trottoir,Histoires Courtes,undefined,Français
+292,M,2021-04-24 19:13:00,2021-04-24,Samedi,19,Brice Duisit,Guillaume IX d'Aquitaine,undefined,World
+293,M,2021-04-25 01:03:00,2021-04-25,Dimanche,1, Renaud,Boucan d'enfer,undefined,Français
+294,M,2021-04-25 08:03:00,2021-04-25,Dimanche,8, Manu le Malin,Manu le Malin,undefined,Electro/Rap/Techno
+295,M,2021-04-25 13:02:00,2021-04-25,Dimanche,13, Arvo Part,De Profundis,undefined,Classique/Contemporain
+296,M,2021-04-25 18:39:00,2021-04-25,Dimanche,18,Jimi Hendrix,Are you experienced ?,undefined,Rock/Folk
+297,M,2021-04-25 21:48:00,2021-04-25,Dimanche,21, Sinsemilia,Résistance,undefined,Français
+298,M,2021-04-26 20:45:00,2021-04-26,Lundi,20, Radiohead,Hail to the thief,undefined,Rock/Folk
+299,M,2021-04-26 21:24:00,2021-04-26,Lundi,21,Théodor Gouvy,Requiem,undefined,Classique/Contemporain
+300,M,2021-04-28 13:10:00,2021-04-28,Mercredi,13,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
+301,M,2021-04-28 20:10:00,2021-04-28,Mercredi,20,James Carter,Live Hot Brass 1996,undefined,Jazz/Blues
+302,M,2021-04-28 22:16:00,2021-04-28,Mercredi,22,Ludwig Von Beethoven,Piano Sonatas,undefined,Classique/Contemporain
+303,M,2021-04-30 18:12:00,2021-04-30,Vendredi,18,Jean-Sébastien Bach,French suites - English suites,undefined,Classique/Contemporain
+304,M,2021-04-30 20:46:00,2021-04-30,Vendredi,20,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+305,M,2021-05-01 15:02:00,2021-05-01,Samedi,15,Gabriel Faure,Requiem,undefined,Classique/Contemporain
+306,M,2021-05-01 19:24:00,2021-05-01,Samedi,19,Peter Gabriel,4th Album,undefined,Rock/Folk
+307,M,2021-05-01 20:41:00,2021-05-01,Samedi,20,Thelonious Monk,Monk's dream,undefined,Jazz/Blues
+308,M,2021-05-01 21:45:00,2021-05-01,Samedi,21, Divers,Victoires de la musique classique - Révélations 2005 ,undefined,Classique/Contemporain
+309,M,2021-05-01 22:56:00,2021-05-01,Samedi,22, Sepultura,Arise,undefined,Rock/Folk
+310,M,2021-05-02 09:21:00,2021-05-02,Dimanche,9,The Hives,Veni Vidi Vicious,undefined,Rock/Folk
+311,M,2021-05-02 11:55:00,2021-05-02,Dimanche,11,Christian Vander,Offerig I et II,undefined,Rock/Folk
+312,M,2021-05-02 18:28:00,2021-05-02,Dimanche,18, Divers,Mozart en Egypte,undefined,World
+313,M,2021-05-02 19:44:00,2021-05-02,Dimanche,19, Oneyed Jack,Cynique,undefined,Français
+314,M,2021-05-03 22:16:00,2021-05-03,Lundi,22,James Carter,Conversin' with the Elders,undefined,Jazz/Blues
+315,M,2021-05-04 06:25:00,2021-05-04,Mardi,6,Gabriel Faure,Requiem,undefined,Classique/Contemporain
+316,M,2021-05-04 19:33:00,2021-05-04,Mardi,19, Divers,What is Jazz ?,undefined,Jazz/Blues
+317,M,2021-05-04 21:12:00,2021-05-04,Mardi,21,Keziah Jones,Blufunk is a fact,undefined,Rock/Folk
+318,M,2021-05-05 09:02:00,2021-05-05,Mercredi,9,Jacques Brel,vol.1,undefined,Français
+319,M,2021-05-05 10:28:00,2021-05-05,Mercredi,10,The Chemical Brothers,Dig yourt own hole,undefined,Electro/Rap/Techno
+320,M,2021-05-05 12:14:00,2021-05-05,Mercredi,12,Vanessa Paradis,Bliss,undefined,Français
+321,M,2021-05-05 19:27:00,2021-05-05,Mercredi,19,Bob Marley,Legend,undefined,Rock/Folk
+322,M,2021-05-05 20:56:00,2021-05-05,Mercredi,20, Akosh S. Unit,Omeko Live,undefined,Jazz/Blues
+323,M,2021-05-05 21:47:00,2021-05-05,Mercredi,21,Georges Bizet,Carmen,undefined,Classique/Contemporain
+324,M,2021-05-05 22:19:00,2021-05-05,Mercredi,22,Pierre Desproges,Les réquisitoires des flagrants délires,undefined,Français
+325,M,2021-05-06 09:05:00,2021-05-06,Jeudi,9,Atari Teenage Riot Atari Teenage Riot,1995 - Futur of War,undefined,Rock/Folk
+326,M,2021-05-06 21:18:00,2021-05-06,Jeudi,21, FFF,Free for Fever,undefined,Français
+327,M,2021-05-07 18:28:00,2021-05-07,Vendredi,18,Georges Bizet,Carmen,undefined,Classique/Contemporain
+328,M,2021-05-07 19:51:00,2021-05-07,Vendredi,19, A-Ha,"East if the Sun, West of the Moon",undefined,Rock/Folk
+329,M,2021-05-08 08:06:00,2021-05-08,Samedi,8, Ketama,Konfusion,undefined,World
+330,M,2021-05-08 11:10:00,2021-05-08,Samedi,11,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
+331,M,2021-05-08 21:49:00,2021-05-08,Samedi,21,Jean-Sébastien Bach,Ich hatte viel Bekümmernis Cantates BWV21 & 42,undefined,Classique/Contemporain
+332,M,2021-05-08 22:03:00,2021-05-08,Samedi,22,The Doors,Original Motion Picture,undefined,Rock/Folk
+333,M,2021-05-09 11:15:00,2021-05-09,Dimanche,11, Sonic Youth,Sister,undefined,Rock/Folk
+334,M,2021-05-09 16:49:00,2021-05-09,Dimanche,16,The Clash,London Calling,undefined,Rock/Folk
+335,M,2021-05-09 17:18:00,2021-05-09,Dimanche,17,Horace Silver,Song for my father,undefined,Jazz/Blues
+336,M,2021-05-09 19:30:00,2021-05-09,Dimanche,19, Hawkwind,Masters of the universe,undefined,Rock/Folk
+337,M,2021-05-12 12:41:00,2021-05-12,Mercredi,12, Pink Floyd,More,undefined,Rock/Folk
+338,M,2021-05-12 21:51:00,2021-05-12,Mercredi,21,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+339,M,2021-05-12 22:36:00,2021-05-12,Mercredi,22,Jean-Sébastien Bach,Ich hatte viel Bekümmernis Cantates BWV21 & 42,undefined,Classique/Contemporain
+340,M,2021-05-13 22:35:00,2021-05-13,Jeudi,22, Miossec,Baiser,undefined,Français
+341,M,2021-05-15 11:30:00,2021-05-15,Samedi,11, Katerine,Les Créatures & L'Homme à Trois Mains,undefined,Français
+342,M,2021-05-15 12:26:00,2021-05-15,Samedi,12,Erik Truffaz,Bending the Corner,undefined,Jazz/Blues
+343,M,2021-05-15 13:21:00,2021-05-15,Samedi,13, U2,Achtung Baby,undefined,Rock/Folk
+344,M,2021-05-15 19:51:00,2021-05-15,Samedi,19,Erroll Garner,Trio,undefined,Jazz/Blues
+345,M,2021-05-15 20:47:00,2021-05-15,Samedi,20,Nina Simone,Nina Simone,undefined,Jazz/Blues
+346,M,2021-05-16 12:00:00,2021-05-16,Dimanche,12,Peter Gabriel,Secret World Live,undefined,Rock/Folk
+347,M,2021-05-16 13:58:00,2021-05-16,Dimanche,13, Ludwig Von 88,Tout pour le Trash,undefined,Français
+348,M,2021-05-16 16:44:00,2021-05-16,Dimanche,16, Dinosaur Jr,Where you've been - Without a sound,undefined,Rock/Folk
+349,M,2021-05-16 17:52:00,2021-05-16,Dimanche,17, Ockeghem,Requiem,undefined,Classique/Contemporain
+350,M,2021-05-16 18:54:00,2021-05-16,Dimanche,18,Roger Water,"Music from ""the body""",undefined,Jazz/Blues
+351,M,2021-05-17 06:15:00,2021-05-17,Lundi,6, Korn,Follow the Leader,undefined,Rock/Folk
+352,M,2021-05-17 07:42:00,2021-05-17,Lundi,7, Tricky,Angels with dirty faces,undefined,Electro/Rap/Techno
+353,M,2021-05-19 11:12:00,2021-05-19,Mercredi,11, Tryo,Faut qu'ils s'activent,undefined,Français
+354,M,2021-05-19 12:22:00,2021-05-19,Mercredi,12,Syd Barrett,The Madcap Laughs,undefined,Rock/Folk
+355,M,2021-05-19 17:45:00,2021-05-19,Mercredi,17,Charlie Haden,The Liberation Music Orchestra : Dream Keeper,undefined,Jazz/Blues
+356,M,2021-05-19 22:11:00,2021-05-19,Mercredi,22, US3,Broadway & 52nd,undefined,Electro/Rap/Techno
+357,M,2021-05-20 21:57:00,2021-05-20,Jeudi,21,Charles Aznavour,Platinum Collection,undefined,Français
+358,M,2021-05-21 19:44:00,2021-05-21,Vendredi,19,Oscar Peterson,Keyboard,undefined,Jazz/Blues
+359,M,2021-05-21 20:11:00,2021-05-21,Vendredi,20,Erik Truffaz,Out of the Dreamn,undefined,Jazz/Blues
+360,M,2021-05-21 21:02:00,2021-05-21,Vendredi,21,Art Blackey and the Jazz Messengers,Moanin',undefined,Jazz/Blues
+361,M,2021-05-22 12:49:00,2021-05-22,Samedi,12, Radiohead,The Bends,undefined,Rock/Folk
+362,M,2021-05-22 20:40:00,2021-05-22,Samedi,20, Renaud,Putain de Camion,undefined,Français
+363,M,2021-05-23 12:13:00,2021-05-23,Dimanche,12, Louise Attaque,A plus tard Crocodile,undefined,Français
+364,M,2021-05-23 16:24:00,2021-05-23,Dimanche,16,Sonny Rollins,Saxophone Colossus,undefined,Jazz/Blues
+365,M,2021-05-23 18:10:00,2021-05-23,Dimanche,18,Théodor Gouvy,Requiem,undefined,Classique/Contemporain
+366,M,2021-05-23 20:33:00,2021-05-23,Dimanche,20,Louis Armstrong,Porgy & Bess,undefined,Jazz/Blues
+367,M,2021-05-23 21:49:00,2021-05-23,Dimanche,21, Divers,Gipsy Jazz School,undefined,Jazz/Blues
+368,M,2021-05-25 21:27:00,2021-05-25,Mardi,21, Noir Desir,666667 Club,undefined,Français
+369,M,2021-05-26 17:53:00,2021-05-26,Mercredi,17,Horace Silver,Song for my father,undefined,Jazz/Blues
+370,M,2021-05-27 09:58:00,2021-05-27,Jeudi,9,Charles Mingus,Passions of a Man,undefined,Jazz/Blues
+371,M,2021-05-27 22:29:00,2021-05-27,Jeudi,22,Marcus Miller,Live : The Complete bootleg Collection,undefined,Jazz/Blues
+372,M,2021-05-28 19:53:00,2021-05-28,Vendredi,19,Steve Reich,Three Movement,undefined,Classique/Contemporain
+373,M,2021-05-28 20:07:00,2021-05-28,Vendredi,20,Bireli Lagrene,The Complete Gipsy Project,undefined,Jazz/Blues
+374,M,2021-05-28 22:24:00,2021-05-28,Vendredi,22, Bjork,Post,undefined,Electro/Rap/Techno
+375,M,2021-05-29 10:03:00,2021-05-29,Samedi,10,Hubert-Félix Thiefaine,Fragments d'hébétude,undefined,Français
+376,M,2021-05-29 13:49:00,2021-05-29,Samedi,13, Renaud,Marchand de Cailloux,undefined,Français
+377,M,2021-05-29 15:39:00,2021-05-29,Samedi,15,Jimi Hendrix,The Ultimate Experience,undefined,Rock/Folk
+378,M,2021-05-29 21:53:00,2021-05-29,Samedi,21, Mogwai,Kicking a dead pig,undefined,Electro/Rap/Techno
+379,M,2021-05-29 22:07:00,2021-05-29,Samedi,22,The Sixteen Horspower,Low Estate,undefined,Rock/Folk
+380,M,2021-05-30 11:36:00,2021-05-30,Dimanche,11,Brad Mehldaud,Art of the trio 4 back at the vanguard,undefined,Jazz/Blues
+381,M,2021-05-30 13:43:00,2021-05-30,Dimanche,13, Deep Purple,Machine Head - Burn,undefined,Rock/Folk
+382,M,2021-05-30 17:36:00,2021-05-30,Dimanche,17,James Carter,Live at Baker's Keyboard Lounge,undefined,Jazz/Blues
+383,M,2021-05-30 21:06:00,2021-05-30,Dimanche,21, Bjork,Post,undefined,Electro/Rap/Techno
+384,M,2021-05-31 21:02:00,2021-05-31,Lundi,21, Portishead,Portishead,undefined,Electro/Rap/Techno
+385,M,2021-06-01 18:29:00,2021-06-01,Mardi,18, Cypress Hill,Black Sunday,undefined,Electro/Rap/Techno
+386,M,2021-06-01 21:25:00,2021-06-01,Mardi,21,Steve Reich,Different Trains - Triple Quartet - The Four Section,undefined,Classique/Contemporain
+387,M,2021-06-01 22:17:00,2021-06-01,Mardi,22,The Jesus and Mary Chain,Darklands,undefined,Rock/Folk
+388,M,2021-06-02 07:49:00,2021-06-02,Mercredi,7,Peter Gabriel,4th Album,undefined,Rock/Folk
+389,M,2021-06-02 12:43:00,2021-06-02,Mercredi,12, Dominique A,La musique / La matère,undefined,Français
+390,M,2021-06-02 15:50:00,2021-06-02,Mercredi,15,PJ Harvey,Uh Huh Her,undefined,Rock/Folk
+391,M,2021-06-02 17:19:00,2021-06-02,Mercredi,17,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+392,M,2021-06-02 21:25:00,2021-06-02,Mercredi,21, Sonic Youth,SYR5,undefined,Rock/Folk
+393,M,2021-06-02 22:06:00,2021-06-02,Mercredi,22,Les Sales Majestés,Bienvenue  ,undefined,Français
+394,M,2021-06-03 12:24:00,2021-06-03,Jeudi,12, Mickey 3D,Tu vas pas mourir de rire,undefined,Français
+395,M,2021-06-04 07:04:00,2021-06-04,Vendredi,7, Massive Attack,Mezzanine,undefined,Rock/Folk
+396,M,2021-06-04 18:36:00,2021-06-04,Vendredi,18, Jack The Ripper,Ladies First,undefined,Français
+397,M,2021-06-04 22:26:00,2021-06-04,Vendredi,22, Bjork,Debut,undefined,Electro/Rap/Techno
+398,M,2021-06-05 10:10:00,2021-06-05,Samedi,10,The Velvet Underground,The Velvet Underground & Nico,undefined,Rock/Folk
+399,M,2021-06-05 16:29:00,2021-06-05,Samedi,16,Clint Ruin & Lydia Lunch Lunch,Stinkfist,undefined,Rock/Folk
+400,M,2021-06-05 17:07:00,2021-06-05,Samedi,17,Georges Bizet,Carmen,undefined,Classique/Contemporain
+401,M,2021-06-05 19:01:00,2021-06-05,Samedi,19, Bénabar,Les risques du métier,undefined,Français
+402,M,2021-06-06 12:20:00,2021-06-06,Dimanche,12, Niagara,Religion,undefined,Français
+403,M,2021-06-06 13:56:00,2021-06-06,Dimanche,13,Leonard Cohen,Live in London,undefined,Rock/Folk
+404,M,2021-06-06 15:33:00,2021-06-06,Dimanche,15, King Crimson,In the court of Crimson King,undefined,Rock/Folk
+405,M,2021-06-07 08:20:00,2021-06-07,Lundi,8,Frank Zappa,Hot Rats,undefined,Rock/Folk
+406,M,2021-06-07 21:32:00,2021-06-07,Lundi,21, Pink Floyd,The Piper at the Gates of Down,undefined,Rock/Folk
+407,M,2021-06-09 21:52:00,2021-06-09,Mercredi,21,Ella Fitzgerald,The Complete Ella in Berlin : Make the Knife,undefined,Jazz/Blues
+408,M,2021-06-11 22:04:00,2021-06-11,Vendredi,22,The Christians,Color,undefined,Rock/Folk
+409,M,2021-06-12 08:47:00,2021-06-12,Samedi,8, Dominique A,La mémoire neuve,undefined,Français
+410,M,2021-06-12 09:54:00,2021-06-12,Samedi,9,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
+411,M,2021-06-12 11:58:00,2021-06-12,Samedi,11, Korn,Follow the Leader,undefined,Rock/Folk
+412,M,2021-06-12 12:05:00,2021-06-12,Samedi,12,Grant Lee Buffalo,Fuzzy,undefined,Rock/Folk
+413,M,2021-06-13 00:38:00,2021-06-13,Dimanche,0, Hawkwind,Masters of the universe,undefined,Rock/Folk
+414,M,2021-06-13 12:04:00,2021-06-13,Dimanche,12, Cali,L'amour Parfait,undefined,Français
+415,M,2021-06-13 13:01:00,2021-06-13,Dimanche,13, Beck,Odelay,undefined,Rock/Folk
+416,M,2021-06-13 16:57:00,2021-06-13,Dimanche,16,The Sisters of Mercy,Sisters of Mercy,undefined,Rock/Folk
+417,M,2021-06-14 07:57:00,2021-06-14,Lundi,7,Ben Harper,Live at the Apollo,undefined,Rock/Folk
+418,M,2021-06-16 07:14:00,2021-06-16,Mercredi,7,Gerard Manset,La vallée de la Paix,undefined,Français
+419,M,2021-06-17 09:38:00,2021-06-17,Jeudi,9,Steve Reich,Sextet - The Desert Music,undefined,Classique/Contemporain
+420,M,2021-06-17 22:35:00,2021-06-17,Jeudi,22, Sonic Youth,SYR5,undefined,Rock/Folk
+421,M,2021-06-18 18:17:00,2021-06-18,Vendredi,18, Pink Floyd,The Piper at the Gates of Down,undefined,Rock/Folk
+422,M,2021-06-19 11:01:00,2021-06-19,Samedi,11,Les Tetes Raides,Le bout du toit - Fleur de yeux,undefined,Français
+423,M,2021-06-19 14:27:00,2021-06-19,Samedi,14, Bush,Everything Zen,undefined,Rock/Folk
+424,M,2021-06-19 16:04:00,2021-06-19,Samedi,16, Pink Floyd,More,undefined,Rock/Folk
+425,M,2021-06-19 21:00:00,2021-06-19,Samedi,21, Manu le Malin,Manu le Malin,undefined,Electro/Rap/Techno
+426,M,2021-06-20 18:07:00,2021-06-20,Dimanche,18, Pink Floyd,A saucerfull of secret,undefined,Rock/Folk
+427,M,2021-06-20 19:34:00,2021-06-20,Dimanche,19, Madonna,Ray of Light,undefined,Rock/Folk
+428,M,2021-06-20 21:25:00,2021-06-20,Dimanche,21,Rokia Traoré,Wanita,undefined,World
+429,M,2021-06-21 19:50:00,2021-06-21,Lundi,19, Vision of Disorder,Vision of Disorder,undefined,Rock/Folk
+430,M,2021-06-21 20:08:00,2021-06-21,Lundi,20,John Coltrane,Meditations,undefined,Jazz/Blues
+431,M,2021-06-21 21:27:00,2021-06-21,Lundi,21,Oliver Nelson,The Blue & the Abstract Truth,undefined,Jazz/Blues
+432,M,2021-06-22 07:16:00,2021-06-22,Mardi,7, Divers,The Cuba Son,undefined,World
+433,M,2021-06-23 07:16:00,2021-06-23,Mercredi,7,Les Tetes Raides,Viens !,undefined,Français
+434,M,2021-06-23 08:27:00,2021-06-23,Mercredi,8,Ornette Coleman,The shape of Jazz to come,undefined,Jazz/Blues
+435,M,2021-06-23 12:38:00,2021-06-23,Mercredi,12,Arthur H,Adieu Tristesse,undefined,Français
+436,M,2021-06-23 22:49:00,2021-06-23,Mercredi,22, A-Ha,"East if the Sun, West of the Moon",undefined,Rock/Folk
+437,M,2021-06-24 13:16:00,2021-06-24,Jeudi,13, Arvo Part,De Profundis,undefined,Classique/Contemporain
+438,M,2021-06-24 20:28:00,2021-06-24,Jeudi,20, Divers,Jazz,undefined,Jazz/Blues
+439,M,2021-06-24 21:27:00,2021-06-24,Jeudi,21,Oliver Nelson,The Blue & the Abstract Truth,undefined,Jazz/Blues
+440,M,2021-06-25 07:51:00,2021-06-25,Vendredi,7,Ludwig Von Beethoven,"Symphony n°3 ""Eroica"" - Trio Op.11 - Sextet Op.81b - String Quartet",undefined,Classique/Contemporain
+441,M,2021-06-25 08:47:00,2021-06-25,Vendredi,8,Nick Cave,Murder Ballads,undefined,Rock/Folk
+442,M,2021-06-25 18:48:00,2021-06-25,Vendredi,18,John Coltrane,Live in Japan,undefined,Jazz/Blues
+443,M,2021-06-25 22:01:00,2021-06-25,Vendredi,22, Sonic Youth,SYR5,undefined,Rock/Folk
+444,M,2021-06-26 12:05:00,2021-06-26,Samedi,12,Charles Aznavour,Platinum Collection,undefined,Français
+445,M,2021-06-26 17:40:00,2021-06-26,Samedi,17,John Coltrane,Live in Japan,undefined,Jazz/Blues
+446,M,2021-06-26 19:32:00,2021-06-26,Samedi,19,Luz Luz Casa,Luz Casal,undefined,World
+447,M,2021-06-26 22:42:00,2021-06-26,Samedi,22,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+448,M,2021-06-27 15:05:00,2021-06-27,Dimanche,15,Ismaël Lo,Jammu Africa,undefined,World
+449,M,2021-06-27 16:54:00,2021-06-27,Dimanche,16, Ockeghem,Requiem,undefined,Classique/Contemporain
+450,M,2021-06-27 19:49:00,2021-06-27,Dimanche,19, Saxemble,Saxemble,undefined,Jazz/Blues
+451,M,2021-06-28 21:54:00,2021-06-28,Lundi,21, Pet Shop Boys,The Complete Single Collection,undefined,Electro/Rap/Techno
+452,M,2021-06-29 20:20:00,2021-06-29,Mardi,20, Kat Onoma,Kat Onoma 2001,undefined,Rock/Folk
+453,M,2021-06-29 21:35:00,2021-06-29,Mardi,21, Divers,Victoires de la musique classique - Révélations 2005 ,undefined,Classique/Contemporain
+454,M,2021-06-30 12:04:00,2021-06-30,Mercredi,12, Blues Trottoir,Histoires Courtes,undefined,Français
+455,M,2021-06-30 18:03:00,2021-06-30,Mercredi,18, Arcade Fire,Funeral,undefined,Rock/Folk
+456,M,2021-06-30 19:24:00,2021-06-30,Mercredi,19,Aretha Franklin,The very best of,undefined,Jazz/Blues
+457,M,2021-07-02 20:08:00,2021-07-02,Vendredi,20,Boris Vian,Boris Vian,undefined,Français
+458,M,2021-07-02 21:05:00,2021-07-02,Vendredi,21,Maurice Durufle,Requiem,undefined,Classique/Contemporain
+459,M,2021-07-02 22:57:00,2021-07-02,Vendredi,22,Iggy Pop,Live Ritz NYC 86,undefined,Rock/Folk
+460,M,2021-07-03 09:56:00,2021-07-03,Samedi,9, Magic Malik,XP-1,undefined,Jazz/Blues
+461,M,2021-07-03 12:15:00,2021-07-03,Samedi,12, Divers,Les plus belles comptines italiennes,undefined,World
+462,M,2021-07-03 16:24:00,2021-07-03,Samedi,16,Julien Loureau,City Boom Boom,undefined,Jazz/Blues
+463,M,2021-07-03 18:01:00,2021-07-03,Samedi,18, Lynyrd Skynyrd,Pronouced'leh-nerd 'skin-'nerd,undefined,Rock/Folk
+464,M,2021-07-04 11:03:00,2021-07-04,Dimanche,11,Frédéric Chopin,Vol 2 : Sonata n°3 - Mazurkas,undefined,Classique/Contemporain
+465,M,2021-07-04 15:11:00,2021-07-04,Dimanche,15,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+466,M,2021-07-04 16:48:00,2021-07-04,Dimanche,16,Wolfgang Amadeus Mozart,Requiem,undefined,Classique/Contemporain
+467,M,2021-07-04 17:46:00,2021-07-04,Dimanche,17,Jacques Brel,vol.2,undefined,Français
+468,M,2021-07-04 19:57:00,2021-07-04,Dimanche,19,Ben Harper,Fight for your Mind,undefined,Rock/Folk
+469,M,2021-07-06 08:59:00,2021-07-06,Mardi,8, Spicy Box,Spicy Box,undefined,Electro/Rap/Techno
+470,M,2021-07-06 22:00:00,2021-07-06,Mardi,22, Bénabar,Les risques du métier,undefined,Français
+471,M,2021-07-07 17:22:00,2021-07-07,Mercredi,17, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+472,M,2021-07-07 22:16:00,2021-07-07,Mercredi,22,Hubert-Félix Thiefaine,Tout corps vivant branche sur le secteur…,undefined,Français
+473,M,2021-07-08 20:16:00,2021-07-08,Jeudi,20, Sonic Youth,Experimental Jet Set Trash and no Star,undefined,Rock/Folk
+474,M,2021-07-08 22:41:00,2021-07-08,Jeudi,22, Romano Sclavis Texier,Suite Africaine,undefined,Jazz/Blues
+475,M,2021-07-09 20:46:00,2021-07-09,Vendredi,20, Divers,What is Jazz ?,undefined,Jazz/Blues
+476,M,2021-07-10 10:48:00,2021-07-10,Samedi,10, Extreme ,Pornograffitti,undefined,Rock/Folk
+477,M,2021-07-10 12:56:00,2021-07-10,Samedi,12,The Fields of the Nephilim,The Nephilim,undefined,Rock/Folk
+478,M,2021-07-10 15:16:00,2021-07-10,Samedi,15,Florent Marchet,Frère Animal - White Session 2009,undefined,Français
+479,M,2021-07-10 18:28:00,2021-07-10,Samedi,18, Southside Johnny,Better days,undefined,Rock/Folk
+480,M,2021-07-10 20:53:00,2021-07-10,Samedi,20, Bjork,Debut,undefined,Electro/Rap/Techno
+481,M,2021-07-10 22:38:00,2021-07-10,Samedi,22, Magma,Theusz Hamtaahk trilogie,undefined,Rock/Folk
+482,M,2021-07-11 10:33:00,2021-07-11,Dimanche,10, Arvo Part,De Profundis,undefined,Classique/Contemporain
+483,M,2021-07-11 15:11:00,2021-07-11,Dimanche,15,Miles Davis,Paris Jazz Concerts,undefined,Jazz/Blues
+484,M,2021-07-11 16:49:00,2021-07-11,Dimanche,16,Miles Davis,Paris Jazz Concerts,undefined,Jazz/Blues
+485,M,2021-07-11 17:25:00,2021-07-11,Dimanche,17,Peter Gabriel,4th Album,undefined,Rock/Folk
+486,M,2021-07-11 19:37:00,2021-07-11,Dimanche,19,Erik Truffaz,Bending the Corner,undefined,Jazz/Blues
+487,M,2021-07-11 22:42:00,2021-07-11,Dimanche,22, Bjork,Gling-glo,undefined,Electro/Rap/Techno
+488,M,2021-07-12 21:30:00,2021-07-12,Lundi,21,Jarable de Palo,La Flaca,undefined,World
+489,M,2021-07-13 20:54:00,2021-07-13,Mardi,20, Akosh S. Unit,Omeko Live,undefined,Jazz/Blues
+490,M,2021-07-14 09:32:00,2021-07-14,Mercredi,9, Lynyrd Skynyrd,Pronouced'leh-nerd 'skin-'nerd,undefined,Rock/Folk
+491,M,2021-07-14 12:36:00,2021-07-14,Mercredi,12, Tryo,Mamagubida,undefined,Français
+492,M,2021-07-14 20:30:00,2021-07-14,Mercredi,20, Mogwai,Rock Action,undefined,Electro/Rap/Techno
+493,M,2021-07-15 22:35:00,2021-07-15,Jeudi,22, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+494,M,2021-07-16 18:07:00,2021-07-16,Vendredi,18,Frédéric Chopin,Vol 2 : Sonata n°3 - Mazurkas,undefined,Classique/Contemporain
+495,M,2021-07-16 19:55:00,2021-07-16,Vendredi,19,Oliver Nelson,The Blue & the Abstract Truth,undefined,Jazz/Blues
+496,M,2021-07-16 20:32:00,2021-07-16,Vendredi,20,John Coltrane,Meditations,undefined,Jazz/Blues
+497,M,2021-07-17 09:09:00,2021-07-17,Samedi,9,Gabriel Faure,Requiem,undefined,Classique/Contemporain
+498,M,2021-07-17 12:57:00,2021-07-17,Samedi,12, Arte Mixo,Deseos,undefined,World
+499,M,2021-07-17 15:02:00,2021-07-17,Samedi,15, Sonic Youth,Evol,undefined,Rock/Folk
+500,M,2021-07-17 19:14:00,2021-07-17,Samedi,19, Marco Lipz,Plaines Perdues,undefined,Français
+501,M,2021-07-17 22:05:00,2021-07-17,Samedi,22, Renaud,Putain de Camion,undefined,Français
+502,M,2021-07-18 14:00:00,2021-07-18,Dimanche,14,John Surman,The amazing adventures of Simon Simon,undefined,Jazz/Blues
+503,M,2021-07-18 15:15:00,2021-07-18,Dimanche,15, Sonic Youth,SYR4,undefined,Rock/Folk
+504,M,2021-07-18 20:36:00,2021-07-18,Dimanche,20,Miles Davis,We want Miles,undefined,Jazz/Blues
+505,M,2021-07-19 07:08:00,2021-07-19,Lundi,7,Maurice Durufle,Requiem,undefined,Classique/Contemporain
+506,M,2021-07-19 19:38:00,2021-07-19,Lundi,19,John Coltrane,A Love Supreme,undefined,Jazz/Blues
+507,M,2021-07-19 21:50:00,2021-07-19,Lundi,21,Jacques Dutronc,Casino de Paris,undefined,Français
+508,M,2021-07-20 07:37:00,2021-07-20,Mardi,7, Dominique A,L'horizon,undefined,Français
+509,M,2021-07-22 09:41:00,2021-07-22,Jeudi,9, Bjork,Homogenic,undefined,Electro/Rap/Techno
+510,M,2021-07-22 21:32:00,2021-07-22,Jeudi,21,Zakir Hussein,Zakir Hussein,undefined,World
+511,M,2021-07-23 19:51:00,2021-07-23,Vendredi,19,Peter Gabriel,Passion,undefined,Rock/Folk
+512,M,2021-07-24 09:43:00,2021-07-24,Samedi,9, Divers,Pas vu à la télé 1,undefined,Français
+513,M,2021-07-24 10:39:00,2021-07-24,Samedi,10, Ludwig Von 88,Tout pour le Trash,undefined,Français
+514,M,2021-07-24 17:52:00,2021-07-24,Samedi,17, Romano Sclavis Texier,African Flashback,undefined,Jazz/Blues
+515,M,2021-07-24 22:07:00,2021-07-24,Samedi,22,Jean-Sébastien Bach,Goldberg Variations BW988 1955,undefined,Classique/Contemporain
+516,M,2021-07-25 10:43:00,2021-07-25,Dimanche,10, Eurythmics,Greatest Hits,undefined,Rock/Folk
+517,M,2021-07-25 13:59:00,2021-07-25,Dimanche,13,Sonny Rollins,The standart Sonny Rollins,undefined,Jazz/Blues
+518,M,2021-07-25 15:02:00,2021-07-25,Dimanche,15,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+519,M,2021-07-25 16:34:00,2021-07-25,Dimanche,16,The Police,Every breath you take - The singles,undefined,Rock/Folk
+520,M,2021-07-25 17:04:00,2021-07-25,Dimanche,17, Ludwig Von 88,Tout pour le Trash,undefined,Français
+521,M,2021-07-25 19:42:00,2021-07-25,Dimanche,19,Eric Dolphy,The Complete Prestige Recordings,undefined,Jazz/Blues
+522,M,2021-07-27 18:01:00,2021-07-27,Mardi,18, Pink Floyd,The Piper at the Gates of Down,undefined,Rock/Folk
+523,M,2021-07-28 07:18:00,2021-07-28,Mercredi,7,Miles Davis,Tutu,undefined,Jazz/Blues
+524,M,2021-07-28 12:01:00,2021-07-28,Mercredi,12, Deep Purple,In rock,undefined,Rock/Folk
+525,M,2021-07-28 16:05:00,2021-07-28,Mercredi,16,The Beatles,1962-1966,undefined,Rock/Folk
+526,M,2021-07-28 18:25:00,2021-07-28,Mercredi,18,The Divine Comedy,Absent Friends,undefined,Rock/Folk
+527,M,2021-07-28 21:33:00,2021-07-28,Mercredi,21,Peter Gabriel,4th Album,undefined,Rock/Folk
+528,M,2021-07-30 19:04:00,2021-07-30,Vendredi,19, Iron Maiden,The number of the beast,undefined,Rock/Folk
+529,M,2021-07-30 22:45:00,2021-07-30,Vendredi,22,Geoffrey Oryema,Exile,undefined,World
+530,M,2021-07-31 14:04:00,2021-07-31,Samedi,14, Renaud,Boucan d'enfer,undefined,Français
+531,M,2021-07-31 19:45:00,2021-07-31,Samedi,19,John Coltrane,Live in Japan,undefined,Jazz/Blues
+532,M,2021-07-31 22:30:00,2021-07-31,Samedi,22,Jean-Sébastien Bach,Ich hatte viel Bekümmernis Cantates BWV21 & 42,undefined,Classique/Contemporain
+533,M,2021-08-01 15:55:00,2021-08-01,Dimanche,15, Massive Attack,Blue Lines,undefined,Rock/Folk
+534,M,2021-08-01 19:02:00,2021-08-01,Dimanche,19, Various,Santa's Christmas Collection,undefined,Jazz/Blues
+535,M,2021-08-02 19:43:00,2021-08-02,Lundi,19, Lynyrd Skynyrd,Pronouced'leh-nerd 'skin-'nerd,undefined,Rock/Folk
+536,M,2021-08-03 21:24:00,2021-08-03,Mardi,21,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+537,M,2021-08-04 17:15:00,2021-08-04,Mercredi,17, Ravel,Boléro - La Valse - Concertos pour piano,undefined,Classique/Contemporain
+538,M,2021-08-04 18:26:00,2021-08-04,Mercredi,18,Freddie Mercury,The Freddie Mercury Album,undefined,Rock/Folk
+539,M,2021-08-04 20:10:00,2021-08-04,Mercredi,20,Max Roach,We insist ! Freedom now suite,undefined,Jazz/Blues
+540,M,2021-08-05 08:33:00,2021-08-05,Jeudi,8, Radiohead,Pablo Honey,undefined,Rock/Folk
+541,M,2021-08-05 13:05:00,2021-08-05,Jeudi,13, Divers,Dr Heavy & Mr Hard,undefined,Rock/Folk
+542,M,2021-08-05 20:19:00,2021-08-05,Jeudi,20,Carla Bley,Escalator Over the Hill,undefined,Jazz/Blues
+543,M,2021-08-05 21:17:00,2021-08-05,Jeudi,21,Iggy Pop,Blah-Blah-Blah,undefined,Rock/Folk
+544,M,2021-08-06 22:22:00,2021-08-06,Vendredi,22, Deee Lite,World Clique,undefined,Rock/Folk
+545,M,2021-08-07 10:22:00,2021-08-07,Samedi,10,Serge Gainsbourg,De Gainsbourg a Gainsbarre,undefined,Français
+546,M,2021-08-07 12:04:00,2021-08-07,Samedi,12, Noir Desir,Du Ciment sous les Plaines,undefined,Français
+547,M,2021-08-07 14:49:00,2021-08-07,Samedi,14,Sonny Rollins,Sonny meets Hawk,undefined,Jazz/Blues
+548,M,2021-08-07 17:46:00,2021-08-07,Samedi,17,PJ Harvey,Dry,undefined,Rock/Folk
+549,M,2021-08-07 18:59:00,2021-08-07,Samedi,18,Thelonious Monk,Criss-Cross,undefined,Jazz/Blues
+550,M,2021-08-07 21:56:00,2021-08-07,Samedi,21,The Velvet Underground,Loaded,undefined,Rock/Folk
+551,M,2021-08-07 22:14:00,2021-08-07,Samedi,22, Queen Latifah,Nature of a sista',undefined,Electro/Rap/Techno
+552,M,2021-08-08 00:28:00,2021-08-08,Dimanche,0, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+553,M,2021-08-08 12:58:00,2021-08-08,Dimanche,12,Nusrat Fateh Ali Khan,Mustt Mustt,undefined,World
+554,M,2021-08-08 14:53:00,2021-08-08,Dimanche,14, Sonic Youth,SYR2,undefined,Rock/Folk
+555,M,2021-08-08 15:22:00,2021-08-08,Dimanche,15,Hubert-Félix Thiefaine,De l'amour de l'art ou du cochon - Dernières balises (avant mutation),undefined,Français
+556,M,2021-08-08 16:17:00,2021-08-08,Dimanche,16,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+557,M,2021-08-08 17:25:00,2021-08-08,Dimanche,17, Arvo Part,De Profundis,undefined,Classique/Contemporain
+558,M,2021-08-08 18:04:00,2021-08-08,Dimanche,18, Divers,Flamenco Vivo,undefined,World
+559,M,2021-08-08 19:22:00,2021-08-08,Dimanche,19,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+560,M,2021-08-10 21:56:00,2021-08-10,Mardi,21,Peter Gabriel,3rd Album,undefined,Rock/Folk
+561,M,2021-08-11 09:30:00,2021-08-11,Mercredi,9,Sonny Rollins,Now is time !,undefined,Jazz/Blues
+562,M,2021-08-11 18:37:00,2021-08-11,Mercredi,18, Radiohead,Kid A,undefined,Rock/Folk
+563,M,2021-08-11 19:06:00,2021-08-11,Mercredi,19, Magma,Theusz Hamtaahk trilogie,undefined,Rock/Folk
+564,M,2021-08-11 22:35:00,2021-08-11,Mercredi,22,The Blue Aeroplanes,Swagger,undefined,Rock/Folk
+565,M,2021-08-13 19:15:00,2021-08-13,Vendredi,19, Buena Vista Social Club,Buena Vista Social Club,undefined,World
+566,M,2021-08-13 20:29:00,2021-08-13,Vendredi,20,Thelonious Monk,Alone in San Francisco,undefined,Jazz/Blues
+567,M,2021-08-14 16:46:00,2021-08-14,Samedi,16, Manu le Malin,Manu le Malin,undefined,Electro/Rap/Techno
+568,M,2021-08-14 17:00:00,2021-08-14,Samedi,17, Morrisey,Ringleadors of the Tormentors,undefined,Rock/Folk
+569,M,2021-08-14 18:39:00,2021-08-14,Samedi,18,Compay Segundo,Calle Salud,undefined,World
+570,M,2021-08-15 11:15:00,2021-08-15,Dimanche,11, Funambule,Silently with You,undefined,Français
+571,M,2021-08-15 12:33:00,2021-08-15,Dimanche,12,James Carter,The Real Quietstorm,undefined,Jazz/Blues
+572,M,2021-08-15 15:31:00,2021-08-15,Dimanche,15, Renaud,Le retour de Gérard Lambert,undefined,Français
+573,M,2021-08-15 17:07:00,2021-08-15,Dimanche,17,Jean-Sébastien Bach,Goldberg Variations BW988 1981,undefined,Classique/Contemporain
+574,M,2021-08-15 18:44:00,2021-08-15,Dimanche,18,The Christians,Color,undefined,Rock/Folk
+575,M,2021-08-15 20:47:00,2021-08-15,Dimanche,20,The Clash,From here to eternity,undefined,Rock/Folk
+576,M,2021-08-16 07:45:00,2021-08-16,Lundi,7,Jean-Sébastien Bach,Cello Suites,undefined,Classique/Contemporain
+577,M,2021-08-17 18:59:00,2021-08-17,Mardi,18,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
+578,M,2021-08-17 22:16:00,2021-08-17,Mardi,22,Jacques Dutronc,Casino de Paris,undefined,Français
+579,M,2021-08-18 15:58:00,2021-08-18,Mercredi,15, Bush,Everything Zen,undefined,Rock/Folk
+580,M,2021-08-18 21:39:00,2021-08-18,Mercredi,21, Mano Solo,Les animals,undefined,Français
+581,M,2021-08-19 21:13:00,2021-08-19,Jeudi,21, Mano Solo,La marmaille nue,undefined,Français
+582,M,2021-08-20 08:03:00,2021-08-20,Vendredi,8,John Coltrane,The Complete Impulse Recording,undefined,Jazz/Blues
+583,M,2021-08-20 17:44:00,2021-08-20,Vendredi,17,Charles Mingus,Mingus Mingus Mingus Mingus Mingus,undefined,Jazz/Blues
+584,M,2021-08-20 22:56:00,2021-08-20,Vendredi,22,Jean-Luc Ponty,?,undefined,Jazz/Blues
+585,M,2021-08-21 12:30:00,2021-08-21,Samedi,12,Maurice Durufle,Requiem,undefined,Classique/Contemporain
+586,M,2021-08-21 16:39:00,2021-08-21,Samedi,16,The Rolling Stones,Goats Head Soup,undefined,Rock/Folk
+587,M,2021-08-21 20:12:00,2021-08-21,Samedi,20, Zebda,Utopie d'occase,undefined,Français
+588,M,2021-08-21 21:15:00,2021-08-21,Samedi,21, Trust,Marche ou Creve,undefined,Français
+589,M,2021-08-22 14:23:00,2021-08-22,Dimanche,14, Mickey 3D,Tu vas pas mourir de rire,undefined,Français
+590,M,2021-08-22 19:20:00,2021-08-22,Dimanche,19, Magma,Kohntark,undefined,Rock/Folk
+591,M,2021-08-22 20:55:00,2021-08-22,Dimanche,20, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+592,M,2021-08-22 22:35:00,2021-08-22,Dimanche,22, Dominique A,L'horizon,undefined,Français
+593,M,2021-08-23 21:28:00,2021-08-23,Lundi,21,Robert Cray,Shame + A Sin,undefined,Jazz/Blues
+594,M,2021-08-24 08:11:00,2021-08-24,Mardi,8,Frank Zappa,?,undefined,Rock/Folk
+595,M,2021-08-24 21:36:00,2021-08-24,Mardi,21,Théodor Gouvy,Requiem,undefined,Classique/Contemporain
+596,M,2021-08-24 22:18:00,2021-08-24,Mardi,22, Renaud,Laisse Beton,undefined,Français
+597,M,2021-08-25 09:26:00,2021-08-25,Mercredi,9, Bjork,Gling-glo,undefined,Electro/Rap/Techno
+598,M,2021-08-26 09:31:00,2021-08-26,Jeudi,9,Count Basie,E=MC2,undefined,Jazz/Blues
+599,M,2021-08-26 20:45:00,2021-08-26,Jeudi,20, Divers,Chat Noir Chat Blanc,undefined,World
+600,M,2021-08-27 21:54:00,2021-08-27,Vendredi,21,Luz Luz Casa,Luz Casal,undefined,World
+601,M,2021-08-27 22:24:00,2021-08-27,Vendredi,22,Jean-Sébastien Bach,Cello Suites,undefined,Classique/Contemporain
+602,M,2021-08-28 00:08:00,2021-08-28,Samedi,0, Indochine,Indochine,undefined,Français
+603,M,2021-08-28 09:53:00,2021-08-28,Samedi,9,Rob and his band Gordon,The Complete Caledonian Ball,undefined,World
+604,M,2021-08-28 11:34:00,2021-08-28,Samedi,11,Ludwig Von Beethoven,Symphonies n°1 & 3,undefined,Classique/Contemporain
+605,M,2021-08-28 15:22:00,2021-08-28,Samedi,15, John Spencer Blues Explosion,Extra Width,undefined,Rock/Folk
+606,M,2021-08-28 17:13:00,2021-08-28,Samedi,17, Aires Tango,Il Manifesto,undefined,World
+607,M,2021-08-28 20:49:00,2021-08-28,Samedi,20,Ella Fitzgerald,The Concert Years,undefined,Jazz/Blues
+608,M,2021-08-29 18:03:00,2021-08-29,Dimanche,18,Maurice Durufle,Requiem,undefined,Classique/Contemporain
+609,M,2021-08-29 20:33:00,2021-08-29,Dimanche,20,Les Satellites,Riches et Celebres,undefined,Français
+610,M,2021-08-29 21:45:00,2021-08-29,Dimanche,21,John Coltrane,The Complete 1961 Village Vanguard Recordings,undefined,Jazz/Blues
+611,M,2021-08-30 18:05:00,2021-08-30,Lundi,18,Oscar Peterson,Tenderly,undefined,Jazz/Blues
+612,M,2021-08-30 21:30:00,2021-08-30,Lundi,21,Iggy Pop,Live Ritz NYC 86,undefined,Rock/Folk
+613,M,2021-08-31 06:18:00,2021-08-31,Mardi,6,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
+614,M,2021-08-31 21:29:00,2021-08-31,Mardi,21,Steve Coleman,Weaving Symbolics,undefined,Jazz/Blues
+615,M,2021-09-01 16:29:00,2021-09-01,Mercredi,16,"Julian ""Cannonball"" Aderley",Somethin' Else,undefined,Jazz/Blues
+616,M,2021-09-01 18:19:00,2021-09-01,Mercredi,18,Jean-Sébastien Bach,Das Wohltemperierte Klavier,undefined,Classique/Contemporain
+617,M,2021-09-02 21:00:00,2021-09-02,Jeudi,21, Morcheeba,Big Calm,undefined,Electro/Rap/Techno
+618,M,2021-09-03 17:52:00,2021-09-03,Vendredi,17,Boby Lapointe,Comprend qui peut !,undefined,Français
+619,M,2021-09-03 19:13:00,2021-09-03,Vendredi,19, Divers,The Soul of a Man,undefined,Jazz/Blues
+620,M,2021-09-03 20:45:00,2021-09-03,Vendredi,20,Finlay Quaye,Maverick a Strike,undefined,Rock/Folk
+621,M,2021-09-04 09:47:00,2021-09-04,Samedi,9,Jon Bon Jovi,These days,undefined,Rock/Folk
+622,M,2021-09-04 22:36:00,2021-09-04,Samedi,22,Gabriel Faure,Requiem,undefined,Classique/Contemporain
+623,M,2021-09-05 01:31:00,2021-09-05,Dimanche,1,Jean-Sébastien Bach,Ich hatte viel Bekümmernis Cantates BWV21 & 42,undefined,Classique/Contemporain
+624,M,2021-09-05 10:07:00,2021-09-05,Dimanche,10, Fonky Family,Inch Allah,undefined,Français
+625,M,2021-09-05 11:15:00,2021-09-05,Dimanche,11,Robert Johnson,King of the Delta Blues,undefined,Jazz/Blues
+626,M,2021-09-05 13:42:00,2021-09-05,Dimanche,13, Divers,Strange Days,undefined,Rock/Folk
+627,M,2021-09-05 14:13:00,2021-09-05,Dimanche,14,Ben Harper,Fight for your Mind,undefined,Rock/Folk
+628,M,2021-09-05 18:19:00,2021-09-05,Dimanche,18,John Coltrane,John Coltrane and Johnny Hartman,undefined,Jazz/Blues
+629,M,2021-09-06 22:02:00,2021-09-06,Lundi,22, Divers,La Fièvre tout le temps,undefined,World
+630,M,2021-09-07 08:29:00,2021-09-07,Mardi,8,John Coltrane,The Complete 1961 Village Vanguard Recordings,undefined,Jazz/Blues
+631,M,2021-09-07 20:32:00,2021-09-07,Mardi,20,Tony Joe White,Closer to the Truth,undefined,Rock/Folk
+632,M,2021-09-08 12:43:00,2021-09-08,Mercredi,12,Youssou N'Dour,Joko,undefined,World
+633,M,2021-09-08 16:52:00,2021-09-08,Mercredi,16, City Kids,The Ophans Parade,undefined,Français
+634,M,2021-09-08 21:26:00,2021-09-08,Mercredi,21, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+635,M,2021-09-10 21:40:00,2021-09-10,Vendredi,21, Paganini,24 Caprices,undefined,Classique/Contemporain
+636,M,2021-09-10 22:43:00,2021-09-10,Vendredi,22,The Rolling Stones,It's Only Rock'n'Roll,undefined,Rock/Folk
+637,M,2021-09-11 21:05:00,2021-09-11,Samedi,21, Miossec,1954,undefined,Français
+638,M,2021-09-11 22:59:00,2021-09-11,Samedi,22,Georges Brassens,Mourir pour des idées,undefined,Français
+639,M,2021-09-12 13:25:00,2021-09-12,Dimanche,13,Lou Reed,Retro,undefined,Rock/Folk
+640,M,2021-09-12 15:17:00,2021-09-12,Dimanche,15, Rancid,",,, and out come the wolves",undefined,Français
+641,M,2021-09-12 19:38:00,2021-09-12,Dimanche,19,John Coltrane,Meditations,undefined,Jazz/Blues
+642,M,2021-09-12 22:37:00,2021-09-12,Dimanche,22,Tiken Jah Fakoly,Francafrique,undefined,Français
+643,M,2021-09-13 18:57:00,2021-09-13,Lundi,18,Rokia Traoré,Wanita,undefined,World
+644,M,2021-09-13 20:28:00,2021-09-13,Lundi,20,Seu Jorge,The Life Aquatic Studio Sessions,undefined,World
+645,M,2021-09-14 21:49:00,2021-09-14,Mardi,21,Julio ulio Iglesias,Tango,undefined,World
+646,M,2021-09-15 07:12:00,2021-09-15,Mercredi,7, Mogwai,Come on die young,undefined,Electro/Rap/Techno
+647,M,2021-09-15 18:45:00,2021-09-15,Mercredi,18,John Lee Hooker,Boogie Chilun,undefined,Jazz/Blues
+648,M,2021-09-15 20:38:00,2021-09-15,Mercredi,20,Jimmy Smith,Midnight Special,undefined,Jazz/Blues
+649,M,2021-09-15 21:05:00,2021-09-15,Mercredi,21,Jean-Sébastien Bach,French suites - English suites,undefined,Classique/Contemporain
+650,M,2021-09-15 22:14:00,2021-09-15,Mercredi,22,Buddy Guy,Damn Right I've got the Blues,undefined,Jazz/Blues
+651,M,2021-09-16 09:16:00,2021-09-16,Jeudi,9,Steve Coleman,Resistance is futile,undefined,Jazz/Blues
+652,M,2021-09-16 22:57:00,2021-09-16,Jeudi,22, Divers,Le Destin,undefined,World
+653,M,2021-09-18 12:38:00,2021-09-18,Samedi,12,Grant Lee Buffalo,Fuzzy,undefined,Rock/Folk
+654,M,2021-09-18 19:20:00,2021-09-18,Samedi,19, Beck,Odelay,undefined,Rock/Folk
+655,M,2021-09-19 12:55:00,2021-09-19,Dimanche,12, Tricky,Maxinquaye,undefined,Electro/Rap/Techno
+656,M,2021-09-19 16:59:00,2021-09-19,Dimanche,16,John Lee Hooker,Mr Lucky,undefined,Jazz/Blues
+657,M,2021-09-20 07:07:00,2021-09-20,Lundi,7,John Coltrane,The heavyweight Champion,undefined,Jazz/Blues
+658,M,2021-09-20 20:41:00,2021-09-20,Lundi,20,John Coltrane,Live at Birdland,undefined,Jazz/Blues
+659,M,2021-09-21 21:33:00,2021-09-21,Mardi,21, Magic Malik,69-96,undefined,Jazz/Blues
+660,M,2021-09-22 07:11:00,2021-09-22,Mercredi,7, UB40,Labour of love,undefined,Rock/Folk
+661,M,2021-09-22 14:04:00,2021-09-22,Mercredi,14, Bush,Everything Zen,undefined,Rock/Folk
+662,M,2021-09-22 20:06:00,2021-09-22,Mercredi,20, Judas Priest,Unleashed in the East,undefined,Rock/Folk
+663,M,2021-09-24 17:26:00,2021-09-24,Vendredi,17, Divers,Sine : Vive le jazz,undefined,Jazz/Blues
+664,M,2021-09-24 19:11:00,2021-09-24,Vendredi,19, Magic Malik,Saoule,undefined,Jazz/Blues
+665,M,2021-09-25 14:09:00,2021-09-25,Samedi,14,John Coltrane,Blue Train,undefined,Jazz/Blues
+666,M,2021-09-25 19:16:00,2021-09-25,Samedi,19,Jacques Higelin,Chante Boris Vian,undefined,Français
+667,M,2021-09-25 20:50:00,2021-09-25,Samedi,20,John Lee Hooker,Mr Lucky,undefined,Jazz/Blues
+668,M,2021-09-26 19:30:00,2021-09-26,Dimanche,19, XTC,Gribouillage,undefined,Français
+669,M,2021-09-29 08:46:00,2021-09-29,Mercredi,8, Pink Floyd,Wish You Were Here,undefined,Rock/Folk
+670,M,2021-09-29 18:26:00,2021-09-29,Mercredi,18,Nils Landgren,Paint in Blue,undefined,Jazz/Blues
+671,M,2021-09-29 21:53:00,2021-09-29,Mercredi,21, Sweet Smoke,Just a Poke,undefined,Rock/Folk
+672,M,2021-10-01 19:20:00,2021-10-01,Vendredi,19, DJ Krust,Through the Eyes,undefined,Electro/Rap/Techno
+673,M,2021-10-02 12:38:00,2021-10-02,Samedi,12,Alain Bashung,Francofolies de La Rochelle 11 Juillet 2008,undefined,Français
+674,M,2021-10-02 18:36:00,2021-10-02,Samedi,18,John Coltrane,Live at the Village Vanguard,undefined,Jazz/Blues
+675,M,2021-10-02 19:45:00,2021-10-02,Samedi,19, Southside Johnny,Better days,undefined,Rock/Folk
+676,M,2021-10-03 13:59:00,2021-10-03,Dimanche,13, Mano Negra,Casa Babylon,undefined,Français
+677,M,2021-10-03 19:18:00,2021-10-03,Dimanche,19, Renaud,A la belle de mai,undefined,Français
+678,M,2021-10-03 20:02:00,2021-10-03,Dimanche,20,Erroll Garner,In the mood for love,undefined,Jazz/Blues
+679,M,2021-10-04 19:10:00,2021-10-04,Lundi,19,Miles Davis,On the corner,undefined,Jazz/Blues
+680,M,2021-10-04 20:06:00,2021-10-04,Lundi,20,Alanis Morissette,Jagges Litlle Pill,undefined,Rock/Folk
+681,M,2021-10-05 06:44:00,2021-10-05,Mardi,6,Iggy Pop,Blah-Blah-Blah,undefined,Rock/Folk
+682,M,2021-10-05 19:37:00,2021-10-05,Mardi,19, Rue de la muette,Ma mère traîne au café,undefined,Français
+683,M,2021-10-05 21:09:00,2021-10-05,Mardi,21,Pierre Desproges,Les réquisitoires des flagrants délires,undefined,Français
+684,M,2021-10-05 22:54:00,2021-10-05,Mardi,22,The Velvet Underground,The Velvet Underground & Nico,undefined,Rock/Folk
+685,M,2021-10-06 16:58:00,2021-10-06,Mercredi,16, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+686,M,2021-10-06 17:11:00,2021-10-06,Mercredi,17, Divers,A look at French Opera de Lully à Poulenc,undefined,Classique/Contemporain
+687,M,2021-10-06 21:42:00,2021-10-06,Mercredi,21, Southside Johnny,Better days,undefined,Rock/Folk
+688,M,2021-10-07 22:49:00,2021-10-07,Jeudi,22,The Breeders,Last Splash,undefined,Rock/Folk
+689,M,2021-10-08 20:52:00,2021-10-08,Vendredi,20, Divers,Kansas City,undefined,Jazz/Blues
+690,M,2021-10-09 11:53:00,2021-10-09,Samedi,11, Divers,Le Destin,undefined,World
+691,M,2021-10-09 12:03:00,2021-10-09,Samedi,12,Oscar Peterson,An evening with Oscar Peterson,undefined,Jazz/Blues
+692,M,2021-10-09 13:26:00,2021-10-09,Samedi,13,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
+693,M,2021-10-09 16:20:00,2021-10-09,Samedi,16, Basia,Time & Tide,undefined,Rock/Folk
+694,M,2021-10-09 21:59:00,2021-10-09,Samedi,21, Radiohead,Hail to the thief,undefined,Rock/Folk
+695,M,2021-10-10 18:25:00,2021-10-10,Dimanche,18,The Sex Pistols,Never Mind the Bollocks,undefined,Rock/Folk
+696,M,2021-10-10 19:43:00,2021-10-10,Dimanche,19,Ella Fitzgerald,The Concert Years,undefined,Jazz/Blues
+697,M,2021-10-11 22:11:00,2021-10-11,Lundi,22, Prince Paul,A Prince Among Thieves,undefined,Electro/Rap/Techno
+698,M,2021-10-13 13:56:00,2021-10-13,Mercredi,13,John Coltrane,Impressions,undefined,Jazz/Blues
+699,M,2021-10-14 20:14:00,2021-10-14,Jeudi,20,Iggy Pop,Live Ritz NYC 86,undefined,Rock/Folk
+700,M,2021-10-15 19:36:00,2021-10-15,Vendredi,19,Sonny Rollins,What's new ?,undefined,Jazz/Blues
+701,M,2021-10-16 16:27:00,2021-10-16,Samedi,16,Jean-Sébastien Bach,Passions,undefined,Classique/Contemporain
+702,M,2021-10-16 18:54:00,2021-10-16,Samedi,18, Pixies,Trompe le Monde,undefined,Rock/Folk
+703,M,2021-10-16 21:36:00,2021-10-16,Samedi,21, Judas Priest,Unleashed in the East,undefined,Rock/Folk
+704,M,2021-10-17 14:12:00,2021-10-17,Dimanche,14,Jimmy Smith,Midnight Special,undefined,Jazz/Blues
+705,M,2021-10-17 16:11:00,2021-10-17,Dimanche,16,Atomic Kids Atomic Kids,La Face cachée,undefined,Français
+706,M,2021-10-17 18:45:00,2021-10-17,Dimanche,18,Les Cowboys Fringants,La Grand-Messe,undefined,Français
+707,M,2021-10-17 19:08:00,2021-10-17,Dimanche,19, Massive Attack,Blue Lines,undefined,Rock/Folk
+708,M,2021-10-17 20:04:00,2021-10-17,Dimanche,20, Dead Can Dance,Toward the Within,undefined,Rock/Folk
+709,M,2021-10-18 19:43:00,2021-10-18,Lundi,19, Magic Malik,Saoule,undefined,Jazz/Blues
+710,M,2021-10-19 20:29:00,2021-10-19,Mardi,20,Sonny Rollins,Our Man in Jazz,undefined,Jazz/Blues
+711,M,2021-10-20 13:21:00,2021-10-20,Mercredi,13, Divers,Guitarra Flamenca,undefined,World
+712,M,2021-10-20 14:22:00,2021-10-20,Mercredi,14,James Carter,Live,undefined,Jazz/Blues
+713,M,2021-10-20 16:21:00,2021-10-20,Mercredi,16,Charles Mingus,The great concert,undefined,Jazz/Blues
+714,M,2021-10-22 18:31:00,2021-10-22,Vendredi,18, FFF,Free for Fever,undefined,Français
+715,M,2021-10-22 19:28:00,2021-10-22,Vendredi,19,John Coltrane,Meditations,undefined,Jazz/Blues
+716,M,2021-10-22 22:15:00,2021-10-22,Vendredi,22,Ludwig Von Beethoven,Piano Sonatas,undefined,Classique/Contemporain
+717,M,2021-10-23 11:15:00,2021-10-23,Samedi,11, Deep Purple,Made In Japan,undefined,Rock/Folk
+718,M,2021-10-23 13:52:00,2021-10-23,Samedi,13, Sonic Youth,Sister,undefined,Rock/Folk
+719,M,2021-10-23 22:22:00,2021-10-23,Samedi,22, Arno,En concert (à la Française),undefined,Français
+720,M,2021-10-24 09:29:00,2021-10-24,Dimanche,9,Steve Reich,Three Movement,undefined,Classique/Contemporain
+721,M,2021-10-24 11:06:00,2021-10-24,Dimanche,11,Peter Gabriel,4th Album,undefined,Rock/Folk
+722,M,2021-10-24 14:43:00,2021-10-24,Dimanche,14,PJ Harvey,Uh Huh Her,undefined,Rock/Folk
+723,M,2021-10-24 18:50:00,2021-10-24,Dimanche,18,The Rolling Stones,Stripped,undefined,Rock/Folk
+724,M,2021-10-24 20:19:00,2021-10-24,Dimanche,20,Vanessa Paradis,Bliss,undefined,Français
+725,M,2021-10-24 22:46:00,2021-10-24,Dimanche,22, Deep Purple,In rock,undefined,Rock/Folk
+726,M,2021-10-25 20:55:00,2021-10-25,Lundi,20,John Coltrane,John Coltrane and Johnny Hartman,undefined,Jazz/Blues
+727,M,2021-10-27 18:46:00,2021-10-27,Mercredi,18, Ockeghem,Requiem,undefined,Classique/Contemporain
+728,M,2021-10-27 21:02:00,2021-10-27,Mercredi,21,Joshua Redman,Live in Boston,undefined,Jazz/Blues
+729,M,2021-10-28 22:26:00,2021-10-28,Jeudi,22, Mad Pop'X,Yormca,undefined,Français
+730,M,2021-10-29 20:17:00,2021-10-29,Vendredi,20,Sonny Rollins,What's new ?,undefined,Jazz/Blues
+731,M,2021-10-29 22:28:00,2021-10-29,Vendredi,22, Stravinsky,L'oiseau de feu - Pulcinella Suite,undefined,Classique/Contemporain
+732,M,2021-10-30 09:55:00,2021-10-30,Samedi,9,Carl Orff,Carmina Burana,undefined,Classique/Contemporain
+733,M,2021-10-30 13:03:00,2021-10-30,Samedi,13,The Doors,Original Motion Picture,undefined,Rock/Folk
+734,M,2021-10-30 15:47:00,2021-10-30,Samedi,15,The Go betweens,16 lovers lane acoustic demos,undefined,Rock/Folk
+735,M,2021-10-30 19:36:00,2021-10-30,Samedi,19, Sting,Brand New Day,undefined,Rock/Folk
+736,M,2021-10-31 10:51:00,2021-10-31,Dimanche,10, Bunbury,Rdical Sonora,undefined,Rock/Folk
+737,M,2021-10-31 11:16:00,2021-10-31,Dimanche,11,Erik Truffaz,Out of the Dreamn,undefined,Jazz/Blues
+738,M,2021-10-31 12:30:00,2021-10-31,Dimanche,12, Noir Desir,Des visages des Figures,undefined,Français
+739,M,2021-10-31 19:21:00,2021-10-31,Dimanche,19,Wes Montgomery,Bumpin',undefined,Jazz/Blues
+740,M,2021-10-31 20:46:00,2021-10-31,Dimanche,20,Melvin Taylor,Melvin Taylor & the Slack Band,undefined,Jazz/Blues
+741,M,2021-11-01 20:45:00,2021-11-01,Lundi,20,Keith Jarrett,Warner Jazz,undefined,Jazz/Blues
+742,M,2021-11-02 21:08:00,2021-11-02,Mardi,21,Ludwig Von Beethoven,"Symphony n°3 ""Eroica"" - Trio Op.11 - Sextet Op.81b - String Quartet",undefined,Classique/Contemporain
+743,M,2021-11-03 19:04:00,2021-11-03,Mercredi,19, Nirvana,In Utero,undefined,Rock/Folk
+744,M,2021-11-04 09:48:00,2021-11-04,Jeudi,9,Oscar Peterson,Keyboard,undefined,Jazz/Blues
+745,M,2021-11-05 18:08:00,2021-11-05,Vendredi,18,David Murray,Fo Deuk Revue,undefined,Jazz/Blues
+746,M,2021-11-05 21:52:00,2021-11-05,Vendredi,21,Johannes Brahms,Requiem Allemand Op.45,undefined,Classique/Contemporain
+747,M,2021-11-06 13:09:00,2021-11-06,Samedi,13,The Velvet Underground,V.U.,undefined,Rock/Folk
+748,M,2021-11-07 09:03:00,2021-11-07,Dimanche,9,Erroll Garner,Trio,undefined,Jazz/Blues
+749,M,2021-11-07 10:45:00,2021-11-07,Dimanche,10,Ben Harper,Live at the Apollo,undefined,Rock/Folk
+750,M,2021-11-07 13:04:00,2021-11-07,Dimanche,13, Divers,L'alphabet du Jazz,undefined,Jazz/Blues
+751,M,2021-11-07 15:25:00,2021-11-07,Dimanche,15, Joy Division,Substance,undefined,Rock/Folk
+752,M,2021-11-07 16:35:00,2021-11-07,Dimanche,16,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
+753,M,2021-11-07 17:56:00,2021-11-07,Dimanche,17,Oscar Peterson,Keyboard,undefined,Jazz/Blues
+754,M,2021-11-07 21:49:00,2021-11-07,Dimanche,21, No Man's Land,No Man's Land,undefined,Français
+755,M,2021-11-08 19:43:00,2021-11-08,Lundi,19,Skip James,The Complete 1931 Recordings,undefined,Jazz/Blues
+756,M,2021-11-08 22:14:00,2021-11-08,Lundi,22, Ravel,Boléro - La Valse - Concertos pour piano,undefined,Classique/Contemporain
+757,M,2021-11-09 08:42:00,2021-11-09,Mardi,8,John Coltrane,Live at the Village Vanguard,undefined,Jazz/Blues
+758,M,2021-11-09 22:39:00,2021-11-09,Mardi,22,Barry White,The Ultimate Collection,undefined,Rock/Folk
+759,M,2021-11-10 14:32:00,2021-11-10,Mercredi,14,James Carter,Layin' in the Cut,undefined,Jazz/Blues
+760,M,2021-11-10 17:39:00,2021-11-10,Mercredi,17, Deee Lite,World Clique,undefined,Rock/Folk
+761,M,2021-11-10 18:43:00,2021-11-10,Mercredi,18, Bunbury,Rdical Sonora,undefined,Rock/Folk
+762,M,2021-11-10 19:32:00,2021-11-10,Mercredi,19,Louis Armstrong,Porgy & Bess,undefined,Jazz/Blues
+763,M,2021-11-11 08:45:00,2021-11-11,Jeudi,8, Sepultura,Arise,undefined,Rock/Folk
+764,M,2021-11-12 09:29:00,2021-11-12,Vendredi,9,Roger Water,"Music from ""the body""",undefined,Jazz/Blues
+765,M,2021-11-12 20:24:00,2021-11-12,Vendredi,20,The Velvet Underground,The Velvet Underground,undefined,Rock/Folk
+766,M,2021-11-12 21:43:00,2021-11-12,Vendredi,21,Groover Washington jr,The Best of,undefined,Rock/Folk
+767,M,2021-11-13 00:30:00,2021-11-13,Samedi,0,Jimi Hendrix,Electric Ladyland,undefined,Rock/Folk
+768,M,2021-11-13 11:32:00,2021-11-13,Samedi,11, Budka Suflera,"Nic nie Boli, Tak jak Zycie",undefined,Rock/Folk
+769,M,2021-11-13 13:47:00,2021-11-13,Samedi,13,The Who,"Who's better, who's best",undefined,Rock/Folk
+770,M,2021-11-13 15:42:00,2021-11-13,Samedi,15,Karlheinz Stockhausen,Helikopter-Streichquartett,undefined,Classique/Contemporain
+771,M,2021-11-13 16:59:00,2021-11-13,Samedi,16, Sonic Youth,Daydream Nation,undefined,Rock/Folk
+772,M,2021-11-13 18:00:00,2021-11-13,Samedi,18, Madonna,Ray of Light,undefined,Rock/Folk
+773,M,2021-11-13 19:03:00,2021-11-13,Samedi,19, Ockeghem,Requiem,undefined,Classique/Contemporain
+774,M,2021-11-14 09:11:00,2021-11-14,Dimanche,9, CocoRosie,La maison de mon rêve,undefined,Electro/Rap/Techno
+775,M,2021-11-14 11:48:00,2021-11-14,Dimanche,11,Thelonious Monk,"Straight, No Chaser",undefined,Jazz/Blues
+776,M,2021-11-14 14:56:00,2021-11-14,Dimanche,14,Jacques Brel,vol.1,undefined,Français
+777,M,2021-11-14 17:45:00,2021-11-14,Dimanche,17,Ismaël Lo,Jammu Africa,undefined,World
+778,M,2021-11-14 18:26:00,2021-11-14,Dimanche,18, Moloko,Do you like my tight sweeter ?,undefined,Rock/Folk
+779,M,2021-11-14 21:41:00,2021-11-14,Dimanche,21,Jean-Sébastien Bach,Cello Suites,undefined,Classique/Contemporain
+780,M,2021-11-17 07:39:00,2021-11-17,Mercredi,7,Ella Fitzgerald,The Complete Ella in Berlin : Make the Knife,undefined,Jazz/Blues
+781,M,2021-11-17 12:38:00,2021-11-17,Mercredi,12, Katerine,Les Créatures & L'Homme à Trois Mains,undefined,Français
+782,M,2021-11-17 21:37:00,2021-11-17,Mercredi,21,Iggy Pop,Blah-Blah-Blah,undefined,Rock/Folk
+783,M,2021-11-19 18:32:00,2021-11-19,Vendredi,18,Aretha Franklin,The very best of,undefined,Jazz/Blues
+784,M,2021-11-19 19:57:00,2021-11-19,Vendredi,19,Carla Bley,Escalator Over the Hill,undefined,Jazz/Blues
+785,M,2021-11-19 20:01:00,2021-11-19,Vendredi,20, Akosh S. Unit,Omeko Live,undefined,Jazz/Blues
+786,M,2021-11-19 21:22:00,2021-11-19,Vendredi,21, Basia,Time & Tide,undefined,Rock/Folk
+787,M,2021-11-20 13:08:00,2021-11-20,Samedi,13, John Spencer Blues Explosion,Extra Width/Mo'Width,undefined,Rock/Folk
+788,M,2021-11-21 01:41:00,2021-11-21,Dimanche,1, Arvo Part,De Profundis,undefined,Classique/Contemporain
+789,M,2021-11-21 11:45:00,2021-11-21,Dimanche,11,Georges Gershwin,Rhapsody in Blue,undefined,Classique/Contemporain
+790,M,2021-11-21 12:53:00,2021-11-21,Dimanche,12,Grant Lee Buffalo,Fuzzy,undefined,Rock/Folk
+791,M,2021-11-21 13:27:00,2021-11-21,Dimanche,13, Divers,Schweiz Rock,undefined,Rock/Folk
+792,M,2021-11-21 15:55:00,2021-11-21,Dimanche,15,Ornette Coleman,The shape of Jazz to come,undefined,Jazz/Blues
+793,M,2021-11-21 16:41:00,2021-11-21,Dimanche,16, Silmarils,Silmarils,undefined,Français
+794,M,2021-11-21 17:26:00,2021-11-21,Dimanche,17,The Cure,Black Session 15 octobre 2004,undefined,Rock/Folk
+795,M,2021-11-21 19:33:00,2021-11-21,Dimanche,19, Cypress Hill,Live at the Fillmore,undefined,Electro/Rap/Techno
+796,M,2021-11-22 07:38:00,2021-11-22,Lundi,7, Mano Negra,Patchanka,undefined,Français
+797,M,2021-11-22 19:48:00,2021-11-22,Lundi,19,The Velvet Underground,Loaded,undefined,Rock/Folk
+798,M,2021-11-22 20:55:00,2021-11-22,Lundi,20,Billie Holiday,Lady Day : The complete BH on Columbia 1933-1944,undefined,Jazz/Blues
+799,M,2021-11-22 21:26:00,2021-11-22,Lundi,21, Divers,150 ans de passions dans l'Opéra français,undefined,Classique/Contemporain
+800,M,2021-11-23 21:22:00,2021-11-23,Mardi,21,The Pogues,The Pogues,undefined,Rock/Folk
+801,M,2021-11-24 22:40:00,2021-11-24,Mercredi,22, Massive Attack,Blue Lines,undefined,Rock/Folk
+802,M,2021-11-25 21:18:00,2021-11-25,Jeudi,21,Ben Harper,Livre Printemps de Bourges 21 avril 2009 with Relentless 7,undefined,Rock/Folk
+803,M,2021-11-25 22:45:00,2021-11-25,Jeudi,22, John Spencer Blues Explosion,Orange,undefined,Rock/Folk
+804,M,2021-11-26 18:05:00,2021-11-26,Vendredi,18,Julien Loureau,City Boom Boom,undefined,Jazz/Blues
+805,M,2021-11-26 21:18:00,2021-11-26,Vendredi,21,Chet Baker,Chet,undefined,Jazz/Blues
+806,M,2021-11-26 22:03:00,2021-11-26,Vendredi,22, Aires Tango,Il Manifesto,undefined,World
+807,M,2021-11-27 11:08:00,2021-11-27,Samedi,11, R.E.M.,Out of Time,undefined,Rock/Folk
+808,M,2021-11-27 15:19:00,2021-11-27,Samedi,15,The Sex Pistols,Never Mind the Bollocks,undefined,Rock/Folk
+809,M,2021-11-27 22:33:00,2021-11-27,Samedi,22,Youssou N'Dour,The Best of,undefined,World
+810,M,2021-11-28 01:42:00,2021-11-28,Dimanche,1,Johnny Cash,At St Quentin0,undefined,Rock/Folk
+811,M,2021-11-28 12:41:00,2021-11-28,Dimanche,12,Randy Weston,The Spirit of our Ancestors,undefined,Jazz/Blues
+812,M,2021-11-28 18:28:00,2021-11-28,Dimanche,18, Pink Floyd,The Wall,undefined,Rock/Folk
+813,M,2021-11-29 21:48:00,2021-11-29,Lundi,21,Miles Davis,Bitches Brew,undefined,Jazz/Blues
+814,M,2021-11-30 21:37:00,2021-11-30,Mardi,21,Aristide Bruant,Chansons et Monologues,undefined,Français
+815,M,2021-12-01 07:56:00,2021-12-01,Mercredi,7,Miles Davis,Paris Jazz Concerts,undefined,Jazz/Blues
+816,M,2021-12-01 22:27:00,2021-12-01,Mercredi,22,Luz Luz Casa,Luz Casal,undefined,World
+817,M,2021-12-02 13:20:00,2021-12-02,Jeudi,13, Madd Murdock,Madd Murdock,undefined,Français
+818,M,2021-12-03 20:17:00,2021-12-03,Vendredi,20, Magic Malik,Saoule,undefined,Jazz/Blues
+819,M,2021-12-03 22:01:00,2021-12-03,Vendredi,22,Steve Reich,Different Trains - Triple Quartet - The Four Section,undefined,Classique/Contemporain
+820,M,2021-12-04 17:25:00,2021-12-04,Samedi,17, INXS,Welcome to wherever you are,undefined,Rock/Folk
+821,M,2021-12-04 20:11:00,2021-12-04,Samedi,20, Akosh S. Unit,Omeko Live,undefined,Jazz/Blues
+822,M,2021-12-05 15:04:00,2021-12-05,Dimanche,15,Zakir Hussein,Zakir Hussein,undefined,World
+823,M,2021-12-05 17:23:00,2021-12-05,Dimanche,17,Miles Davis,Birth of the Cool,undefined,Jazz/Blues
+824,M,2021-12-06 20:21:00,2021-12-06,Lundi,20,The Jesus and Mary Chain,Darklands,undefined,Rock/Folk
+825,M,2021-12-07 18:28:00,2021-12-07,Mardi,18,Wayne Shorter,Speak No Evil,undefined,Jazz/Blues
+826,M,2021-12-08 07:36:00,2021-12-08,Mercredi,7, Lofofora,Lofofora,undefined,Français
+827,M,2021-12-08 15:04:00,2021-12-08,Mercredi,15,Herbie Hancock,Head Hunters / Cantaloup Island,undefined,Jazz/Blues
+828,M,2021-12-09 13:31:00,2021-12-09,Jeudi,13,James Carter,Jurassic Classics,undefined,Jazz/Blues
+829,M,2021-12-10 19:17:00,2021-12-10,Vendredi,19,James Carter,JC on the Set,undefined,Jazz/Blues
+830,M,2021-12-10 20:18:00,2021-12-10,Vendredi,20, City Kids,The Ophans Parade,undefined,Français
+831,M,2021-12-11 11:42:00,2021-12-11,Samedi,11,Ismaël Lo,Jammu Africa,undefined,World
+832,M,2021-12-11 15:51:00,2021-12-11,Samedi,15,Peter Hammil,The noise,undefined,Rock/Folk
+833,M,2021-12-11 17:51:00,2021-12-11,Samedi,17, Ockeghem,Requiem,undefined,Classique/Contemporain
+834,M,2021-12-11 19:27:00,2021-12-11,Samedi,19, Cali,L'amour Parfait,undefined,Français
+835,M,2021-12-11 22:42:00,2021-12-11,Samedi,22,Damian Marley,Welcom to Jamrock,undefined,Rock/Folk
+836,M,2021-12-12 14:35:00,2021-12-12,Dimanche,14, Morcheeba,Big Calm,undefined,Electro/Rap/Techno
+837,M,2021-12-12 15:35:00,2021-12-12,Dimanche,15, Miossec,Boire,undefined,Français
+838,M,2021-12-14 20:57:00,2021-12-14,Mardi,20, Renaud,Marche a l'Ombre,undefined,Français
+839,M,2021-12-14 21:27:00,2021-12-14,Mardi,21, Misty Oldland,Supernatural,undefined,Rock/Folk
+840,M,2021-12-15 14:18:00,2021-12-15,Mercredi,14,Jimi Hendrix,Jimi plays Monterey,undefined,Rock/Folk
+841,M,2021-12-15 20:53:00,2021-12-15,Mercredi,20,Les Sales Majestés,Bienvenue  ,undefined,Français
+842,M,2021-12-16 12:47:00,2021-12-16,Jeudi,12, Iron Maiden,Live after Death,undefined,Rock/Folk
+843,M,2021-12-16 21:59:00,2021-12-16,Jeudi,21,Jean-Sébastien Bach,Goldberg Variations BW988 1981,undefined,Classique/Contemporain
+844,M,2021-12-17 08:19:00,2021-12-17,Vendredi,8, Lucky Peterson,Beyond Cool,undefined,Jazz/Blues
+845,M,2021-12-17 19:17:00,2021-12-17,Vendredi,19, Magic Malik,Saoule,undefined,Jazz/Blues
+846,M,2021-12-17 20:30:00,2021-12-17,Vendredi,20, Dead Can Dance,Toward the Within,undefined,Rock/Folk
+847,M,2021-12-18 12:55:00,2021-12-18,Samedi,12, Noir Desir,En public,undefined,Français
+848,M,2021-12-18 19:01:00,2021-12-18,Samedi,19, Divers,Spirit Of Africa,undefined,World
+849,M,2021-12-18 21:42:00,2021-12-18,Samedi,21, Fear Factory,Fear of ancient Machine,undefined,Rock/Folk
+850,M,2021-12-18 22:41:00,2021-12-18,Samedi,22, Divers,Spirit Of Africa,undefined,World
+851,M,2021-12-19 16:06:00,2021-12-19,Dimanche,16, Radiohead,Hail to the thief,undefined,Rock/Folk
+852,M,2021-12-19 22:05:00,2021-12-19,Dimanche,22,Duke Ellington,Live at the Whitney,undefined,Jazz/Blues
+853,M,2021-12-20 18:38:00,2021-12-20,Lundi,18,The Stooges,The Stooges,undefined,Rock/Folk
+854,M,2021-12-20 20:32:00,2021-12-20,Lundi,20,Peter Gabriel,Passion,undefined,Rock/Folk
+855,M,2021-12-22 18:39:00,2021-12-22,Mercredi,18, Divers,Jazz,undefined,Jazz/Blues
+856,M,2021-12-22 20:56:00,2021-12-22,Mercredi,20, Dan Ar Braz,Finisterres,undefined,Français
+857,M,2021-12-23 12:07:00,2021-12-23,Jeudi,12, Zebda,Utopie d'occase,undefined,Français
+858,M,2021-12-23 20:54:00,2021-12-23,Jeudi,20,Christian Vander,Offerig I et II,undefined,Rock/Folk
+859,M,2021-12-23 22:56:00,2021-12-23,Jeudi,22, Divers,Victoires de la musique classique - Révélations 2005 ,undefined,Classique/Contemporain
+860,M,2021-12-24 21:13:00,2021-12-24,Vendredi,21,The Chemical Brothers,Dig yourt own hole,undefined,Electro/Rap/Techno
+861,M,2021-12-25 11:13:00,2021-12-25,Samedi,11, Cypress Hill,IV,undefined,Electro/Rap/Techno
+862,M,2021-12-25 12:04:00,2021-12-25,Samedi,12,Erik Satie,Erik Satie par Anne Quéffélec,undefined,Classique/Contemporain
+863,M,2021-12-25 15:44:00,2021-12-25,Samedi,15, KRS One,Return of the Boom Tap,undefined,Electro/Rap/Techno
+864,M,2021-12-25 16:27:00,2021-12-25,Samedi,16, Divers,La Fièvre tout le temps,undefined,World
+865,M,2021-12-25 17:31:00,2021-12-25,Samedi,17, Stravinsky,L'oiseau de feu - Pulcinella Suite,undefined,Classique/Contemporain
+866,M,2021-12-25 22:03:00,2021-12-25,Samedi,22, Romano Sclavis Texier,African Flashback,undefined,Jazz/Blues
+867,M,2021-12-26 11:33:00,2021-12-26,Dimanche,11,Jimi Hendrix,Are you experienced ?,undefined,Rock/Folk
+868,M,2021-12-26 14:02:00,2021-12-26,Dimanche,14,James Carter,Live at Baker's Keyboard Lounge,undefined,Jazz/Blues
+869,M,2021-12-26 16:51:00,2021-12-26,Dimanche,16,Yann Tiersen,Les Retrouvailles,undefined,Français
+870,M,2021-12-27 21:35:00,2021-12-27,Lundi,21,Joshua Redman,Live in the Village Vanguard,undefined,Jazz/Blues
+871,M,2021-12-28 21:59:00,2021-12-28,Mardi,21,Jean-Sébastien Bach,Cello Suites,undefined,Classique/Contemporain
+872,M,2021-12-29 08:37:00,2021-12-29,Mercredi,8,Ornette Coleman,The shape of Jazz to come,undefined,Jazz/Blues
+873,M,2021-12-29 22:59:00,2021-12-29,Mercredi,22,Jimmy Smith,Midnight Special,undefined,Jazz/Blues
+874,M,2021-12-30 19:08:00,2021-12-30,Jeudi,19,Oscar Peterson,An evening with Oscar Peterson,undefined,Jazz/Blues
+875,M,2021-12-30 21:44:00,2021-12-30,Jeudi,21, Morcheeba,Who can you trust ?,undefined,Electro/Rap/Techno
