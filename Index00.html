@@ -7,6 +7,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="historique.js"></script>
+  <script>
+        function EpochToDate(epoch) {
+            if (epoch < 10000000000)
+                epoch *= 1000; // convert to milliseconds (Epoch is usually expressed in seconds, but Javascript uses Milliseconds)
+            var epoch = epoch + (new Date().getTimezoneOffset() * -1); //for timeZone        
+            return new Date(epoch);
+        }
+    </script>
   <style>
     body {
       background-image:url(Record-hp-GQ-7Jun17_istock_b.webp);
@@ -16,8 +25,11 @@
       background: #aaa;
     }
 	.legend {
-      height: 50px;
+      height: 40px;
       background: #aab;
+    }
+    text.date {
+        font-size: 12px;
     }
     circle{
         fill: none;
@@ -38,7 +50,7 @@
 </style>
 </head>
 <body>
-
+    <!-------Bouton droit gauche-->
     <!-- Background image -->
     <div id="intro" class="bg-image shadow-2-strong">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
@@ -81,6 +93,15 @@
 	          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#myModal">
                 Afficher l'aide
               </button>
+<div></div>
+              <!-- Modal pour modifier le graphe -->
+            <button id="reset">Reset</button> 
+<div></div>
+            <button id="out">Zoom +</button>       
+            <button id="in">Zoom -</button>
+<div></div>
+            <button id="left"><</button> 
+            <button id="right">></button>    
             </div>
           </div>
         </div> 
@@ -115,6 +136,47 @@
   </div>
 </div>
 <script>
+
+let preparer_data = function(data)
+{
+    let genres = {};
+    let donnees = [];
+    let quantite = 0;
+    let hdate = "";
+    let date_num = 0;
+    let repartition = {};
+    for (let idx in data.Jour)
+    {
+        let date_s = EpochToDate(data.Jour[idx]).toDateString();
+        if(date_s != hdate)
+        {
+            if (hdate != "")
+            {
+                donnees.push({"hdate": hdate, "date_num":date_num, "repartition": repartition, "quantite": quantite});
+                quantite = 0;
+                date_num += 1;
+                repartition = {};
+            }
+            hdate = date_s;
+        }
+        else
+        {
+            quantite +=1;
+            if(data.Genre[idx] in repartition)
+                repartition[data.Genre[idx]] += 1;
+            else
+                repartition[data.Genre[idx]] = 1;
+            if(!(data.Genre[idx] in genres))
+                genres[data.Genre[idx]] = true;
+        }
+    }
+    donnees.push({"hdate": hdate, "repartition": repartition, "quantite": quantite});
+    let genres_ = [];
+    for(g in genres)
+        genres_.push(g);
+    return [donnees, genres_];
+};
+
 
 let mag = 8; //coefficient de magnification
 let rayMag = 50 //rayon de magnification
@@ -191,40 +253,28 @@ let echelle_distorsion = function(x, e, c, r){
 };
 
 
-const margin = {top: 20, right: 20, bottom: 50, left: 30};
-let le_div = document.getElementById("visu_graphique");
-let width = le_div.offsetWidth - margin.left - margin.right;
-let height = le_div.offsetHeight - margin.top - margin.bottom;
+function affiche_graphic(data, genres){
+    const margin = {top: 20, right: 20, bottom: 50, left: 30};
+    let le_div = document.getElementById("visu_graphique");
+    let width = le_div.offsetWidth - margin.left - margin.right;
+    let height = le_div.offsetHeight - margin.top - margin.bottom;
 
-const Ech_x = d3.scaleBand()
-    .range([0, width])
-    .padding(0.1);
+    const Ech_x = d3.scaleBand()
+        .range([0, width])
+        .padding(0.1);
 
-const Ech_y = d3.scaleLinear()
-    .range([-height/2, +height/2]);
+    const Ech_y = d3.scaleLinear()
+        .range([-height/2, +height/2]);
 
-let svg = d3.select("#visu_graphique")
-	.append("svg")
-	.attr("id", "svg")
-	.attr("width", width + margin.left + margin.right)
-	.attr("height", height + margin.top + margin.bottom);
+    let svg = d3.select("#visu_graphique")
+	    .append("svg")
+	    .attr("id", "svg")
+	    .attr("width", width + margin.left + margin.right)
+	    .attr("height", height + margin.top + margin.bottom);
 
-let groupe = svg.append("g")
-		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    let groupe = svg.append("g")
+		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-let nbBarres = d3.randomInt(30,40)();
-let data = d3.shuffle(d3.range(nbBarres));
-
-data = data.map((d,i) => ({
-   "quantite":d,
-   "hdate":("ici "+i),
-   "repartition":Array.from({length:d3.randomInt(3,10)()}, d3.randomUniform(1,10))
-}))
-
-// On demande à D3JS de charger notre fichier
-//d3.tsv("https://www.datavis.fr/d3js/barchart/data.tsv").then(function(data) {
-    // Conversion des caractères en nombres
-    data.forEach(d => d.quantite = +d.quantite);
 
     // Mise en relation du scale avec les données de notre fichier
     // Pour l'axe X, c'est la liste des hdate
@@ -307,13 +357,25 @@ data = data.map((d,i) => ({
         .attr("y2", height)
         .attr("stroke", "black");
     
-    let clacos = d3.pie();
+    let clacos_ = d3.pie();
+    let clacos = function(repart){
+        let C = [];
+        let V = [];
+        for(t in repart)
+        {
+            C.push(t);
+            V.push(repart[t]);
+        }
+        let resu = clacos_(V).map((d,i) => {d.genre = C[i]; return d});
+        return resu;
+    };
 
-    function faireCouleurs(nbCouleurs){
+    function faireCouleurs(categ){
         let C = d3.scaleOrdinal()
-          .domain(d3.range(nbCouleurs))
+          .domain(categ)
           .range(d3.schemeDark2);
         let K = [];
+        let nbCouleurs = categ.length;
         for(let i=0; i<nbCouleurs; i+=1)
         {
             let k = C(i).substr(1);
@@ -327,7 +389,7 @@ data = data.map((d,i) => ({
         };
     }
 
-    let couleurs = faireCouleurs(12);
+    let couleurs = faireCouleurs(genres);
 
     let dessine_disque = function(dat){
         //console.log(dat);
@@ -393,12 +455,13 @@ data = data.map((d,i) => ({
                  .enter()
                  .append("g")
                  .attr("class", "legende")
-                 .attr("transform", d => positionDisque(d, 15))
+                 .attr("transform", d => positionDisque(d, 10))
                  .append("text")
+                 .attr("class", "date")
                  .style("text-anchor", "end")
                  //.attr("dx", Ech_x.bandwidth())
                  .attr("dy", 10)
-                 .text(d => d.hdate)
+                 .text(d => d.hdate.substr(4,6))
                  .attr("transform", "rotate(-65)")
 
 
@@ -436,7 +499,7 @@ data = data.map((d,i) => ({
             r = 2*rayMag-r;
 		lignes.attr("x1", d => positionCentre(d, c, r, mag))
               .attr("x2", d => positionCentre(d, c, r, mag));
-        legendes.attr("transform", d => positionDisque(d, 15, c, r, mag));
+        legendes.attr("transform", d => positionDisque(d, 10, c, r, mag));
         disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
         secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
         secteurs.attr("fill", d => couleurs(d.index, coloration_disque(d, c, r)));
@@ -466,7 +529,7 @@ data = data.map((d,i) => ({
                                         
         legendes.transition()
                 .duration(duree)
-                .attrTween("transform", d => function(t){return positionDisque(d, 15, c, interpol(t), mag);});
+                .attrTween("transform", d => function(t){return positionDisque(d, 10, c, interpol(t), mag);});
         disques.transition()
                .duration(duree)
                .attrTween("transform", d => function(t){return positionDisque(d, 0, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)});
@@ -478,12 +541,61 @@ data = data.map((d,i) => ({
                .duration(duree)
                .attrTween("transform", tweenSecteurs);
     });		
+}
 
- /*   svg.on("mouseout", function(event, d){
-        console.log("mouseout");
-    });		 */
+document.querySelector("#visu_graphique").innerHTML = "";
+[data_brute, genres] = preparer_data(data_brute);
 
-//});
+var nb_gmax = 60;
+var nb_gmin = 10;
+var pas = 2;
+var dmax = d3.max(data_brute, d => d.date_num);
+var dmin = d3.min(data_brute, d => d.date_num);
+var date_max = d3.max(data_brute, d => d.date_num);
+var date_min = date_max - nb_gmax;
+
+var update_data = data_brute.filter(d => (d.date_num >= dmax-nb_gmax)&(d.date_num <= dmax))
+affiche_graphic(update_data, genres);
+
+document.getElementById("in").addEventListener("click", function() {
+      date_min = Math.min(date_min +pas,date_max-nb_gmin);
+      document.querySelector("#visu_graphique").innerHTML = "";
+      update_data = data_brute.filter(d => (d.date_num >= date_min)&(d.date_num <= date_max))
+      affiche_graphic(update_data, genres);
+});
+
+document.getElementById("out").addEventListener("click", function() {
+      date_min = Math.max(date_min-pas, date_max-nb_gmax);
+      document.querySelector("#visu_graphique").innerHTML = "";
+      update_data = data_brute.filter(d => (d.date_num >= date_min)&(d.date_num <= date_max))
+      affiche_graphic(update_data, genres);
+});
+
+document.getElementById("left").addEventListener("click", function() {
+      date_min = Math.max(date_min - pas,dmin);
+	
+      date_max = Math.max(date_max - pas,dmin+nb_gmax);
+
+      document.querySelector("#visu_graphique").innerHTML = "";
+      update_data = data_brute.filter(d => (d.date_num >= date_min)&(d.date_num <= date_max))
+      affiche_graphic(update_data, genres);
+});
+document.getElementById("right").addEventListener("click", function() {
+      date_min = Math.min(date_min +pas,dmax-nb_gmax);
+	
+      date_max = Math.min(date_max +pas,dmax);
+
+      document.querySelector("#visu_graphique").innerHTML = "";
+      update_data = data_brute.filter(d => (d.date_num >= date_min)&(d.date_num <= date_max))
+      affiche_graphic(update_data, genres);
+});
+
+document.getElementById("reset").addEventListener("click", function() {
+      document.querySelector("#visu_graphique").innerHTML = "";
+      update_data = data_brute.filter(d => (d.date_num >= dmax-nb_gmax)&(d.date_num <= dmax))
+      affiche_graphic(update_data, genres);
+});
+
 </script>
 
 
