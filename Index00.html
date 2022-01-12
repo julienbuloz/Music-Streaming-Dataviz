@@ -262,7 +262,7 @@ let echelle_distorsion = function(x, e, c, r){
 function faireCouleurs(categ){
     let C = d3.scaleOrdinal()
       .domain(categ)
-      .range(d3.schemeDark2);
+      .range(d3.schemeSet1);
     let K = [];
     let nbCouleurs = categ.length;
     for(let i=0; i<nbCouleurs; i+=1)
