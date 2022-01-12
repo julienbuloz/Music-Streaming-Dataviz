@@ -25,7 +25,7 @@
       background: #aaa;
     }
 	.legend {
-      height: 40px;
+      //height: 40px;
       background: #aab;
     }
     text.date {
@@ -47,6 +47,12 @@
         //stroke: black;
         //stroke-width: 2px;
     }
+    .p_legende {
+          border: 1px solid grey;
+          width: 3em;
+          height: 1em;
+          padding-left: 2em;
+      }
 </style>
 </head>
 <body>
@@ -83,12 +89,12 @@
             </div>
             <div class="col-sm-9">
         	  <div id="visu_graphique" class="reserved"></div>
-              <p class="text-center">Placez la souris sur jour pour voir la répartition par genres musicaux</p>
+              <!-- <p class="text-center">Placez la souris sur jour pour voir la répartition par genres musicaux</p> -->
             </div>
         	<div class="col-sm-2">
 	          <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#demo">Légende des genres</button>
 	            <div id="demo" class="collapse show" >
-                  <div class="legend">Delenda Carthago</div>
+                  <div id="legende_couleurs" class="legend">Delenda Carthago</div>
                 </div>
 	          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#myModal">
                 Afficher l'aide
@@ -253,6 +259,27 @@ let echelle_distorsion = function(x, e, c, r){
 };
 
 
+function faireCouleurs(categ){
+    let C = d3.scaleOrdinal()
+      .domain(categ)
+      .range(d3.schemeDark2);
+    let K = [];
+    let nbCouleurs = categ.length;
+    for(let i=0; i<nbCouleurs; i+=1)
+    {
+        let k = C(i).substr(1);
+        K.push([+("0x" + k.substr(0,2)), +("0x" + k.substr(2,2)), +("0x" + k.substr(4))]);
+    }
+    return function(i, t=1){
+        let k = K[i]
+        k = (Math.floor(k[0] * t)*256+Math.floor(k[1] * t))*256 + Math.floor(k[2] * t);
+        k += 256*256*256;
+        return "#" + k.toString(16).substr(1);
+    };
+}
+
+
+
 function affiche_graphic(data, genres){
     const margin = {top: 20, right: 20, bottom: 50, left: 30};
     let le_div = document.getElementById("visu_graphique");
@@ -369,27 +396,6 @@ function affiche_graphic(data, genres){
         let resu = clacos_(V).map((d,i) => {d.genre = C[i]; return d});
         return resu;
     };
-
-    function faireCouleurs(categ){
-        let C = d3.scaleOrdinal()
-          .domain(categ)
-          .range(d3.schemeDark2);
-        let K = [];
-        let nbCouleurs = categ.length;
-        for(let i=0; i<nbCouleurs; i+=1)
-        {
-            let k = C(i).substr(1);
-            K.push([+("0x" + k.substr(0,2)), +("0x" + k.substr(2,2)), +("0x" + k.substr(4))]);
-        }
-        return function(i, t=1){
-            let k = K[i]
-            k = (Math.floor(k[0] * t)*256+Math.floor(k[1] * t))*256 + Math.floor(k[2] * t);
-            k += 256*256*256;
-            return "#" + k.toString(16).substr(1);
-        };
-    }
-
-    let couleurs = faireCouleurs(genres);
 
     let dessine_disque = function(dat){
         //console.log(dat);
@@ -543,6 +549,22 @@ function affiche_graphic(data, genres){
     });		
 }
 
+function faire_legende_couleurs(genres, couleurs)
+{
+	let leDiv = document.querySelector("#legende_couleurs");
+	leDiv.innerHTML = "";
+	leDiv = d3.select("#legende_couleurs");
+	let table = leDiv.append("table");
+	for(let i in genres)
+	{
+		let g = genres[i];
+		let rangee = table.append("tr");
+		let case1 = rangee.append("td");
+		let case2 = rangee.append("td").text(g);
+		let leSpan = case1.append("span").attr("class", "p_legende").style("background-color", couleurs(i));
+	}
+}
+
 document.querySelector("#visu_graphique").innerHTML = "";
 [data_brute, genres] = preparer_data(data_brute);
 
@@ -555,6 +577,8 @@ var date_max = d3.max(data_brute, d => d.date_num);
 var date_min = date_max - nb_gmax;
 
 var update_data = data_brute.filter(d => (d.date_num >= dmax-nb_gmax)&(d.date_num <= dmax))
+let couleurs = faireCouleurs(genres); 
+faire_legende_couleurs(genres, couleurs);
 affiche_graphic(update_data, genres);
 
 document.getElementById("in").addEventListener("click", function() {
