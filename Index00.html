@@ -23,7 +23,7 @@
     .reserved {
       height: 350px;
       background: #E0FFFF;
-	  opacity: 0.5;
+	  opacity: 0.8;
     }
 	.legend {
       //height: 40px;
@@ -42,7 +42,9 @@
 	    fill: orange;
     }
     rect.cache{
-        fill: white;
+        //fill: white;
+        background: #E0FFFF;
+	    opacity: 0.1;
     }
     path.clacos{
         //fill: blue;
@@ -91,7 +93,7 @@
           </div>
             <div class="row">
             <div class="col-sm-1">
-			  <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">
+			  <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">
                 Aide
               </button>  
             </div>
@@ -268,7 +270,8 @@ let echelle_distorsion = function(x, e, c, r){
 function faireCouleurs(categ){
     let C = d3.scaleOrdinal()
       .domain(categ)
-      .range(d3.schemeSet1);
+      //.range(d3.schemeSet1);
+	  .range(['#1b9e77','#d95f02','#7570b3','#e7298a','#b2df8a','#e6ab02'])
     let K = [];
     let nbCouleurs = categ.length;
     for(let i=0; i<nbCouleurs; i+=1)
