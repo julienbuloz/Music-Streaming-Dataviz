@@ -22,11 +22,13 @@
     }
     .reserved {
       height: 350px;
-      background: #aaa;
+      background: #E0FFFF;
+	  opacity: 0.5;
     }
 	.legend {
       //height: 40px;
-      background: #aab;
+      background: #E0FFFF;
+	  opacity: 0.8;
     }
     text.date {
         font-size: 12px;
@@ -52,7 +54,10 @@
           width: 3em;
           height: 1em;
           padding-left: 2em;
-      }
+		        }
+	td {
+         font-size: 0.8em;
+        }
 </style>
 </head>
 <body>
@@ -86,28 +91,29 @@
           </div>
             <div class="row">
             <div class="col-sm-1">
+			  <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#myModal">
+                Aide
+              </button>  
             </div>
             <div class="col-sm-9">
         	  <div id="visu_graphique" class="reserved"></div>
               <!-- <p class="text-center">Placez la souris sur jour pour voir la répartition par genres musicaux</p> -->
             </div>
         	<div class="col-sm-2">
-	          <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#demo">Légende des genres</button>
+	          <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="collapse" data-bs-target="#demo">Légende</button>
 	            <div id="demo" class="collapse show" >
                   <div id="legende_couleurs" class="legend">Delenda Carthago</div>
                 </div>
-	          <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#myModal">
-                Afficher l'aide
-              </button>
-<div></div>
-              <!-- Modal pour modifier le graphe -->
-            <button id="reset">Reset</button> 
-<div></div>
-            <button id="out">Zoom +</button>       
-            <button id="in">Zoom -</button>
-<div></div>
-            <button id="left"><</button> 
-            <button id="right">></button>    
+              <!-- Boutons pour modifier le graphe -->
+              <p> " " </p>
+			  <button class="btn btn-outline-light btn-sm" id="out">Zoom +</button>       
+              <button class="btn btn-outline-light btn-sm" id="in">Zoom -</button>
+			  <div></div>
+              <button class="btn btn-outline-light btn-sm" id="left"><</button> 
+              <button class="btn btn-outline-light btn-sm" id="right">></button> 
+			  <div></div>
+			  <button class="btn btn-outline-light btn-sm" id="reset">Reset</button>  
+			  <div></div>
             </div>
           </div>
         </div> 
@@ -132,7 +138,7 @@
       </div>
       <!-- Modal body -->
       <div class="modal-body">
-        Modifiez la période que vous visualisez en zoomant avec la molette de votre souris sur l'axe des jours, ou en cliquant-déplaçant le long de l'axe
+        Modifiez la période que vous visualisez avec les boutons Zoom + et Zoom -, ou en vous déplaçant avec les boutons > et <.
       </div>
       <!-- Modal footer -->
       <div class="modal-footer">
