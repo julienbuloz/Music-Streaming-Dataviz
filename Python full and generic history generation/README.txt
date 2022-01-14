@@ -10,6 +10,7 @@ Input:
 - ProbDaysHours.csv
 Output :
 - history_CD.csv
+- history_CD.json
 
 2) DataViz-Deezer-CreateTable.ipynb
 Create an history for user "Deez" based on écoutes.json file
