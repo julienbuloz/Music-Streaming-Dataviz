@@ -359,7 +359,7 @@ function affiche_graphic(data, genres){
         return R;
     };
 
-    let formeDisque = function(d, c=0, r=0, p=0){
+/*    let formeDisque = function(d, c=0, r=0, p=0){
         let ry = Ech_y(d.quantite);
         let rx = Ech_x.bandwidth()/2;
         if (rx > ry)
@@ -372,13 +372,14 @@ function affiche_graphic(data, genres){
             R = 1;
         return R;
     };
-
+*/
+/*
     let echelleDisque = function(d, c=0, r=0, p=0){
         let echX = formeDisque(d, c, r, p);
-        let echY = 1;
-        //let ry = Ech_y(d.quantite);
-        //if ((ry > 0) && (p>0) && (r>=0) /*&& (ry < p*Ech_x.bandwidth()/2)*/)
-        /*{
+        //let echY = 1;
+        let ry = Ech_y(d.quantite);
+        if ((ry > 0) && (p>0) && (r>=0)) //&& (ry < p*Ech_x.bandwidth()/2))
+        {
             let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
             x = x-c;
             if (x < 0)
@@ -394,10 +395,17 @@ function affiche_graphic(data, genres){
             echX *= k;
             echY *= k;
             //console.log(r, ry, k);
-        }*/
+        }
       //return "scale(" + echX + "," + echY + ")"; 
         return "scale(" + echX + "," + echX + ")"; 
     }                 
+*/
+	let echelleDisque = function(d, c=0, r=0, p=0){
+		//let s = echelle_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.hdate), 1, c, r);
+		let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
+		let s = deriv_distorsion(x,c,r,p);
+		return "scale(" + s + "," + s + ")";
+	}  
     
     let lignes = groupe.selectAll(".ligne")
         .data(data)
@@ -427,7 +435,7 @@ function affiche_graphic(data, genres){
         //console.log(dat);
         let dd = clacos(dat.repartition).map(d=> {d.hdate = dat.hdate; d.quantite = dat.quantite; return d});
         //console.log(dd);
-        let transfoDisque = formeDisque(dat);
+        //let transfoDisque = formeDisque(dat);
         let disq = groupe.append("g");
         //groupe.append("g")
               disq.selectAll("path")
@@ -438,10 +446,9 @@ function affiche_graphic(data, genres){
               .attr("class", "clacos")
               .attr('d', (d) => {
                                     //console.log(d);
-                                    let R = Ech_y(dat.quantite);
-                                    //let pathdata = d3.arc().innerRadius(0).outerRadius(Ech_y(dat.quantite))(d);
-                                   	let pathdata = d3.arc().innerRadius(R*0.4).outerRadius(R)(d);
-                                    //console.log(pathdata);
+                                    //let R = Ech_y(dat.quantite);
+                                    let R = Ech_x.bandwidth()/2;
+                                    let pathdata = d3.arc().innerRadius(R*0.4).outerRadius(R)(d);
                                     return pathdata;})
               .attr("fill", d => couleurs(d.index, 0))
               //.attr("transform", positionDisque(dat) + " " + echelleDisque(dat));
@@ -450,7 +457,8 @@ function affiche_graphic(data, genres){
         	   .attr("cx", 0)
 	           //.attr("cy", height/2)
 	           .attr("cy", "0")
-       		   .attr("r", Ech_y(dat.quantite)*0.4)
+       		   //.attr("r", Ech_y(dat.quantite)*0.4)
+       		   .attr("r", Ech_x.bandwidth()*0.4/2)
        		   .attr("class", "plein")
 	           //.attr("transform", positionDisque(dat) + " " + echelleDisque(dat))
 	           .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + echelleDisque(dat))
@@ -537,12 +545,12 @@ function affiche_graphic(data, genres){
               .attr("x2", d => abscisseDisque(d, c, r, mag));
         legendes.attr("transform", d => translate(abscisseDisque(d, c, r, mag), 10));
         //disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d)))// + " " + echelleDisque(d, c, r, mag));
+        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d)) + " " + echelleDisque(d, c, r, mag));
         //secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        secteurs.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d)) + " " + echelleDisque(d));
+        secteurs.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d)) + " " + echelleDisque(d, c, r, mag));
         //secteurs.attr("fill", d => couleurs(d.index, coloration_disque(d, c, r)));
         //centres_disques.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        centres_disques.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d)) + " " + echelleDisque(d));
+        centres_disques.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d)) + " " + echelleDisque(d, c, r, mag));
 	});
     
     svg.on("mouseleave", function(event, d){
