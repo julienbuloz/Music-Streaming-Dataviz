@@ -329,18 +329,22 @@ function affiche_graphic(data, genres){
     //Ech_y.domain([-maxY, maxY]);
     Ech_y.domain([0, maxY])
 
-    let positionCentre = function(d, c=0, r=0, p=0){
+    let abscisseDisque = function(d, c=0, r=0, p=0){
         let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
         if(r > 0)
             x = distorsion(x, c, r, p);
         return x;
     };    
 
-    let positionDisque = function(d, y=null, c=0, r=0, p=0){
-    	if (y==null)
-    		y = height - Ech_y(d.quantite);
-        return "translate(" + positionCentre(d, c, r, p) + "," + y +")";
-    };
+	let ordonneeDisque = function(d, r=0)
+	{
+		return height - Ech_y(d.quantite);
+	}
+    
+    let translate = function(x,y)
+    {
+    	return "translate(" + x + "," + y + ")";
+    }
 
     let formeDisque0 = function(d, c=0, r=0, p=0){
         let ry = Ech_y(d.quantite);
@@ -402,10 +406,8 @@ function affiche_graphic(data, genres){
         .attr("class", "ligne")
         .attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.hdate))
         .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.hdate))
-        //.attr("y1", height/2)
         .attr("y1", height)
-        //.attr("y2", height)
-        .attr("y2", d => height-Ech_y(d.quantite))
+        .attr("y2", ordonneeDisque)
         .attr("stroke", "black");
     
     let clacos_ = d3.pie();
@@ -442,16 +444,16 @@ function affiche_graphic(data, genres){
                                     //console.log(pathdata);
                                     return pathdata;})
               .attr("fill", d => couleurs(d.index, 0))
-              //.attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat));
-              .attr("transform", positionDisque(dat) + " " + echelleDisque(dat));
+              //.attr("transform", positionDisque(dat) + " " + echelleDisque(dat));
+              .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + echelleDisque(dat));
               disq.append("circle")
         	   .attr("cx", 0)
 	           //.attr("cy", height/2)
 	           .attr("cy", "0")
        		   .attr("r", Ech_y(dat.quantite)*0.4)
        		   .attr("class", "plein")
-	           //.attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat))
-	           .attr("transform", positionDisque(dat) + " " + echelleDisque(dat))
+	           //.attr("transform", positionDisque(dat) + " " + echelleDisque(dat))
+	           .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + echelleDisque(dat))
     };
 
 
@@ -464,7 +466,7 @@ function affiche_graphic(data, genres){
         .attr("r", d => Ech_y(d.quantite))
         //.attr("r", d => Ech_y(d.quantite)*0.4)
         //.attr("class", "plein")
-        .attr("transform", d => positionDisque(d) + " " + echelleDisque(d))
+        .attr("transform", d => translate(abscisseDisque(d), ordonneeDisque(d)) + " " + echelleDisque(d))
         .each(d => dessine_disque(d));
     
 
@@ -488,7 +490,8 @@ function affiche_graphic(data, genres){
                  .enter()
                  .append("g")
                  .attr("class", "legende")
-                 .attr("transform", d => positionDisque(d, 10))
+                 //.attr("transform", d => positionDisque(d, 10))
+                 .attr("transform", d => translate(abscisseDisque(d), 10))
                  .append("text")
                  .attr("class", "date")
                  .style("text-anchor", "end")
@@ -530,13 +533,16 @@ function affiche_graphic(data, genres){
         r = rayMag*r
         if(r>rayMag)
             r = 2*rayMag-r;
-		lignes.attr("x1", d => positionCentre(d, c, r, mag))
-              .attr("x2", d => positionCentre(d, c, r, mag));
-        legendes.attr("transform", d => positionDisque(d, 10, c, r, mag));
-        disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        secteurs.attr("fill", d => couleurs(d.index, coloration_disque(d, c, r)));
-        centres_disques.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+		lignes.attr("x1", d => abscisseDisque(d, c, r, mag))
+              .attr("x2", d => abscisseDisque(d, c, r, mag));
+        legendes.attr("transform", d => translate(abscisseDisque(d, c, r, mag), 10));
+        //disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d)))// + " " + echelleDisque(d, c, r, mag));
+        //secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+        secteurs.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d)) + " " + echelleDisque(d));
+        //secteurs.attr("fill", d => couleurs(d.index, coloration_disque(d, c, r)));
+        //centres_disques.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
+        centres_disques.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d)) + " " + echelleDisque(d));
 	});
     
     svg.on("mouseleave", function(event, d){
@@ -552,8 +558,9 @@ function affiche_graphic(data, genres){
         if(r>rayMag)
             r = 2*rayMag-r;
         let interpol = d3.interpolate(r, 0)
-        let tweenX = d => function(t){return positionCentre(d, c, interpol(t), mag);}
-        let tweenSecteurs = d => function(t){return positionDisque(d, height/2, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)};
+        let tweenX = d => function(t){return abscisseDisque(d, c, interpol(t), mag);}
+        //let tweenSecteurs = d => function(t){return positionDisque(d, height/2, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)};
+        let tweenSecteurs = d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d)) + " " + echelleDisque(d/*, c, interpol(t), mag*/)};
         
         lignes.transition()
               .duration(duree)
@@ -562,18 +569,20 @@ function affiche_graphic(data, genres){
                                         
         legendes.transition()
                 .duration(duree)
-                .attrTween("transform", d => function(t){return positionDisque(d, 10, c, interpol(t), mag);});
+                //.attrTween("transform", d => function(t){return positionDisque(d, 10, c, interpol(t), mag);});
+                .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), 10);});
         disques.transition()
                .duration(duree)
-               .attrTween("transform", d => function(t){return positionDisque(d, 0, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)});
+               //.attrTween("transform", d => function(t){return positionDisque(d, 0, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)});
+               .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d)) + " " + echelleDisque(d/*, c, interpol(t), mag*/)});
         secteurs.transition()
                .duration(duree)
                .attrTween("transform", tweenSecteurs)
-               .attrTween("fill", d => function(t){return couleurs(d.index, coloration_disque(d, c, interpol(t)));});
+               //.attrTween("fill", d => function(t){return couleurs(d.index, coloration_disque(d, c, interpol(t)));});
         centres_disques.transition()
                .duration(duree)
                .attrTween("transform", tweenSecteurs);
-    });		
+    });
 }
 
 function faire_legende_couleurs(genres, couleurs)
