@@ -308,7 +308,8 @@ function affiche_graphic(data, genres){
         .padding(0.1);
 
     const Ech_y = d3.scaleLinear()
-        .range([-height/2, +height/2]);
+        .range([0, height])
+        //.range([-height/2, +height/2]);
 
     let svg = d3.select("#visu_graphique")
 	    .append("svg")
@@ -325,7 +326,8 @@ function affiche_graphic(data, genres){
     // Pour l'axe Y, c'est le max des quantités
     Ech_x.domain(data.map(d => d.hdate));
     let maxY = d3.max(data, d => d.quantite);
-    Ech_y.domain([-maxY, maxY]);
+    //Ech_y.domain([-maxY, maxY]);
+    Ech_y.domain([0, maxY])
 
     let positionCentre = function(d, c=0, r=0, p=0){
         let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
@@ -397,8 +399,10 @@ function affiche_graphic(data, genres){
         .attr("class", "ligne")
         .attr("x1", d => Ech_x.bandwidth()/2 + Ech_x(d.hdate))
         .attr("x2", d => Ech_x.bandwidth()/2 + Ech_x(d.hdate))
-        .attr("y1", height/2)
-        .attr("y2", height)
+        //.attr("y1", height/2)
+        .attr("y1", height)
+        //.attr("y2", height)
+        .attr("y2", 0)
         .attr("stroke", "black");
     
     let clacos_ = d3.pie();
