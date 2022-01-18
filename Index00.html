@@ -359,38 +359,13 @@ function affiche_graphic(data, genres){
     	return "translate(" + x + "," + y + ")";
     }
 
-	let truc = function(x,c,r)
-    {
-        x -= c;
-        if(x<0)
-            x=-x;
-        let k;
-        if (x<0.1*r)
-            k=1;
-        else if(x>r)
-            k = 0;
-        else
-            k = 1-(x-0.1*r)/(0.9*r);
-        if (r <= 0.9*rayMag)
-            k *= r/(0.9*rayMag);
-        return k;
-    };
 
-	let echelleDisque__ = function(d, c=0, r=0, p=0){
-		//let s = echelle_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.hdate), 1, c, r);
-		let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
-		let s = deriv_distorsion(x,c,r,p);
-		//s *= truc(x,c,r);
-		return "scale(" + s + "," + s + ")";
-	};
-	
-	let echelleDisque = function(d, c=0, r=0, p=0){
+	let echelleDisque = function(x, c=0, r=0, p=0){
 		let s;
 		if(r == 0)
 			s = 1;
 		else
 		{ 
-			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
 			let t;
 			t = r/(rayMag*0.9);
 			if(t > 1)
@@ -405,6 +380,12 @@ function affiche_graphic(data, genres){
 				t = 1;
 			s = t*(1-p) + p;
 		}
+		return s;
+	};
+	
+	let scaleDisc = function(d, c=0, r=0, p=0){
+		let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
+		let s = echelleDisque(x, c, r, p);
 		return "scale(" + s + "," + s + ")";
 	};
     
@@ -452,8 +433,7 @@ function affiche_graphic(data, genres){
                                     let pathdata = d3.arc().innerRadius(R*0.4).outerRadius(R)(d);
                                     return pathdata;})
               .attr("fill", d => couleurs(d.index, 0))
-              //.attr("transform", positionDisque(dat) + " " + echelleDisque(dat));
-              .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + echelleDisque(dat));
+              .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + scaleDisc(dat));
               let R0 = Ech_x.bandwidth()*0.4/2;
               if(dat.quantite <= 0)
               	R0 = 0;
@@ -464,8 +444,7 @@ function affiche_graphic(data, genres){
        		   //.attr("r", Ech_y(dat.quantite)*0.4)
        		   .attr("r", R0)
        		   .attr("class", "plein")
-	           //.attr("transform", positionDisque(dat) + " " + echelleDisque(dat))
-	           .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + echelleDisque(dat))
+	           .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + scaleDisc(dat))
     };
 
 
@@ -478,7 +457,7 @@ function affiche_graphic(data, genres){
         .attr("r", d => Ech_y(d.quantite))
         //.attr("r", d => Ech_y(d.quantite)*0.4)
         //.attr("class", "plein")
-        .attr("transform", d => translate(abscisseDisque(d), ordonneeDisque(d)) + " " + echelleDisque(d))
+        .attr("transform", d => translate(abscisseDisque(d), ordonneeDisque(d)) + " " + scaleDisc(d))
         .each(d => dessine_disque(d));
     
 
@@ -550,13 +529,10 @@ function affiche_graphic(data, genres){
               .attr("x2", d => abscisseDisque(d, c, r, mag))
               .attr("y2", d => ordonneeDisque(d, c, r, mag))
         legendes.attr("transform", d => translate(abscisseDisque(d, c, r, mag), 10));
-        //disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d, c, r, mag)) + " " + echelleDisque(d, c, r, mag));
-        //secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        secteurs.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d, c, r, mag)) + " " + echelleDisque(d, c, r, mag));
+        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d, c, r, mag)) + " " + scaleDisc(d, c, r, mag));
+        secteurs.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d, c, r, mag)) + " " + scaleDisc(d, c, r, mag));
         secteurs.attr("fill", d => couleurs(d.index, coloration_disque(d, c, r)));
-        //centres_disques.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        centres_disques.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d, c, r, mag)) + " " + echelleDisque(d, c, r, mag));
+        centres_disques.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d, c, r, mag)) + " " + scaleDisc(d, c, r, mag));
 	});
     
     svg.on("mouseleave", function(event, d){
@@ -575,8 +551,7 @@ function affiche_graphic(data, genres){
         r = rayMag*r;
         let interpol = d3.interpolate(r, 0)
         let tweenX = d => function(t){return abscisseDisque(d, c, interpol(t), mag);}
-        //let tweenSecteurs = d => function(t){return positionDisque(d, height/2, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)};
-        let tweenSecteurs = d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d, c, interpol(t), mag)) + " " + echelleDisque(d, c, interpol(t), mag)};
+        let tweenSecteurs = d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d, c, interpol(t), mag)) + " " + scaleDisc(d, c, interpol(t), mag)};
         
         lignes.transition()
               .duration(duree)
@@ -586,12 +561,10 @@ function affiche_graphic(data, genres){
                                         
         legendes.transition()
                 .duration(duree)
-                //.attrTween("transform", d => function(t){return positionDisque(d, 10, c, interpol(t), mag);});
                 .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), 10);});
         disques.transition()
                .duration(duree)
-               //.attrTween("transform", d => function(t){return positionDisque(d, 0, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)});
-               .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d, c, interpol(t), mag)) + " " + echelleDisque(d, c, interpol(t), mag)});
+               .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d, c, interpol(t), mag)) + " " + scaleDisc(d, c, interpol(t), mag)});
         secteurs.transition()
                .duration(duree)
                .attrTween("transform", tweenSecteurs)
