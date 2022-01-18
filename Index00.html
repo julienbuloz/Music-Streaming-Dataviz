@@ -17,6 +17,19 @@
         }
     </script>
   <style>
+    html, body {
+	  margin:0px;
+	  height:100%;
+	}
+    div#intro{
+    	height: 100vh;
+    }
+    div.mask{
+    	height: 100vh;
+    }
+    div.master{
+    	height: 100vh;
+    }
     body {
       background-image:url(Record-hp-GQ-7Jun17_istock_b.webp);
     }
@@ -65,15 +78,22 @@
 	td {
          font-size: 0.8em;
         }
+        
+    #groupe15 { 
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+    
+}
 </style>
 </head>
 <body>
     <!-------Bouton droit gauche-->
     <!-- Background image -->
-    <div id="intro" class="bg-image shadow-2-strong">
+    <div id="intro" class="bg-image shadow-2-strong" style="height: 100%">
       <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
       <!-- En-tête / Titre principal -->
-	  <master style="height :100%> 
+	  <div class="master" style="height: 100%"> 
       <!-- <div class="container-fluid p-2 bg-primary text-white text-center"> -->
         <div class="container-fluid p-1 text-white text-center">
           <div class="row">
@@ -133,11 +153,12 @@
             </div>
         </div> 
 		
-		<div class="mt-4 p-1 bg-dark text-white text-center">
+		<div id = "groupe15" class="mt-4 p-1 bg-dark text-white text-center">
           <p>Group15 - Projet DataViz 2021/22</p>
         </div>
-      </master>
-    </div>
+      <!-- </master> -->
+      </div>
+    <!-- </div> -->
     <!-- Background image -->
 
 <!-- Modal pour l'aide -->
@@ -159,6 +180,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 <script>
 
