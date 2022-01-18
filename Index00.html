@@ -333,34 +333,9 @@ function affiche_graphic(data, genres){
         if(r > 0)
             x = distorsion(x, c, r, p);
         return x;
-    };    
-
-	let ordonneeDisque = function(d, c=0, r=0, p=0)
-	{
-		if(d.quantite == 0)
-			return height;
-		let y = height - Ech_y(d.quantite);
-		if (r==0)
-			return y;
-		else
-		{
-			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate) - c;
-			if(x < 0)
-				x = -x;
-			if(x > r)
-				return y;
-			let t = x/r;
-			return (1-t)*height/2 + t*y;
-		}
-	}
+    };  
     
-    let translate = function(x,y)
-    {
-    	return "translate(" + x + "," + y + ")";
-    }
-
-
-	let echelleDisque = function(x, c=0, r=0, p=0){
+    let echelleDisque = function(x, c=0, r=0, p=0){
 		let s;
 		if(r == 0)
 			s = 1;
@@ -381,7 +356,47 @@ function affiche_graphic(data, genres){
 			s = t*(1-p) + p;
 		}
 		return s;
+	};  
+
+	let ordonneeDisque__ = function(d, c=0, r=0, p=0)
+	{
+		if(d.quantite == 0)
+			return height;
+		let y = height - Ech_y(d.quantite);
+		if (r==0)
+			return y;
+		else
+		{
+			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate) - c;
+			if(x < 0)
+				x = -x;
+			if(x > r)
+				return y;
+			let t = x/r;
+			return (1-t)*height/2 + t*y;
+		}
 	};
+	
+	let ordonneeDisque = function(d, c=0, r=0, p=0)
+	{
+		if(d.quantite == 0)
+			return height;
+		else
+		{
+			let y = Ech_y(d.quantite);
+			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
+			let R = Ech_x.bandwidth()/2 * echelleDisque(x, c, r, p);
+			if (y + R > height)
+				y = height - R;
+			return height - y;
+		}
+	};
+    
+    let translate = function(x,y)
+    {
+    	return "translate(" + x + "," + y + ")";
+    }
+
 	
 	let scaleDisc = function(d, c=0, r=0, p=0){
 		let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
