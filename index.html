@@ -225,7 +225,7 @@ let preparer_data = function(data)
 };
 
 
-let mag = 8; //coefficient de magnification
+let Mag = 8; //coefficient de magnification
 let rayMag = 50 //rayon de magnification
 
 let distorsion = function(x, c, r, p){
@@ -314,21 +314,36 @@ function faireCouleurs(categ){
 
 
 function affiche_graphic(data, genres){
-    const margin = {top: 20, right: 20, bottom: 50, left: 30};
     let le_div = document.getElementById("visu_graphique");
+    let margin = {right: 20, left: 30};
     let width = le_div.offsetWidth - margin.left - margin.right;
-    let height = le_div.offsetHeight - margin.top - margin.bottom;
 
+
+    // Mise en relation du scale avec les données de notre fichier
+    // Pour l'axe X, c'est la liste des hdate
     const Ech_x = d3.scaleBand()
         .range([0, width])
-        .padding(0.1);
+        .padding(0.1)
+        .domain(data.map(d => d.hdate));
 
+    margin.top = Math.max(20, Ech_x.bandwidth());
+    margin.bottom = Math.max(50, Ech_x.bandwidth());
+    let height = le_div.offsetHeight - margin.top - margin.bottom;
+
+    // Mise en relation du scale avec les données de notre fichier
+    // Pour l'axe Y, c'est le max des quantités
+    let maxY = d3.max(data, d => d.quantite);
     const Ech_y = d3.scaleLinear()
         .range([0, height])
-        //.range([-height/2, +height/2]);
+        .domain([0, maxY])
 
 	const Leg_y = d3.scaleLinear()
         .range([height, 0])
+        .domain([0, maxY])
+
+    
+    let mag = Math.min(Mag, (height + margin.top + margin.bottom)/Ech_x.bandwidth());
+   
 
     let svg = d3.select("#visu_graphique")
 	    .append("svg")
@@ -338,17 +353,6 @@ function affiche_graphic(data, genres){
 
     let groupe = svg.append("g")
 		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-
-    // Mise en relation du scale avec les données de notre fichier
-    // Pour l'axe X, c'est la liste des hdate
-    // Pour l'axe Y, c'est le max des quantités
-    Ech_x.domain(data.map(d => d.hdate));
-    let maxY = d3.max(data, d => d.quantite);
-    //Ech_y.domain([-maxY, maxY]);
-    Ech_y.domain([0, maxY])
-    
-    Leg_y.domain([0, maxY])
 
     let abscisseDisque = function(d, c=0, r=0, p=0){
         let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
@@ -379,25 +383,6 @@ function affiche_graphic(data, genres){
 		}
 		return s;
 	};  
-
-	let ordonneeDisque__ = function(d, c=0, r=0, p=0)
-	{
-		if(d.quantite == 0)
-			return height;
-		let y = height - Ech_y(d.quantite);
-		if (r==0)
-			return y;
-		else
-		{
-			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate) - c;
-			if(x < 0)
-				x = -x;
-			if(x > r)
-				return y;
-			let t = x/r;
-			return (1-t)*height/2 + t*y;
-		}
-	};
 	
 	let ordonneeDisque = function(d, c=0, r=0, p=0)
 	{
@@ -408,8 +393,10 @@ function affiche_graphic(data, genres){
 			let y = Ech_y(d.quantite);
 			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
 			let R = Ech_x.bandwidth()/2 * echelleDisque(x, c, r, p);
-			if (y + R > height)
-				y = height - R;
+			if (y + R > height+margin.top)
+				y = height+margin.top - R;
+            if (y - R < -margin.bottom)
+                y = R - margin.bottom;
 			return height - y;
 		}
 	};
@@ -451,37 +438,28 @@ function affiche_graphic(data, genres){
     };
 
     let dessine_disque = function(dat){
-        //console.log(dat);
         let dd = clacos(dat.repartition).map(d=> {d.hdate = dat.hdate; d.quantite = dat.quantite; return d});
-        //console.log(dd);
-        //let transfoDisque = formeDisque(dat);
         let disq = groupe.append("g");
-        //groupe.append("g")
-              disq.selectAll("path")
-              //.data(clacos(dat.repartition))
-              .data(dd)
-              .enter()
-              .append("path")
-              .attr("class", "clacos")
-              .attr('d', (d) => {
-                                    //console.log(d);
-                                    //let R = Ech_y(dat.quantite);
-                                    let R = Ech_x.bandwidth()/2;
-                                    let pathdata = d3.arc().innerRadius(R*0.4).outerRadius(R)(d);
-                                    return pathdata;})
-              .attr("fill", d => couleurs(d.index, 0))
-              .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + scaleDisc(dat));
-              let R0 = Ech_x.bandwidth()*0.4/2;
-              if(dat.quantite <= 0)
-              	R0 = 0;
-              disq.append("circle")
-        	   .attr("cx", 0)
-	           //.attr("cy", height/2)
-	           .attr("cy", "0")
-       		   //.attr("r", Ech_y(dat.quantite)*0.4)
-       		   .attr("r", R0)
-       		   .attr("class", "plein")
-	           .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + scaleDisc(dat))
+        disq.selectAll("path")
+            .data(dd)
+            .enter()
+            .append("path")
+            .attr("class", "clacos")
+            .attr('d', (d) => {
+                                let R = Ech_x.bandwidth()/2;
+                                let pathdata = d3.arc().innerRadius(R*0.4).outerRadius(R)(d);
+                                return pathdata;})
+            .attr("fill", d => couleurs(d.index, 0))
+            .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + scaleDisc(dat));
+        let R0 = Ech_x.bandwidth()*0.4/2;
+        if(dat.quantite <= 0)
+        	R0 = 0;
+        disq.append("circle")
+	        .attr("cx", 0)
+            .attr("cy", "0")
+	        .attr("r", R0)
+	        .attr("class", "plein")
+            .attr("transform", translate(abscisseDisque(dat), ordonneeDisque(dat)) + " " + scaleDisc(dat))
     };
 
 
@@ -492,8 +470,6 @@ function affiche_graphic(data, genres){
         .attr("cx", 0)
         .attr("cy", height/2)
         .attr("r", d => Ech_y(d.quantite))
-        //.attr("r", d => Ech_y(d.quantite)*0.4)
-        //.attr("class", "plein")
         .attr("transform", d => translate(abscisseDisque(d), ordonneeDisque(d)) + " " + scaleDisc(d))
         .each(d => dessine_disque(d));
     
@@ -508,7 +484,6 @@ function affiche_graphic(data, genres){
 
 
     axeVertical = svg.append("g")
-		//.attr("transform", "translate(" + margin.left + "," + (margin.top + height/2) + ")")
 		.attr("transform", "translate(" + margin.left + "," + (margin.top) + ")")
         .call(d3.axisLeft(Leg_y).tickFormat(x => Math.abs(x).toString()));
 
@@ -522,7 +497,6 @@ function affiche_graphic(data, genres){
                  .append("text")
                  .attr("class", "date")
                  .style("text-anchor", "end")
-                 //.attr("dx", Ech_x.bandwidth())
                  .attr("dy", 10)
                  .text(d => d.hdate.substr(4,6))
                  .attr("transform", "rotate(-65)")
@@ -553,14 +527,17 @@ function affiche_graphic(data, genres){
     svg.on("mousemove", function(event, d){
 		let truc = d3.pointer(event);
 		let c = truc[0] - margin.left;
-		//console.log(c);
 		let y = truc[1] - margin.top;
         y = height - y;
-		let r = 2*(y)/height;
-		if (r>1)
-			r=1;
-	    if (r<0)
-        	r = 0;
+		let r = 3*(y)/height;
+        if (r<0)
+            r = 0;
+        else if (r>3)
+            r = 0;
+        else if (r>2)
+            r = 3-r;
+        else if (r>1)
+            r = 1;
         r = rayMag*r;
 		lignes.attr("x1", d => abscisseDisque(d, c, r, mag))
               .attr("x2", d => abscisseDisque(d, c, r, mag))
@@ -573,18 +550,20 @@ function affiche_graphic(data, genres){
 	});
     
     svg.on("mouseleave", function(event, d){
-        //console.log("mouseleave " + d3.pointer(event));
         let duree = 200;
         let truc = d3.pointer(event);
 		let c = truc[0] - margin.left;
-		//console.log(c);
 		let y = truc[1] - margin.top;
         y = height - y;
-		let r = 2*(y)/height;
-		if (r>1)
-			r=1;
-	    if (r<0)
-        	r = 0;
+		let r = 3*(y)/height;
+        if (r<0)
+            r = 0;
+        else if (r>3)
+            r = 0;
+        else if (r>2)
+            r = 3-r;
+        else if (r>1)
+            r = 1;
         r = rayMag*r;
         let interpol = d3.interpolate(r, 0)
         let tweenX = d => function(t){return abscisseDisque(d, c, interpol(t), mag);}
@@ -659,19 +638,31 @@ document.getElementById("out").addEventListener("click", function() {
 });
 
 document.getElementById("left").addEventListener("click", function() {
-      date_min = Math.max(date_min - pas,dmin);
-	
-      date_max = Math.max(date_max - pas,dmin+nb_gmax);
-
+      if(date_min - pas < dmin)
+      {
+         date_min = dmin;
+         date_max = dmin + date_max-date_min;
+      }
+      else
+      {
+          date_min = date_min - pas;
+	      date_max = date_max - pas;
+      }
       document.querySelector("#visu_graphique").innerHTML = "";
       update_data = data_brute.filter(d => (d.date_num >= date_min)&(d.date_num <= date_max))
       affiche_graphic(update_data, genres);
 });
 document.getElementById("right").addEventListener("click", function() {
-      date_min = Math.min(date_min +pas,dmax-nb_gmax);
-	
-      date_max = Math.min(date_max +pas,dmax);
-
+      if(date_max + pas > dmax)
+      {
+         date_max = dmax;
+         date_min = dmax - date_max + date_min;
+      }
+      else
+      {
+          date_min = date_min + pas;
+	      date_max = date_max + pas;
+      }
       document.querySelector("#visu_graphique").innerHTML = "";
       update_data = data_brute.filter(d => (d.date_num >= date_min)&(d.date_num <= date_max))
       affiche_graphic(update_data, genres);
@@ -679,6 +670,8 @@ document.getElementById("right").addEventListener("click", function() {
 
 document.getElementById("reset").addEventListener("click", function() {
       document.querySelector("#visu_graphique").innerHTML = "";
+      date_max = d3.max(data_brute, d => d.date_num);
+      date_min = date_max - nb_gmax;
       update_data = data_brute.filter(d => (d.date_num >= dmax-nb_gmax)&(d.date_num <= dmax))
       affiche_graphic(update_data, genres);
 });
