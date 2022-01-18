@@ -238,21 +238,12 @@ let distorsion = function(x, c, r, p){
 
 let deriv_distorsion = function(x, c, r, p){
 	let x1 = x-c;
-	if(x1 >=0)
-	{
-		if(x1>= r)
+	if(x1 < 0)
+		x1 = -x1;
+	if(x1>= r)
 			return 1;
 		else
 			return ((1-p)/r)*x1 + p;
-	}
-	else
-	{
-		//return x;
-		if(x1 <= -r)
-			return 1;
-		else
-			return ((p-1)/r)*x1 + p;
-	}
 };
 
 let echelle_distorsion = function(x, e, c, r){
@@ -346,6 +337,8 @@ function affiche_graphic(data, genres){
 
 	let ordonneeDisque = function(d, c=0, r=0, p=0)
 	{
+		if(d.quantite == 0)
+			return height;
 		let y = height - Ech_y(d.quantite);
 		if (r==0)
 			return y;
@@ -366,25 +359,54 @@ function affiche_graphic(data, genres){
     	return "translate(" + x + "," + y + ")";
     }
 
-    let formeDisque0 = function(d, c=0, r=0, p=0){
-        let ry = Ech_y(d.quantite);
-        let rx = Ech_x.bandwidth()/2;
-        if (rx > ry)
-            return 1;
-        let R = rx/ry;
-        if(r > 0)
-            R *= deriv_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.hdate), c, r, p);
-        if(R > 1)
-            R = 1;
-        return R;
+	let truc = function(x,c,r)
+    {
+        x -= c;
+        if(x<0)
+            x=-x;
+        let k;
+        if (x<0.1*r)
+            k=1;
+        else if(x>r)
+            k = 0;
+        else
+            k = 1-(x-0.1*r)/(0.9*r);
+        if (r <= 0.9*rayMag)
+            k *= r/(0.9*rayMag);
+        return k;
     };
 
-	let echelleDisque = function(d, c=0, r=0, p=0){
+	let echelleDisque__ = function(d, c=0, r=0, p=0){
 		//let s = echelle_distorsion(Ech_x.bandwidth()/2 + Ech_x(d.hdate), 1, c, r);
 		let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
 		let s = deriv_distorsion(x,c,r,p);
+		//s *= truc(x,c,r);
 		return "scale(" + s + "," + s + ")";
-	}  
+	};
+	
+	let echelleDisque = function(d, c=0, r=0, p=0){
+		let s;
+		if(r == 0)
+			s = 1;
+		else
+		{ 
+			let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
+			let t;
+			t = r/(rayMag*0.9);
+			if(t > 1)
+				t=1;
+			p = (1-t) + p*t;
+
+			let x1 = x-c;
+			if(x1 < 0)
+				x1 = -x1;
+			t = x1/r;
+			if (t > 1)
+				t = 1;
+			s = t*(1-p) + p;
+		}
+		return "scale(" + s + "," + s + ")";
+	};
     
     let lignes = groupe.selectAll(".ligne")
         .data(data)
@@ -519,14 +541,17 @@ function affiche_graphic(data, genres){
 		let y = truc[1] - margin.top;
         y = height - y;
 		let r = 2*(y)/height;
-        r = rayMag*r
-        if(r>rayMag)
-            r = 2*rayMag-r;
+		if (r>1)
+			r=1;
+	    if (r<0)
+        	r = 0;
+        r = rayMag*r;
 		lignes.attr("x1", d => abscisseDisque(d, c, r, mag))
-              .attr("x2", d => abscisseDisque(d, c, r, mag));
+              .attr("x2", d => abscisseDisque(d, c, r, mag))
+              .attr("y2", d => ordonneeDisque(d, c, r, mag))
         legendes.attr("transform", d => translate(abscisseDisque(d, c, r, mag), 10));
         //disques.attr("transform", d => positionDisque(d, 0, c, r, mag) + " " + echelleDisque(d, c, r, mag));
-        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d)) + " " + echelleDisque(d, c, r, mag));
+        disques.attr("transform", d => translate(abscisseDisque(d, c, r, mag), ordonneeDisque(d, c, r, mag)) + " " + echelleDisque(d, c, r, mag));
         //secteurs.attr("transform", d => positionDisque(d, height/2, c, r, mag) + " " + echelleDisque(d, c, r, mag));
         secteurs.attr("transform", d => translate(abscisseDisque(d,c,r,mag), ordonneeDisque(d, c, r, mag)) + " " + echelleDisque(d, c, r, mag));
         secteurs.attr("fill", d => couleurs(d.index, coloration_disque(d, c, r)));
@@ -543,18 +568,21 @@ function affiche_graphic(data, genres){
 		let y = truc[1] - margin.top;
         y = height - y;
 		let r = 2*(y)/height;
-        r = rayMag*r
-        if(r>rayMag)
-            r = 2*rayMag-r;
+		if (r>1)
+			r=1;
+	    if (r<0)
+        	r = 0;
+        r = rayMag*r;
         let interpol = d3.interpolate(r, 0)
         let tweenX = d => function(t){return abscisseDisque(d, c, interpol(t), mag);}
         //let tweenSecteurs = d => function(t){return positionDisque(d, height/2, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)};
-        let tweenSecteurs = d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d)) + " " + echelleDisque(d/*, c, interpol(t), mag*/)};
+        let tweenSecteurs = d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d, c, interpol(t), mag)) + " " + echelleDisque(d, c, interpol(t), mag)};
         
         lignes.transition()
               .duration(duree)
               .attrTween("x1", tweenX)
-              .attrTween("x2", tweenX);
+              .attrTween("x2", tweenX)
+              .attrTween("y2", d => function(t){return ordonneeDisque(d, c, interpol(t), mag);});
                                         
         legendes.transition()
                 .duration(duree)
@@ -563,7 +591,7 @@ function affiche_graphic(data, genres){
         disques.transition()
                .duration(duree)
                //.attrTween("transform", d => function(t){return positionDisque(d, 0, c, interpol(t), mag) + " " + echelleDisque(d, c, interpol(t), mag)});
-               .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d)) + " " + echelleDisque(d/*, c, interpol(t), mag*/)});
+               .attrTween("transform", d => function(t){return translate(abscisseDisque(d, c, interpol(t), mag), ordonneeDisque(d, c, interpol(t), mag)) + " " + echelleDisque(d, c, interpol(t), mag)});
         secteurs.transition()
                .duration(duree)
                .attrTween("transform", tweenSecteurs)
