@@ -336,7 +336,9 @@ function affiche_graphic(data, genres){
         return x;
     };    
 
-    let positionDisque = function(d, y=0, c=0, r=0, p=0){
+    let positionDisque = function(d, y=null, c=0, r=0, p=0){
+    	if (y==null)
+    		y = height - Ech_y(d.quantite);
         return "translate(" + positionCentre(d, c, r, p) + "," + y +")";
     };
 
@@ -370,9 +372,9 @@ function affiche_graphic(data, genres){
     let echelleDisque = function(d, c=0, r=0, p=0){
         let echX = formeDisque(d, c, r, p);
         let echY = 1;
-        let ry = Ech_y(d.quantite);
-        if ((ry > 0) && (p>0) && (r>=0) /*&& (ry < p*Ech_x.bandwidth()/2)*/)
-        {
+        //let ry = Ech_y(d.quantite);
+        //if ((ry > 0) && (p>0) && (r>=0) /*&& (ry < p*Ech_x.bandwidth()/2)*/)
+        /*{
             let x = Ech_x.bandwidth()/2 + Ech_x(d.hdate);
             x = x-c;
             if (x < 0)
@@ -388,8 +390,9 @@ function affiche_graphic(data, genres){
             echX *= k;
             echY *= k;
             //console.log(r, ry, k);
-        }
-        return "scale(" + echX + "," + echY + ")"; 
+        }*/
+      //return "scale(" + echX + "," + echY + ")"; 
+        return "scale(" + echX + "," + echX + ")"; 
     }                 
     
     let lignes = groupe.selectAll(".ligne")
@@ -402,7 +405,7 @@ function affiche_graphic(data, genres){
         //.attr("y1", height/2)
         .attr("y1", height)
         //.attr("y2", height)
-        .attr("y2", 0)
+        .attr("y2", d => height-Ech_y(d.quantite))
         .attr("stroke", "black");
     
     let clacos_ = d3.pie();
@@ -439,14 +442,16 @@ function affiche_graphic(data, genres){
                                     //console.log(pathdata);
                                     return pathdata;})
               .attr("fill", d => couleurs(d.index, 0))
-              .attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat));
+              //.attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat));
+              .attr("transform", positionDisque(dat) + " " + echelleDisque(dat));
               disq.append("circle")
         	   .attr("cx", 0)
 	           //.attr("cy", height/2)
 	           .attr("cy", "0")
        		   .attr("r", Ech_y(dat.quantite)*0.4)
        		   .attr("class", "plein")
-	           .attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat))
+	           //.attr("transform", positionDisque(dat, height/2) + " " + echelleDisque(dat))
+	           .attr("transform", positionDisque(dat) + " " + echelleDisque(dat))
     };
 
 
@@ -473,7 +478,8 @@ function affiche_graphic(data, genres){
 
 
     axeVertical = svg.append("g")
-		.attr("transform", "translate(" + margin.left + "," + (margin.top + height/2) + ")")
+		//.attr("transform", "translate(" + margin.left + "," + (margin.top + height/2) + ")")
+		.attr("transform", "translate(" + margin.left + "," + (margin.top) + ")")
         .call(d3.axisLeft(Ech_y).tickFormat(x => Math.abs(x).toString()));
 
     axeHorizontal = groupe.append("g").attr("transform", "translate(0," + height + ")")
